@@ -1,0 +1,40 @@
+tasks:
+  gardener:
+    type: "blockplacecertain"
+    amount: 64
+    block: "DANDELION"
+display:
+  name: "&#ff70deGardener Quest &8| &fDandelion" 
+  lore-normal:
+    - ""
+    - "&#ff70deDescription"
+    - " &#adadadYou have to plant 64 dandelion"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#ff70deInformation"
+    - " &8■ &7Objective: &#ff70dePlant 64 Dandelion."
+    - " &8■ &7Progress:"
+    - " &8- &#ff70de{gardener:progress}&8/&#ff70de64 Dandelion"
+    - ""
+    - "&#ff70deRewards"
+    - " &8■ &a&l$&a350"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "DANDELION"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a350"
+rewards:
+  - "eco give {player} 350"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a350 &#808080&o(( added to your balance ))"
+options:
+  category: "gardener"
+  requires: [gardener14dandelion]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 15

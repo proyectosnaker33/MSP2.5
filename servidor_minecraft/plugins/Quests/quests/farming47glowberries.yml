@@ -1,0 +1,40 @@
+tasks:
+  harvest:
+    type: "inventory"
+    item: GLOW_BERRIES
+    amount: 34
+    update-progress: true
+display:
+  name: "&#00ff00Farming Quest &8| &fGlow Berries" 
+  lore-normal:
+    - ""
+    - "&#00ff00Description"
+    - " &#adadadYou have to harvest 34 glow berries"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#00ff00Information"
+    - " &8■ &7Objective: &#00ff00Harvest 34 Glow Berries."
+    - " &8■ &7Progress: &#00ff00{harvest:progress}&8/&#00ff0034 Glow Berries"
+    - ""
+    - "&#00ff00Rewards"
+    - " &8■ &a&l$&a175"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "GLOW_BERRIES"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a175"
+rewards:
+  - "eco give {player} 175"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a175 &#808080&o(( added to your balance ))"
+options:
+  category: "farming"
+  requires: [farming46glowberries]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 47

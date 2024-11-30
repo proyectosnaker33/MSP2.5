@@ -1,0 +1,40 @@
+tasks:
+  weaponsmith:
+    type: "inventory"
+    item: STONE_SHOVEL
+    amount: 1
+    update-progress: true
+display:
+  name: "&#495aa3Weaponsmith Quest &8| &fStone Shovel" 
+  lore-normal:
+    - ""
+    - "&#495aa3Description"
+    - " &#adadadYou have to craft 1 stone shovel"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#495aa3Information"
+    - " &8■ &7Objective: &#495aa3Craft 1 Stone Shovel."
+    - " &8■ &7Progress: &#495aa3{weaponsmith:progress}&8/&#495aa31 Stone Shovel"
+    - ""
+    - "&#495aa3Rewards"
+    - " &8■ &a&l$&a10"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "STONE_SHOVEL"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a10"
+rewards:
+  - "eco give {player} 10"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a10 &#808080&o(( added to your balance ))"
+options:
+  category: "weaponsmith"
+  requires: [weaponsmith8stone]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 9

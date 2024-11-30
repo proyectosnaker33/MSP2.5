@@ -1,0 +1,41 @@
+tasks:
+  bake:
+    type: "inventory"
+    item: BAKED_POTATO
+    amount: 36
+    remove-items-when-complete: true
+    update-progress: true
+display:
+  name: "&#fcba03Bake Quest &8| &fPotato" 
+  lore-normal:
+    - ""
+    - "&#fcba03Description"
+    - " &#adadadYou have to bake 36 potato"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#fcba03Information"
+    - " &8■ &7Objective: &#fcba03Bake 36 Potato."
+    - " &8■ &7Progress: &#fcba03{bake:progress}&8/&#fcba0336 Potato"
+    - ""
+    - "&#fcba03Rewards"
+    - " &8■ &a&l$&a100"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "BAKED_POTATO"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a100"
+rewards:
+  - "eco give {player} 100"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a100 &#808080&o(( added to your balance ))"
+options:
+  category: "bake"
+  requires: [bake13bakedpotato]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 14

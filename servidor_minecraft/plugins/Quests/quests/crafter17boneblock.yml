@@ -1,0 +1,41 @@
+tasks:
+  crafter:
+    type: "inventory"
+    item: BONE_BLOCK
+    amount: 12
+    remove-items-when-complete: true
+    update-progress: true
+display:
+  name: "&#ffb412Crafter Quest &8| &fBone Block" 
+  lore-normal:
+    - ""
+    - "&#ffb412Description"
+    - " &#adadadYou have to craft 12 bone block"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#ffb412Information"
+    - " &8■ &7Objective: &#ffb412Craft 12 Bone Block"
+    - " &8■ &7Progress: &#ffb412{crafter:progress}&8/&#ffb41212 Bone Block"
+    - ""
+    - "&#ffb412Rewards"
+    - " &8■ &a&l$&a350"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "BONE_BLOCK"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a350"
+rewards:
+  - "eco give {player} 350"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a350 &#808080&o(( added to your balance ))"
+options:
+  category: "crafter"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 17

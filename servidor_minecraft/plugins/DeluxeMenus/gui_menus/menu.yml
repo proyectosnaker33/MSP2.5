@@ -1,0 +1,206 @@
+menu_title:
+- '&e➔ &6&lONEBLOCK PANEL'
+open_command:
+- ob panel
+- main
+- menu
+- ob menu
+- oneblock menu
+- oneblock panel
+size: 45
+items:
+  'glass1':
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+    - 0
+    - 4
+    - 8
+    - 12
+    - 13
+    - 14
+    - 9
+    - 17
+    - 35
+    - 36
+    - 27
+    - 44
+    - 40
+    - 30
+    - 31
+    - 32
+    display_name: ' '
+  'islandt':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUyOGVkNDU4MDI0MDBmNDY1YjVjNGUzYTZiN2E5ZjJiNmE1YjNkNDc4YjZmZDg0OTI1Y2M1ZDk4ODM5MWM3ZCJ9fX0=
+    slot: 18
+    display_name: '&e&lISLAND TEAM'
+    lore:
+    - '&8&m|--------------------------------'
+    - '&8&l|&r &7'
+    - '&8&l|&r &e◆ &7Manage your Oneblock'
+    - '&8&l|&r &e◆ &7island''s team'
+    - '&8&l|&r &7'
+    - '&8&l|&r &e◆ &eClick to open!'
+    - '&8&m|--------------------------------'
+    left_click_commands:
+    - '[player] ob team'
+    - '[close]'
+    - '[sound] BLOCK_NOTE_BLOCK_CHIME'
+    right_click_commands:
+    - '[player] ob team'
+    - '[close]'
+    - '[sound] BLOCK_NOTE_BLOCK_CHIME'
+  'islands':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWMyZmYyNDRkZmM5ZGQzYTJjZWY2MzExMmU3NTAyZGM2MzY3YjBkMDIxMzI5NTAzNDdiMmI0NzlhNzIzNjZkZCJ9fX0=
+    slot: 20
+    display_name: '&e&lISLAND SETTINGS'
+    lore:
+    - '&8&m|--------------------------------'
+    - '&8&l|&r &7'
+    - '&8&l|&r &e◆ &7Manage your Oneblock'
+    - '&8&l|&r &e◆ &7island settings'
+    - '&8&l|&r &7'
+    - '&8&l|&r &e◆ &eClick to open!'
+    - '&8&m|--------------------------------'
+    left_click_commands:
+    - '[player] ob settings'
+    - '[sound] BLOCK_NOTE_BLOCK_CHIME'
+    right_click_commands:
+    - '[player] ob settings'
+    - '[sound] BLOCK_NOTE_BLOCK_CHIME'
+  'islandp':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDE1OWIwMzI0M2JlMThhMTRmM2VhZTc2M2M0NTY1Yzc4ZjFmMzM5YTg3NDJkMjZmZGU1NDFiZTU5YjdkZTA3In19fQ==
+    slot: 22
+    display_name: '&e&lISLAND PHASES'
+    lore:
+    - '&8&m|--------------------------------'
+    - '&8&l|&r &7'
+    - '&8&l|&r &e◆ &7View all the different phases your'
+    - '&8&l|&r &e◆ &7island can go through'
+    - '&8&l|&r &7'
+    - '&8&l|&r &e◆ &eClick to open!'
+    - '&8&m|--------------------------------'
+    left_click_commands:
+    - '[player] ob phases'
+    - '[sound] BLOCK_NOTE_BLOCK_CHIME'
+    right_click_commands:
+    - '[player] ob phases'
+    - '[sound] BLOCK_NOTE_BLOCK_CHIME'
+  'islandh':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjRmYmU4NTc4N2MxMjc4N2RkY2ViODUyZDcxNDJkYWU5MDc1NzhhMjcyY2MyMDIxNTU1YmE4MDVkMjI3ZWE3In19fQ==
+    slot: 24
+    display_name: '&e&lISLAND HOME'
+    lore:
+    - '&8&m|--------------------------------'
+    - '&8&l|&r &7'
+    - '&8&l|&r &e◆ &7Travel back to your island'
+    - '&8&l|&r &7'
+    - '&8&l|&r &e◆ &eClick to teleport!'
+    - '&8&m|--------------------------------'
+    left_click_commands:
+    - '[player] ob sethome'
+    - '[close]'
+    - '[sound] BLOCK_NOTE_BLOCK_CHIME'
+    right_click_commands:
+    - '[player] ob sethome'
+    - '[close]'
+    - '[sound] BLOCK_NOTE_BLOCK_CHIME'
+  'islandd':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWZkMjQwMDAwMmFkOWZiYmJkMDA2Njk0MWViNWIxYTM4NGFiOWIwZTQ4YTE3OGVlOTZlNGQxMjlhNTIwODY1NCJ9fX0=
+    slot: 26
+    display_name: '&e&lISLAND RESET'
+    lore:
+    - '&8&m|--------------------------------'
+    - '&8&l|&r &7'
+    - '&8&l|&r &e◆ &7Reset your entire island'
+    - '&8&l|&r &e◆ &cCan not be undone!'
+    - '&8&l|&r &7'
+    - '&8&l|&r &e◆ &eClick to reset!'
+    - '&8&m|--------------------------------'
+    left_click_commands:
+    - '[player] ob reset'
+    - '[close]'
+    - '[sound] BLOCK_NOTE_BLOCK_CHIME'
+    right_click_commands:
+    - '[player] ob reset'
+    - '[close]'
+    - '[sound] BLOCK_NOTE_BLOCK_CHIME'
+  'islandi':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDNhZmY1NzcyNGY1ZWQwNGRiNDUwZGI4NzRjNmMwYzZlZjRhMTBlMTQwNmI3N2ZiYWZmZGNiOTgxOTFiZjIwNCJ9fX0=
+    slot: 11
+    display_name: '&e&lISLAND INFO'
+    lore:
+    - '&8&m|--------------------------------'
+    - '&8&l|&r &7'
+    - '&8&l|&r &e◆ &7View information about your'
+    - '&8&l|&r &e◆ &7island'
+    - '&8&l|&r &7'
+    - '&8&l|&r &e◆ &eClick to open!'
+    - '&8&m|--------------------------------'
+    left_click_commands:
+    - '[player] ob info'
+    - '[close]'
+    - '[sound] BLOCK_NOTE_BLOCK_CHIME'
+    right_click_commands:
+    - '[player] ob info'
+    - '[close]'
+    - '[sound] BLOCK_NOTE_BLOCK_CHIME'
+  'islandl':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTAzY2NmMDI4YzYxYzJkZmY0NDM3NTc4Y2U3MWUxNTUwNDc4MTg1YjU0ZmM5NGM1OTI3ZjBmMDZmOTY2MjczYSJ9fX0=
+    slot: 15
+    display_name: '&e&lISLAND LIKES'
+    lore:
+    - '&8&m|--------------------------------'
+    - '&8&l|&r &7'
+    - '&8&l|&r &e◆ &7View public island likes from'
+    - '&8&l|&r &e◆ &7other players'
+    - '&8&l|&r &7'
+    - '&8&l|&r &e◆ &eClick to open!'
+    - '&8&m|--------------------------------'
+    left_click_commands:
+    - '[player] ob likes'
+    - '[close]'
+    - '[sound] BLOCK_NOTE_BLOCK_CHIME'
+    right_click_commands:
+    - '[player] ob likes'
+    - '[close]'
+    - '[sound] BLOCK_NOTE_BLOCK_CHIME'
+  'islandw':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDY4Yzk1Yzg5ZWJlMWI1YTg5YjllNTFiYjIxYTVjYzczNzliYmY1YjEwOWQ4YjUxNzcxM2U3NzJmMjhmMzc5In19fQ==
+    slot: 29
+    display_name: '&e&lISLAND WARPS'
+    lore:
+    - '&8&m|--------------------------------'
+    - '&8&l|&r &7'
+    - '&8&l|&r &e◆ &7Obtain a list of player island'
+    - '&8&l|&r &e◆ &7warps, you need a welcome sign!'
+    - '&8&l|&r &7'
+    - '&8&l|&r &e◆ &eClick to open!'
+    - '&8&m|--------------------------------'
+    left_click_commands:
+    - '[player] ob warps'
+    - '[close]'
+    - '[sound] BLOCK_NOTE_BLOCK_CHIME'
+    right_click_commands:
+    - '[player] ob warps'
+    - '[close]'
+    - '[sound] BLOCK_NOTE_BLOCK_CHIME'
+  'islandr':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTU5MThlMzUzNTEzMTE2OWRhNWUwYjc4ZmE4ZTQzZDAyNjFhOWM2NjJmODExMDdlMDM2MTVlMDdlY2YyNjVjZCJ9fX0=
+    slot: 33
+    display_name: '&e&lISLAND NAME'
+    lore:
+    - '&8&m|--------------------------------'
+    - '&8&l|&r &7'
+    - '&8&l|&r &e◆ &7Want to change your island''s'
+    - '&8&l|&r &e◆ &7name? use this!'
+    - '&8&l|&r &7'
+    - '&8&l|&r &e◆ &eClick to rename!'
+    - '&8&m|--------------------------------'
+    left_click_commands:
+    - '[player] ob resetname'
+    - '[close]'
+    - '[sound] BLOCK_NOTE_BLOCK_CHIME'
+    right_click_commands:
+    - '[player] ob resetname'
+    - '[close]'
+    - '[sound] BLOCK_NOTE_BLOCK_CHIME'

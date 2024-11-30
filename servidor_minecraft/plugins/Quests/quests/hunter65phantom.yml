@@ -1,0 +1,39 @@
+tasks:
+  kill:
+    type: "mobkillingcertain"
+    amount: 10
+    mob: PHANTOM
+display:
+  name: "&#ff781fHunter Quest &8| &f10 Phantom" 
+  lore-normal:
+    - ""
+    - "&#ff781fDescription"
+    - " &#adadadYou have to kill 10 phantom"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#ff781fInformation"
+    - " &8■ &7Objective: &#ff781fKill 10 Phantom."
+    - " &8■ &7Progress: &#ff781f{kill:progress}&8/&#ff781f10 Phantom"
+    - ""
+    - "&#ff781fRewards"
+    - " &8■ &a&l$&a3,000"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "PHANTOM_MEMBRANE"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a3,000"
+rewards:
+  - "eco give {player} 3000"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a3,000 &#808080&o(( added to your balance ))"
+options:
+  category: "hunter"
+  requires: [hunter64phantom]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 65

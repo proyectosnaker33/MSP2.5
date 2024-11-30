@@ -1,0 +1,40 @@
+tasks:
+  armorsmith:
+    type: "inventory"
+    item: DIAMOND_CHESTPLATE
+    amount: 1
+    update-progress: true
+display:
+  name: "&#bf6922Armorsmith Quest &8| &fDiamond Chestplate" 
+  lore-normal:
+    - ""
+    - "&#bf6922Description"
+    - " &#adadadYou have to craft 1 diamond chestplate"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#bf6922Information"
+    - " &8■ &7Objective: &#bf6922Forge 1 Diamond Chestplate."
+    - " &8■ &7Progress: &#bf6922{armorsmith:progress}&8/&#bf69221 Diamond Chestplate"
+    - ""
+    - "&#bf6922Rewards"
+    - " &8■ &a&l$&a500"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "DIAMOND_CHESTPLATE"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a500"
+rewards:
+  - "eco give {player} 500"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a500 &#808080&o(( added to your balance ))"
+options:
+  category: "armorsmith"
+  requires: [armorsmith13diamond]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 14

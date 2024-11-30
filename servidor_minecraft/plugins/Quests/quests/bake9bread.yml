@@ -1,0 +1,41 @@
+tasks:
+  bake:
+    type: "inventory"
+    item: BREAD
+    amount: 64
+    remove-items-when-complete: true
+    update-progress: true
+display:
+  name: "&#fcba03Bake Quest &8| &fBread" 
+  lore-normal:
+    - ""
+    - "&#fcba03Description"
+    - " &#adadadYou have to bake 64 bread"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#fcba03Information"
+    - " &8■ &7Objective: &#fcba03Bake 64 Bread."
+    - " &8■ &7Progress: &#fcba03{bake:progress}&8/&#fcba0364 Bread"
+    - ""
+    - "&#fcba03Rewards"
+    - " &8■ &a&l$&a150"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "BREAD"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a150"
+rewards:
+  - "eco give {player} 150"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a150 &#808080&o(( added to your balance ))"
+options:
+  category: "bake"
+  requires: [bake8bread]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 9

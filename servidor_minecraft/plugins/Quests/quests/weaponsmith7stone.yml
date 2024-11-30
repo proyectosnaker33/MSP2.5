@@ -1,0 +1,40 @@
+tasks:
+  weaponsmith:
+    type: "inventory"
+    item: STONE_PICKAXE
+    amount: 1
+    update-progress: true
+display:
+  name: "&#495aa3Weaponsmith Quest &8| &fStone Pickaxe" 
+  lore-normal:
+    - ""
+    - "&#495aa3Description"
+    - " &#adadadYou have to craft 1 stone pickaxe"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#495aa3Information"
+    - " &8■ &7Objective: &#495aa3Craft 1 Stone Pickaxe."
+    - " &8■ &7Progress: &#495aa3{weaponsmith:progress}&8/&#495aa31 Stone Pickaxe"
+    - ""
+    - "&#495aa3Rewards"
+    - " &8■ &a&l$&a10"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "STONE_PICKAXE"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a10"
+rewards:
+  - "eco give {player} 10"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a10 &#808080&o(( added to your balance ))"
+options:
+  category: "weaponsmith"
+  requires: [weaponsmith6stone]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 7

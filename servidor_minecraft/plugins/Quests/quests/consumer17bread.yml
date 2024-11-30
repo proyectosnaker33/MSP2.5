@@ -1,0 +1,39 @@
+tasks:
+  eat:
+    type: "consume"
+    item: BREAD
+    amount: 34
+display:
+  name: "&#f2ca72Consumer Quest &8| &fBread" 
+  lore-normal:
+    - ""
+    - "&#f2ca72Description"
+    - " &#adadadYou have to eat 34 bread"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#f2ca72Information"
+    - " &8■ &7Objective: &#f2ca72Eat 34 Bread"
+    - " &8■ &7Progress: &#f2ca72{eat:progress}&8/&#f2ca7234 Bread"
+    - ""
+    - "&#f2ca72Rewards"
+    - " &8■ &a&l$&a150"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "BREAD"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a150"
+rewards:
+  - "eco give {player} 150"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a150 &#808080&o(( added to your balance ))"
+options:
+  category: "consume"
+  requires: [consumer16bread]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 17

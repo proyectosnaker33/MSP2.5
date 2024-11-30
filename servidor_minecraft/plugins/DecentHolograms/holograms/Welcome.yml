@@ -1,0 +1,24 @@
+location: Spawn:101,465:242,506:100,859
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&6✵ &e&lWELCOME TO SERVER &6✵'
+    height: 0.3
+  - content: '&r'
+    height: 0.3
+  - content: '&fThe best OneBlock server setup'
+    height: 0.3
+  - content: '&fStart your adventure creating your &eisland!'
+    height: 0.3
+  - content: '&fIf you need a guide to basic commands use &6/menu'
+    height: 0.3
+  - content: '&r'
+    height: 0.3
+  - content: '&fGet unique perks and help the server! &7@ &6store.server.net'
+    height: 0.3
+  actions: {}

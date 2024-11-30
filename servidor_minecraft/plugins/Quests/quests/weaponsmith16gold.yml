@@ -1,0 +1,40 @@
+tasks:
+  weaponsmith:
+    type: "inventory"
+    item: GOLDEN_SWORD
+    amount: 1
+    update-progress: true
+display:
+  name: "&#495aa3Weaponsmith Quest &8| &fGolden Sword" 
+  lore-normal:
+    - ""
+    - "&#495aa3Description"
+    - " &#adadadYou have to forge 1 golden sword"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#495aa3Information"
+    - " &8■ &7Objective: &#495aa3Forge 1 Golden Sword."
+    - " &8■ &7Progress: &#495aa3{weaponsmith:progress}&8/&#495aa31 Golden Sword"
+    - ""
+    - "&#495aa3Rewards"
+    - " &8■ &a&l$&a100"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "GOLDEN_SWORD"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a100"
+rewards:
+  - "eco give {player} 100"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a100 &#808080&o(( added to your balance ))"
+options:
+  category: "weaponsmith"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 16

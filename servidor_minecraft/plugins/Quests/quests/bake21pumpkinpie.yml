@@ -1,0 +1,41 @@
+tasks:
+  bake:
+    type: "inventory"
+    item: PUMPKIN_PIE
+    amount: 1
+    remove-items-when-complete: true
+    update-progress: true
+display:
+  name: "&#fcba03Bake Quest &8| &fPumpkin Pie" 
+  lore-normal:
+    - ""
+    - "&#fcba03Description"
+    - " &#adadadYou have to bake 1 pumpkin pie"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#fcba03Information"
+    - " &8■ &7Objective: &#fcba03Bake 1 Pumpkin Pie."
+    - " &8■ &7Progress: &#fcba03{bake:progress}&8/&#fcba031 Pumpkin Pie"
+    - ""
+    - "&#fcba03Rewards"
+    - " &8■ &a&l$&a10"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "PUMPKIN_PIE"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a10"
+rewards:
+  - "eco give {player} 10"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a10 &#808080&o(( added to your balance ))"
+options:
+  category: "bake"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 21

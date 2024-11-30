@@ -1,0 +1,39 @@
+tasks:
+  mine:
+    type: "blockbreakcertain"
+    amount: 32
+    block: "COPPER_ORE"
+display:
+  name: "&#0affdaMining Quest &8| &fCopper Ore" 
+  lore-normal:
+    - ""
+    - "&#0affdaDescription"
+    - " &#adadadYou have to mine 32 copper ore"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#0affdaInformation"
+    - " &8■ &7Objective: &#0affdaMine 32 Copper Ore."
+    - " &8■ &7Progress: &#0affda{mine:progress}&8/&#0affda32 Copper Ore"
+    - ""
+    - "&#0affdaRewards"
+    - " &8■ &a&l$&a350"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "RAW_COPPER_ORE"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a350"
+rewards:
+  - "eco give {player} 350"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a350 &#808080&o(( added to your balance ))"
+options:
+  category: "mining"
+  requires: [mining19copper]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 20

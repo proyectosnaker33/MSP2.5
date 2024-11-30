@@ -1,0 +1,39 @@
+tasks:
+  mine:
+    type: "blockbreakcertain"
+    amount: 30
+    block: "DEEPSLATE_DIAMOND_ORE"
+display:
+  name: "&#0affdaMining Quest &8| &fDiamond" 
+  lore-normal:
+    - ""
+    - "&#0affdaDescription"
+    - " &#adadadYou have to mine 30 deepslate diamond ore"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#0affdaInformation"
+    - " &8■ &7Objective: &#0affdaMine 30 Deepslate Diamond Ore."
+    - " &8■ &7Progress: &#0affda{mine:progress}&8/&#0affda30 Deepslate Diamond Ore"
+    - ""
+    - "&#0affdaRewards"
+    - " &8■ &a&l$&a5,500"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "DIAMOND"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a5,500"
+rewards:
+  - "eco give {player} 5500"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a5,500 &#808080&o(( added to your balance ))"
+options:
+  category: "mining"
+  requires: [mining34diamonddeepslate]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 35

@@ -1,0 +1,39 @@
+tasks:
+  cut:
+    type: "blockbreakcertain"
+    amount: 28
+    block: "CRIMSON_STEM"
+display:
+  name: "&#fffe8fForaging Quest &8| &fCrimson Stem" 
+  lore-normal:
+    - ""
+    - "&#fffe8fDescription"
+    - " &#adadadYou have to cut 28 crimson stem"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#fffe8fInformation"
+    - " &8■ &7Objective: &#fffe8fCut 28 Crimson Stem."
+    - " &8■ &7Progress: &#fffe8f{cut:progress}&8/&#fffe8f28 Crimson Stem"
+    - ""
+    - "&#fffe8fRewards"
+    - " &8■ &a&l$&a500"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "CRIMSON_STEM"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a500"
+rewards:
+  - "eco give {player} 500"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a500 &#808080&o(( added to your balance ))"
+options:
+  category: "foraging"
+  requires: [foraging19crimson]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 20

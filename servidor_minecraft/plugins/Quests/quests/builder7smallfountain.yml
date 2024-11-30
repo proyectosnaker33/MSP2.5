@@ -1,0 +1,50 @@
+tasks:
+  stonebricks:
+    type: "blockplacecertain"
+    amount: 15
+    block: "STONE_BRICKS"
+  torch:
+    type: "blockplacecertain"
+    amount: 4
+    block: "TORCH"
+  water:
+    type: "blockplacecertain"
+    amount: 1
+    block: "WATER"
+display:
+  name: "&#ffbb00Builder Quest &8| &fSmall Fountain" 
+  lore-normal:
+    - ""
+    - "&#ffbb00Description"
+    - " &#adadadYou have to build 1 small fountain"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#ffbb00Information"
+    - " &8■ &7Objective: &#ffbb00Build 1 Small Fountain."
+    - " &8■ &7Progress:"
+    - " &8- &#ffbb00{stonebricks:progress}&8/&#ffbb0015 Stone Bricks"
+    - " &8- &#ffbb00{torch:progress}&8/&#ffbb004 Torch"
+    - " &8- &#ffbb00{water:progress}&8/&#ffbb001 Water"
+    - ""
+    - "&#ffbb00Rewards"
+    - " &8■ &a&l$&a200"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "WATER_BUCKET"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a200"
+rewards:
+  - "eco give {player} 200"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a200 &#808080&o(( added to your balance ))"
+options:
+  category: "builder"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 7

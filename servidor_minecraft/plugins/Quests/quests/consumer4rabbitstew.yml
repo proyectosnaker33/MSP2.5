@@ -1,0 +1,39 @@
+tasks:
+  eat:
+    type: "consume"
+    item: RABBIT_STEW
+    amount: 4
+display:
+  name: "&#f2ca72Consumer Quest &8| &fRabbit Stew" 
+  lore-normal:
+    - ""
+    - "&#f2ca72Description"
+    - " &#adadadYou have to eat 4 rabbit stew"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#f2ca72Information"
+    - " &8■ &7Objective: &#f2ca72Eat 4 Rabbit Stew"
+    - " &8■ &7Progress: &#f2ca72{eat:progress}&8/&#f2ca724 Rabbit Stew"
+    - ""
+    - "&#f2ca72Rewards"
+    - " &8■ &a&l$&a150"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "RABBIT_STEW"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a150"
+rewards:
+  - "eco give {player} 150"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a150 &#808080&o(( added to your balance ))"
+options:
+  category: "consume"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 4

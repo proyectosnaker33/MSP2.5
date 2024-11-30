@@ -1,0 +1,53 @@
+# ChatReaction version 1.8.0 configuration file
+
+# ChatReaction version 1.8.0 configuration file
+debug: false
+check_updates: true
+reaction_stats:
+  track_stats: false
+  top_players_size: 100
+  hostname: localhost
+  port: 3306
+  database: chatreaction
+  prefix: ''
+  username: root
+  password: ''
+  ssl: false
+reaction:
+  disabled_worlds:
+  - world_nether
+  - world_the_end
+  interval: 1600
+  time_limit: 30
+  players_needed_to_start: 1
+  word_character_length: 10
+  ignore_case: false
+  use_custom_words: true
+  split_words_by_line: true
+  scramble_custom_words: true
+  scramble_at_random: true
+  scramble_spaces: false
+  reward_amount: 1
+  rewards:
+  - eco give @p 50
+messages:
+  reaction_start:
+  - '&6REACT &8» &eHover for the &6word&e to type!'
+  reaction_start_tooltip: '&6%word%'
+  scramble_start:
+  - '&6REACT &8» &eHover for the &6word&e to unscramble!'
+  scramble_start_tooltip: '&6%word%'
+  reaction_end:
+  - '&6REACT &8» &cNobody got the word in time.'
+  scramble_end:
+  - '&6REACT &8» &cNobody got the word in time, The word was &6%word%&c.'
+  reaction_win:
+  - '&6REACT &8» &7%player% &awon in &6%time% &aseconds!'
+  scramble_win:
+  - '&6REACT &8» &7%player% &aunscrambled the word &6%word% &ain &6%time% &aseconds!'
+hooks:
+  qaplugin:
+    enabled: true
+    hint:
+      charge: false
+      charge_amount: 100.0

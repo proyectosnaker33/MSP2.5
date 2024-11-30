@@ -1,0 +1,456 @@
+# | =================================================== |
+# |      Thank you for downloading and trying out       |
+# |                       Quests                        |
+# |      https://www.spigotmc.org/resources/23696/      |
+# |         https://github.com/LMBishop/Quests/         |
+# |                                                     |
+# |                         =x=                         |
+# |                                                     |
+# |              Trying to add new quests?              |
+# |                                                     |
+# |                 Go to the 'quests'                  |
+# |               subdirectory to edit the              |
+# |                        quests                       |
+# |                                                     |
+# |                 The example quests                  |
+# |              are commented to help you              |
+# |             learn how to use the plugin             |
+# |                                                     |
+# |                         =x=                         |
+# |                                                     |
+# |              Have Discord & need help?              |
+# |       Head to the GitHub page and click on the      |
+# |           Discord link, or create an issue          |
+# | =================================================== |
+
+# Trying to add new categories? This has been moved to categories.yml
+
+# The items listed below are placeholder items for quests which the player cannot start.
+# You should change these for 1.8
+gui:
+  back-button:
+    name: "&b&l⟰ &bGoBack"
+    type: "COMPASS"
+  page-prev:
+    name: "&b&l← &bPrevious"
+    type: "ARROW"
+  page-next:
+    name: "&bNext &l→"
+    type: "ARROW"
+  page-desc:
+    name: "&bPage: &f{page}"
+    lore:
+    - ""
+    - "&7You are currently viewing page &b{page}."
+    - ""
+    type: "PAPER"
+  quest-locked-display:
+    name: "&#ff0000&l✘ &#808080| &#ff0000Quest Locked"
+    lore:
+    - ""
+    - "&#adadadYou have not completed the requirements"
+    - "&#adadadfor this quest &#808080(&#ff0000{quest}&#808080)"
+    - ""
+    - "&#adadadRequires: &#ff0000{requirements}"
+    - "&#adadadto be completed to unlock."
+    type: "RED_STAINED_GLASS_PANE"
+  quest-permission-display:
+    name: "&#ff0000&l✘ &#808080| &#ff0000No Permission"
+    lore:
+    - ""
+    - "&#adadadYou do not have permission for this"
+    - "&#adadadquest &#808080(&#ff0000{quest}&#808080)"
+    type: "IRON_BARS"
+  quest-cooldown-display:
+    name: "&#ffff00⌚ &#808080| &#ffff00Quest Cooldown"
+    lore:
+    - ""
+    - "&#adadadYou have recently completed this quest"
+    - "&#808080(&#ffff00{quest}&#808080) &#adadadand you must"
+    - "&#adadadwait another &#ffff00{time} &#adadadto unlock again."
+    type: "YELLOW_STAINED_GLASS_PANE"
+  quest-completed-display:
+    name: "&#00ff00&l✔ &#808080| &#00ff00Quest Complete"
+    lore:
+    - ""
+    - "&#adadadYou have completed this quest"
+    - "&#808080(&#00ff00{quest}&#808080)&#adadad and cannot."
+    - "&#adadadrepeat it."
+    type: "LIME_STAINED_GLASS_PANE"
+  no-started-quests:
+    name: "&#0313fc☹ &#808080| &#0313fcNo Quests Running"
+    lore:
+    - ""
+    - "&#adadadYou don't have any quest running!"
+    - "&#adadadgo start a quest now!"
+    type: "BEDROCK"
+  quest-cancel-yes:
+    name: "&#00ff00&l✔"
+    lore:
+    - "&#adadadConfirm you wish to cancel"
+    - "&#adadadthis quest and lose all progress."
+    type: "LIME_STAINED_GLASS_PANE"
+  quest-cancel-no:
+    name: "&#ff0000&l✘"
+    lore:
+    - "&#adadadAbort to cancel this quest and"
+    - "&#adadadreturn to the quest menu."
+    type: "RED_STAINED_GLASS_PANE"
+  quest-cancel-background:
+    type: "GRAY_STAINED_GLASS_PANE"
+
+# Here you can add custom items to the quest menu
+# Categories & quests will fill empty slots
+custom-elements:
+  "categories":
+    0:
+      display:
+        name: " &r "
+        type: "GRAY_STAINED_GLASS_PANE"
+    1:
+      display:
+        name: " &r "
+        type: "GRAY_STAINED_GLASS_PANE"
+    2:
+      display:
+        name: " &r "
+        type: "GRAY_STAINED_GLASS_PANE"
+    3:
+      display:
+        name: " &r "
+        type: "GRAY_STAINED_GLASS_PANE"
+    4:
+      display:
+        name: " &r "
+        type: "GRAY_STAINED_GLASS_PANE"
+    5:
+      display:
+        name: " &r "
+        type: "GRAY_STAINED_GLASS_PANE"
+    6:
+      display:
+        name: " &r "
+        type: "GRAY_STAINED_GLASS_PANE"
+    7:
+      display:
+        name: " &r "
+        type: "GRAY_STAINED_GLASS_PANE"
+    8:
+      display:
+        name: " &r "
+        type: "GRAY_STAINED_GLASS_PANE"
+    9:
+      display:
+        name: " &r "
+        type: "GRAY_STAINED_GLASS_PANE"
+#10-16 Occupied
+    17:
+      display:
+        name: " &r "
+        type: "GRAY_STAINED_GLASS_PANE"
+    18:
+      display:
+        name: " &r "
+        type: "GRAY_STAINED_GLASS_PANE"
+#19-25
+    26:
+      display:
+        name: " &r "
+        type: "GRAY_STAINED_GLASS_PANE"
+    27:
+      display:
+        name: " &r "
+        type: "GRAY_STAINED_GLASS_PANE"
+#28-34
+    35:
+      display:
+        name: " &r "
+        type: "GRAY_STAINED_GLASS_PANE"
+    36:
+      display:
+        name: " &r "
+        type: "GRAY_STAINED_GLASS_PANE"
+    37:
+      display:
+        name: " &r "
+        type: "GRAY_STAINED_GLASS_PANE"
+    38:
+      display:
+        name: " &r "
+        type: "GRAY_STAINED_GLASS_PANE"
+    39:
+      display:
+        name: " &r "
+        type: "GRAY_STAINED_GLASS_PANE"
+    40:
+      display:
+        name: " &r "
+        type: "GRAY_STAINED_GLASS_PANE"
+    41:
+      display:
+        name: " &r "
+        type: "GRAY_STAINED_GLASS_PANE"
+    42:
+      display:
+        name: " &r "
+        type: "GRAY_STAINED_GLASS_PANE"
+    43:
+      display:
+        name: " &r "
+        type: "GRAY_STAINED_GLASS_PANE"
+    44:
+      display:
+        name: " &r "
+        type: "GRAY_STAINED_GLASS_PANE"
+    45:
+      display:
+        name: " &r "
+        type: "BLACK_STAINED_GLASS_PANE"
+    46:
+      display:
+        name: " &r "
+        type: "BLACK_STAINED_GLASS_PANE"
+    47:
+      display:
+        name: " &r "
+        type: "BLACK_STAINED_GLASS_PANE"
+    48:
+      display:
+        name: "&#42f5c5&lYour Information"
+        lore:
+        - ""
+        - "&#42f5c5Description"
+        - " &#adadad Complete the quest and you will get interesting rewards"
+        - " &#adadador perks when completing the quests"
+        - " &#adadadthat you have completed."
+        - " &#adadadand to complete some quests,"
+        - " &#adadadyou have to do certain activities!"
+        - ""
+        - "&#42f5c5Information"
+        - " &#adadadQuest List: &#00ff00%quests_all%"
+        - " &#adadadQuest Completed: &#00ff00%quests_completed%"
+        - " &#adadadQuest Completed Today: &#00ff00%quests_completedbefore%"
+        - " &#adadadQuest Running: &#00ff00%quests_started%"
+        - " &#adadadQuest Categories: &#00ff00%quests_categories%"
+        - ""
+        type: "BOOK"
+#49 Christmas
+#    49:
+#      display:
+#        name: " &r "
+#        type: "BLACK_STAINED_GLASS_PANE"
+#50 Teamseas
+    51:
+      display:
+        name: " &r "
+        type: "BLACK_STAINED_GLASS_PANE"
+    52:
+      display:
+        name: " &r "
+        type: "BLACK_STAINED_GLASS_PANE"
+#53 Challenges
+
+options:
+  categories-enabled: true
+  trim-gui-size: true
+  titles-enabled: true
+  # Allow players to have multiple active quests.
+  # You can set the default number of quests using the 'default' rank below.
+  # To grant different quest limits to different people, you can define a 'quest-rank'
+  # Create the 'quest-rank' below, and give the matching permission: quests.limit.<quest-rank>
+  quest-limit:
+    default: 1
+    vip: 3
+    vip+: 5
+    mvp: 8
+    mvp+: 10
+  # Allow players to cancel a quest (you may want to remove the cancel instructions in the global item lore)
+  allow-quest-cancel: true
+  # Allow players to track a quest (you may want to remove the tracking instructions in the global item lore)
+  allow-quest-track: true
+  # Task type exclusions - include task IDs in this list which you don't want registering
+  task-type-exclusions: []
+  # Titles for the GUIs
+  guinames:
+    quests-category: "&0&lQUEST &8┃ &0Categories"
+    quests-menu: "&0&lQUEST &8┃ &0Menu"
+    quests-started-menu: "&0&lQUEST &8┃ &0Running..."
+    daily-quests: "&0&lQUEST &8┃ &0Daily Quest"
+    quest-cancel: "&0&lQUEST &8┃ &0Confirm"
+  # See https://github.com/LMBishop/Quests/wiki/Basic-Options#sounds
+  sounds:
+    quest-start: "BLOCK_NOTE_BLOCK_PLING:2:3"
+    quest-cancel: "BLOCK_COMPARATOR_CLICK:2:3"
+    quest-complete: "UI_TOAST_CHALLENGE_COMPLETE:1.25:3"
+    gui:
+      open: "BLOCK_CHEST_OPEN:1:3"
+      interact: "UI_BUTTON_CLICK:1:3"
+  # Hide locked quests, quests on cooldown and completed (but not repeatable) quests
+  gui-hide-locked: false
+  # Confirm quest cancellation with a separate menu
+  gui-confirm-cancel: true
+  # Hide quests which a player cannot start due to permissions.
+  gui-hide-quests-nopermission: false
+  # Hide categories which a player cannot open due to permissions.
+  gui-hide-categories-nopermission: false
+  # Replace placeholders from PlaceholderAPI in Quests GUI items
+  gui-use-placeholderapi: true
+  # Truncate quest requirements when there are multiple requirements to prevent enormous display items
+  gui-truncate-requirements: true
+  # Make it so players do not have to start quest themselves
+  quest-autostart: false
+  # Automatically track quests on start, and stop tracking on completion
+  quest-autotrack: true
+  # How much quests should log, 0 = errors only, 1 = warnings, 2 = info, 3 = debug
+  verbose-logging-level: 2
+  # Replace placeholders from PlaceholderAPI in rewards, rewardstrings and start strings
+  quests-use-placeholderapi: false
+  # Verify quests exist when a player's data is loaded - inconsistencies may arise when
+  # players progress on specific quests and those quests are later removed. The problem is that their progress
+  # is still kept in the quest progress file, which may lead to issues such as players reaching a quest started
+  # limit when the quests they had active no longer exist - having this option enabled prevents
+  # non-existent quests from being loaded
+  verify-quest-exists-on-load: true
+  performance-tweaking: # The following are measured in server ticks, multiply SECONDS by 20 to get the number of ticks.
+    quest-queue-executor-interval: 1      # how frequently Quests should execute the next check in the completion queue (def=1 - 0.05s) - increase this value if you are struggling with performance
+    quest-autosave-interval: 12000        # how frequently online players data will be autosaved (def=12000 - 10 minutes)
+  tab-completion:
+    enabled: true
+  error-checking:
+    # Allow quests to be loaded if they contain errors
+    # This may lead to errors in the console!
+    override-errors: false
+  # How much time (in seconds) that plugin will cache placeholders
+  placeholder-cache-time: 10
+  # Whether or not the global task configuration will override per-task configuration settings
+  global-task-configuration-override: false
+  # Whether or not the global display configuration will override per-quest display settins
+  global-quest-display-configuration-override: false
+  # Storage options - please see the following: https://github.com/LMBishop/Quests/wiki/Storage-Providers
+  storage:
+    # Either 'yaml' (flatfile) or 'mysql' (network)
+    # Please read the following before using MySQL https://github.com/LMBishop/Quests/wiki/Storage-Providers#network
+    provider: "yaml"
+    # See: https://github.com/LMBishop/Quests/wiki/Storage-Providers#Data-synchronisiation
+    #      https://github.com/LMBishop/Quests/issues/180
+    synchronisation:
+      delay-loading: 0 # (ticks)
+    # The following is only applicable for database storage providers (e.g. mysql)
+    database-settings:
+      network:
+        # The name of the database. This database should already exist!
+        database: "minecraft"
+        username: "root"
+        password: ""
+        # Address should be in the format ip:port (just like the game itself)
+        address: "localhost:3306"
+      # This plugin uses 'HikariCP' for connection management, the pooling configuration can be changed here
+      connection-pool-settings:
+        # The maximum number of connections to keep open with the database (def=8)
+        maximum-pool-size: 8
+        # The minimum number of connections to keep open with the database (def=8)
+        minimum-idle: 8
+        # The maximum time (in milliseconds) to keep a single connection open (def=1800000 - 30 min)
+        maximum-lifetime: 1800000
+        # The time (in milliseconds) the plugin will wait for a response by the database (def=500)
+        connection-timeout: 5000
+      # The prefix each table will use
+      table-prefix: "quests_"
+
+
+quest-mode:
+  mode: "NORMAL" # More modes are a work in progress
+
+# The global task configuration will apply to the config of each task of a specified type in each quest.
+# In the example below, every task with a type of "inventory" will have the config option "update-progress"
+# set to true. This is useful if you do not want to go through each quest if you want to update the configuration
+# for every task of a specific type.
+#
+# You must uncomment all below lines for the example to have any effect
+# vvvvvvvvvvvvvvvvvvvvvvvvv
+#global-task-configuration:
+#  types:
+#    inventory:
+#      update-progress: true
+
+global-quest-display:
+  lore:
+#    append-normal:
+#      - "..."
+    append-not-started:
+      - "&bLeft-click &8|&7 start this quest."
+    append-started:
+      - "&#adadadYou are &#ff0000not tracking&#adadad this quest."
+      - "&bMiddle-click &8|&7 track this quest."
+      - "&bRight-click &8|&7 cancel this quest."
+    append-tracked:
+      - "&#adadadYou are &#00ff00tracking&#adadad this quest."
+      - "&bMiddle-click &8|&7 stop tracking this quest."
+      - "&bRight-click &8|&7 cancel this quest."
+
+
+# Configure titles
+titles:
+  quest-start:
+    title: "&#00ff00&l✔ &#808080| &#00ff00Quest Started"
+    subtitle: "&#808080➤ &#adadad{quest}"
+  quest-complete:
+    title: "&#ffff00★ &#808080| &#ffff00Quest Completed"
+    subtitle: "&#808080➤ &#adadad{quest}"
+
+# Configure messages
+messages:
+  time-format: "&#ff0000{hours}h {minutes}m"
+  quest-start: "&b&lQUEST &8&l► &#adadadQuest &#00ff00{quest} &#adadadstarted!"
+  quest-complete: "&b&lQUEST &8&l► &#adadadQuest &#00ff00{quest} &#adadadcompleted!"
+  quest-cancel: "&b&lQUEST &8&l► &#adadadQuest &#ff0000{quest} &#adadadcancelled!"
+  quest-track: "&b&lQUEST &8&l► &#adadadTracking quest &#ffff00{quest}&#adadad."
+  quest-track-stop: "&b&lQUEST &8&l► &#adadadNo longer tracking quest &#ff0000{quest}&#adadad."
+  quest-random-none: "&b&lQUEST &8&l► &#adadadYou have no quests which you can start."
+  quest-start-limit: "&b&lQUEST &8&l► &#adadadPlayers are limited to &#ff0000{limit} &#adadadstarted quests at a time."
+  quest-start-disabled: "&b&lQUEST &8&l► &#adadadYou cannot repeat this quest."
+  quest-start-locked: "&b&lQUEST &8&l► &#adadadYou have not unlocked this quest yet."
+  quest-start-cooldown: "&b&lQUEST &8&l► &#adadadYou have recently completed this quest. You have to wait &#ff0000{time} &#adadaduntil you are able to restart it."
+  quest-start-started: "&b&lQUEST &8&l► &#adadadYou have already started this quest."
+  quest-start-permission: "&b&lQUEST &8&l► &#adadadYou don't have a permission to do that!"
+  quest-category-permission: "&b&lQUEST &8&l► &#adadadYou don't have a permission to do that!"
+  quest-category-quest-permission: "&b&lQUEST &8&l► &#adadadYou don't have a permission to do that!"
+  quest-cancel-notstarted: "&b&lQUEST &8&l► &#adadadYou have not started this quest."
+  quest-updater: "&b&lQUEST &8&l► &#adadadA new version &#00ff00{newver} &#adadadwas found on Spigot &#808080&o(your version: &#ff0000&o{oldver}&#808080&o)&#adadad. Please update me! <3 - Link: &#00ffff&n{link}"
+  command-data-not-loaded: "&b&lQUEST &8&l► &#adadadYour quests progress file has not been loaded; you cannot use quests. If this issue persists, contact an admin."
+  command-sub-doesntexist: "&b&lQUEST &8&l► &#adadadThe specified subcommand '&#ff0000{sub}&#adadad' does not exist."
+  command-quest-start-doesntexist: "&b&lQUEST &8&l► &#adadadThe specified quest '&#ff0000{quest}&#adadad' does not exist."
+  command-quest-general-doesntexist: "&b&lQUEST &8&l► &#adadadThe specified quest '&#ff0000{quest}&#adadad' does not exist."
+  command-category-open-disabled: "&b&lQUEST &8&l► &#adadadCategories are disabled."
+  command-category-open-doesntexist: "&b&lQUEST &8&l► &#adadadThe specified category '&#ff0000{category}&#adadad' does not exist."
+  command-quest-admin-playernotfound: "&b&lQUEST &8&l► &#adadadPlayer '&#ff0000{player}&#adadad' could not be found."
+  command-quest-openquests-admin-success: "&b&lQUEST &8&l► &#adadadOpened Quest GUI for player &#00ff00{player}&#adadad."
+  command-quest-opencategory-admin-success: "&b&lQUEST &8&l► &#adadadOpened category &#00ff00{category} &#adadadfor player &f{player}&#adadad."
+  command-taskview-admin-fail: "&b&lQUEST &8&l► &#adadadTask type '&#ff0000{task}&#adadad' does not exist."
+  beta-reminder: "&b&lQUEST &8&l► &#ff0000Reminder: &#adadadyou are currently using a &#ffff00beta &#adadadversion of Quests. Please send bug reports to &#00ffff&nhttps://github.com/LMBishop/Quests/issues&#adadad and check for updates regularly using &#ff000/quests admin update&#adadad!"
+  command-quest-admin-loaddata: "&b&lQUEST &8&l► Quest data for '&#ff0000{player}&#adadad' is being loaded."
+  command-quest-admin-nodata: "&b&lQUEST &8&l► &#adadadNo data could be found for player &#ff0000{player}&#adadad."
+  command-quest-admin-fullreset: "&b&lQUEST &8&l► &#adadadData for player &#ff0000{player}&#adadad has been fully reset."
+  command-quest-admin-start-faillocked: "&b&lQUEST &8&l► &#adadadQuest '&#ff0000{quest}&#adadad' could not be started for player &#ff0000{player}&#adadad. They have not yet unlocked it."
+  command-quest-admin-start-failcooldown: "&b&lQUEST &8&l► &#adadadQuest '&#ff0000{quest}&#adadad' could not be started for player &#ff0000{player}&#adadad. It is still on cooldown for them."
+  command-quest-admin-start-failcomplete: "&b&lQUEST &8&l► &#adadadQuest '&#ff0000{quest}&#adadad' could not be started for player &#ff0000{player}&#adadad. They have already completed it."
+  command-quest-admin-start-faillimit: "&b&lQUEST &8&l► &#adadadQuest '&#ff0000{quest}&#adadad' could not be started for player &#ff0000{player}&#adadad. They have reached their quest start limit."
+  command-quest-admin-start-failstarted: "&b&lQUEST &8&l► &#adadadQuest '&#ff0000{quest}&#adadad' could not be started for player &#ff0000{player}&#adadad. It is already started."
+  command-quest-admin-start-failpermission: "&b&lQUEST &8&l► &#adadadQuest '&#ff0000{quest}&#adadad' could not be started for player &#ff0000{player}&#adadad. They do not have permission."
+  command-quest-admin-start-failcategorypermission: "&b&lQUEST &8&l► &#adadadQuest '&#ff0000{quest}&#adadad' could not be started for player &#ff0000{player}&#adadad. They do not have permission for the category which the quest is in."
+  command-quest-admin-start-failother: "&b&lQUEST &8&l► &#adadadQuest '&#ff0000{quest}&#adadad' could not be started for player &#ff0000{player}&#adadad."
+  command-quest-admin-start-success: "&b&lQUEST &8&l► &#adadadQuest &#ff0000{quest} &#adadadstarted for player &#ff0000{player}&#adadad."
+  command-quest-admin-category-permission: "&b&lQUEST &8&l► &#adadadCategory &#ff0000{category} &#adadadcould not be opened for player &#ff0000{player}&#adadad. They do not have permission to view it."
+  command-quest-admin-complete-success: "&b&lQUEST &8&l► &#adadadQuest &#ff0000{quest} &#adadadcompleted for player &#ff0000{player}&#adadad."
+  command-quest-admin-reset-success: "&b&lQUEST &8&l► &#adadadSuccessfully reset quest '&#ff0000{quest}&#adadad' for player &#ff0000{player}&#adadad."
+  command-quest-admin-random-none: "&b&lQUEST &8&l► &#adadadPlayer &#ff0000{player}&#adadad has no quests which they can start."
+  command-quest-admin-random-success: "&b&lQUEST &8&l► &#adadadSuccessfully started random quest '&#ff0000{quest}&#adadad' for player &#ff0000{player}&#adadad."
+  command-quest-admin-random-category-none: "&b&lQUEST &8&l► &#adadadPlayer &#ff0000{player}&#adadad has no quests in category '&#ff0000{category}&#adadad' which they can start."
+  command-quest-admin-random-category-success: "&b&lQUEST &8&l► &#adadadSuccessfully started random quest '&#ffff00{quest}&#adadad' from category '&f{category}&#adadad' for player &#00ff00{player}&#adadad."
+  ui-placeholder-completed-true: "&#00ff00&l✔"
+  ui-placeholder-completed-false: "&#ff0000&l✘"
+  ui-placeholder-truncated: " &#808080+{amount} more..."
+  placeholderapi-true: "&#00ff00true"
+  placeholderapi-false: "&#ff0000false"
+  placeholderapi-no-tracked-quest: "&#808080No tracked quest"
+  placeholderapi-data-not-loaded: "&#ff0000Data not loaded"

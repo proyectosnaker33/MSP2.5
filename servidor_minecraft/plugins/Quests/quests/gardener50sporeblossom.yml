@@ -1,0 +1,40 @@
+tasks:
+  gardener:
+    type: "blockplacecertain"
+    amount: 18
+    block: "SPORE_BLOSSOM"
+display:
+  name: "&#ff70deGardener Quest &8| &fSpore Blossom" 
+  lore-normal:
+    - ""
+    - "&#ff70deDescription"
+    - " &#adadadYou have to plant 18 spore blossom"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#ff70deInformation"
+    - " &8■ &7Objective: &#ff70dePlant 18 Spore Blossom."
+    - " &8■ &7Progress:"
+    - " &8- &#ff70de{gardener:progress}&8/&#ff70de18 Spore Blossom"
+    - ""
+    - "&#ff70deRewards"
+    - " &8■ &a&l$&a400"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "SPORE_BLOSSOM"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a400"
+rewards:
+  - "eco give {player} 400"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a400 &#808080&o(( added to your balance ))"
+options:
+  category: "gardener"
+  requires: [gardener49sporeblossom]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 50

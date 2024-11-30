@@ -1,0 +1,38 @@
+tasks:
+  brewer:
+    type: "brewing"
+    amount: 1
+display:
+  name: "&#e66adfBrewing Quest &8| &f1 Potion" 
+  lore-normal:
+    - ""
+    - "&#e66adfDescription"
+    - " &#adadadYou have to brew 1 potion"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#e66adfInformation"
+    - " &8■ &7Objective: &#00ff00Brew 1 Potion."
+    - " &8■ &7Progress: &#00ff00{brewer:progress}&8/&#00ff001 Potion"
+    - ""
+    - "&#e66adfRewards"
+    - " &8■ &a&l$&a50"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "BREWING_STAND"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a50"
+rewards:
+  - "eco give {player} 50"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a50 &#808080&o(( added to your balance ))"
+options:
+  category: "brewing"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 1

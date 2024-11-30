@@ -1,0 +1,470 @@
+menu_title: '&8» Spawner Shop'
+size: 54
+open_command:
+- spawners
+items:
+  '0':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 0
+    display_name: '&8'
+  '1':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 1
+    display_name: '&8'
+  '2':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 2
+    display_name: '&8'
+  '3':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 3
+    display_name: '&8'
+  '4':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 4
+    display_name: '&8'
+  '5':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 5
+    display_name: '&8'
+  '6':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 6
+    display_name: '&8'
+  '7':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 7
+    display_name: '&8'
+  '8':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 8
+    display_name: '&8'
+  '9':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 9
+    display_name: '&8'
+  '10':
+    material: ORANGE_STAINED_GLASS_PANE
+    slot: 10
+    display_name: '&8'
+  '11':
+    material: ORANGE_STAINED_GLASS_PANE
+    slot: 11
+    display_name: '&8'
+  '12':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 12
+    display_name: '&8'
+  '13':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 13
+    display_name: '&8'
+  '14':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 14
+    display_name: '&8'
+  '15':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 15
+    display_name: '&8'
+  '16':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 16
+    display_name: '&8'
+  '17':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 17
+    display_name: '&8'
+  '18':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 18
+    display_name: '&8'
+  '19':
+    material: ORANGE_STAINED_GLASS_PANE
+    slot: 19
+    display_name: '&8'
+  '20':
+    material: SPAWNER
+    slot: 20
+    display_name: '&eChicken Spawner'
+    lore:
+    - '&7'
+    - '&fPurchase a Chicken Spawner and continue'
+    - '&fto get chickens on your island!'
+    - '&7'
+    - '&fPrice: &a7,500 &e⛃'
+    - '&7'
+    - '&eClick to purchase!'
+    - '&cYou cannot sell this item.'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 7500
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] mineablespawner give %player_name% chicken 1'
+    - '[takemoney] 7500'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '21':
+    material: SPAWNER
+    slot: 21
+    display_name: '&ePig Spawner'
+    lore:
+    - '&7'
+    - '&fPurchase a Pig Spawner and continue'
+    - '&fto get Pigs on your island!'
+    - '&7'
+    - '&fPrice: &a12,500 &e⛃'
+    - '&7'
+    - '&eClick to purchase!'
+    - '&cYou cannot sell this item.'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 12500
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] mineablespawner give %player_name% pig 1'
+    - '[takemoney] 12500'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '22':
+    material: SPAWNER
+    slot: 22
+    display_name: '&eCow Spawner'
+    lore:
+    - '&7'
+    - '&fPurchase a Cow Spawner and continue'
+    - '&fto get Cows on your island!'
+    - '&7'
+    - '&fPrice: &a15,000 &e⛃'
+    - '&7'
+    - '&eClick to purchase!'
+    - '&cYou cannot sell this item.'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 15000
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] mineablespawner give %player_name% cow 1'
+    - '[takemoney] 15000'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '23':
+    material: SPAWNER
+    slot: 23
+    display_name: '&eSheep Spawner'
+    lore:
+    - '&7'
+    - '&fPurchase a Sheep Spawner and continue'
+    - '&fto get sheep on your island!'
+    - '&7'
+    - '&fPrice: &a20,000 &e⛃'
+    - '&7'
+    - '&eClick to purchase!'
+    - '&cYou cannot sell this item.'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 20000
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] mineablespawner give %player_name% sheep 1'
+    - '[takemoney] 20000'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '24':
+    material: SPAWNER
+    slot: 24
+    display_name: '&eSlime Spawner'
+    lore:
+    - '&7'
+    - '&fPurchase a Slime Spawner and continue'
+    - '&fto get Slimes on your island!'
+    - '&7'
+    - '&fPrice: &a35,000 &e⛃'
+    - '&7'
+    - '&eClick to purchase!'
+    - '&cYou cannot sell this item.'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 35000
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] mineablespawner give %player_name% slime 1'
+    - '[takemoney] 35000'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '25':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 25
+    display_name: '&8'
+  '26':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 26
+    display_name: '&8'
+  '27':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 27
+    display_name: '&8'
+  '28':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 28
+    display_name: '&8'
+  '29':
+    material: SPAWNER
+    slot: 29
+    display_name: '&eZombie Spawner'
+    lore:
+    - '&7'
+    - '&fPurchase a Zombie Spawner and continue'
+    - '&fto get Zombies on your island!'
+    - '&7'
+    - '&fPrice: &a20,000 &e⛃'
+    - '&7'
+    - '&eClick to purchase!'
+    - '&cYou cannot sell this item.'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 20000
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] mineablespawner give %player_name% zombie 1'
+    - '[takemoney] 20000'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '30':
+    material: SPAWNER
+    slot: 30
+    display_name: '&eSkeleton Spawner'
+    lore:
+    - '&7'
+    - '&fPurchase a Skeleton Spawner and continue'
+    - '&fto get Skeletons on your island!'
+    - '&7'
+    - '&fPrice: &a50,000 &e⛃'
+    - '&7'
+    - '&eClick to purchase!'
+    - '&cYou cannot sell this item.'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 50000
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] mineablespawner give %player_name% skeleton 1'
+    - '[takemoney] 50000'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '31':
+    material: SPAWNER
+    slot: 31
+    display_name: '&eCreeper Spawner'
+    lore:
+    - '&7'
+    - '&fPurchase a Creeper Spawner and continue'
+    - '&fto get Creepers on your island!'
+    - '&7'
+    - '&fPrice: &a75,000 &e⛃'
+    - '&7'
+    - '&eClick to purchase!'
+    - '&cYou cannot sell this item.'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 75000
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] mineablespawner give %player_name% creeper 1'
+    - '[takemoney] 75000'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '32':
+    material: SPAWNER
+    slot: 32
+    display_name: '&eBlaze Spawner'
+    lore:
+    - '&7'
+    - '&fPurchase a Blaze Spawner and continue'
+    - '&fto get Blazes on your island!'
+    - '&7'
+    - '&fPrice: &a125,000 &e⛃'
+    - '&7'
+    - '&eClick to purchase!'
+    - '&cYou cannot sell this item.'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 125000
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] mineablespawner give %player_name% blaze 1'
+    - '[takemoney] 125000'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '33':
+    material: SPAWNER
+    slot: 33
+    display_name: '&eIron Golem Spawner'
+    lore:
+    - '&7'
+    - '&fPurchase a Pig Spawner and continue'
+    - '&fto get Pigs on your island!'
+    - '&7'
+    - '&fPrice: &a500,000 &e⛃'
+    - '&7'
+    - '&eClick to purchase!'
+    - '&cYou cannot sell this item.'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 500000
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] mineablespawner give %player_name% iron_golem 1'
+    - '[takemoney] 500000'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '34':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 34
+    display_name: '&8'
+  '35':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 35
+    display_name: '&8'
+  '36':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 36
+    display_name: '&8'
+  '37':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 37
+    display_name: '&8'
+  '38':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 38
+    display_name: '&8'
+  '39':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 39
+    display_name: '&8'
+  '40':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 40
+    display_name: '&8'
+  '41':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 41
+    display_name: '&8'
+  '42':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 42
+    display_name: '&8'
+  '43':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 43
+    display_name: '&8'
+  '44':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 44
+    display_name: '&8'
+  '45':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 45
+    display_name: '&8'
+  '46':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 46
+    display_name: '&8'
+  '47':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 47
+    display_name: '&8'
+  '48':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 48
+    display_name: '&8'
+  '49':
+    material: BARRIER
+    slot: 49
+    display_name: '&8| &cBack to Category''s'
+    lore:
+    - '&7'
+    - '&8| &eClick to return!'
+    left_click_commands:
+    - '[openguimenu] shop-main'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[openguimenu] shop-main'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '50':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 50
+    display_name: '&8'
+  '51':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 51
+    display_name: '&8'
+  '52':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 52
+    display_name: '&8'
+  '53':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 53
+    display_name: '&8'

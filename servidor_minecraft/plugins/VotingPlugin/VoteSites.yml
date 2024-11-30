@@ -1,0 +1,107 @@
+VoteSites:
+  Site1:
+    Enabled: true
+    Name: Minecraft Servers
+    Priority: 1
+    ServiceSite: Minecraftservers.org
+    VoteURL: https://minecraftservers.org
+    VoteDelay: 24
+    WaitUntilVoteDelay: false
+    VoteDelayDaily: false
+    ForceOffline: false
+    Rewards:
+      Commands:
+      - cc give p Vote 1 %player%
+      - eco give %player% 100
+      Messages:
+        player: You have been given 100 coins!
+  Site2:
+    Enabled: true
+    Name: PlanetMinecraft
+    Priority: 2
+    ServiceSite: PlanetMinecraft.com
+    VoteURL: https://www.planetminecraft.com
+    VoteDelay: 24
+    WaitUntilVoteDelay: false
+    VoteDelayDaily: false
+    ForceOffline: false
+    Rewards:
+      Commands:
+      - cc give p Vote 1 %player%
+      - eco give %player% 100
+      Messages:
+        player: '&7You have been given 100 coins!'
+  Site3:
+    Enabled: true
+    Name: Minecraft MP
+    Priority: 3
+    ServiceSite: Minecraft-MP.com
+    VoteURL: https://minecraft-mp.com
+    VoteDelay: 24
+    WaitUntilVoteDelay: false
+    VoteDelayDaily: false
+    ForceOffline: false
+    Rewards:
+      Commands:
+      - cc give p Vote 1 %player%
+      - eco give %player% 100
+      Messages:
+        player: '&7You have been given 100 coins!'
+  Site4:
+    Enabled: true
+    Name: TopG
+    Priority: 4
+    ServiceSite: TopG.org
+    VoteURL: https://topg.org/Minecraft
+    VoteDelay: 24
+    WaitUntilVoteDelay: false
+    VoteDelayDaily: false
+    ForceOffline: false
+    Rewards:
+      Commands:
+      - cc give p Vote 1 %player%
+      - eco give %player% 100
+      Messages:
+        player: '&7You have been given 100 coins!'
+  Site5:
+    Enabled: true
+    Name: Minecraft Server
+    Priority: 5
+    ServiceSite: Minecraft-server.net
+    VoteURL: https://minecraft-server.net
+    VoteDelay: 24
+    WaitUntilVoteDelay: false
+    VoteDelayDaily: false
+    ForceOffline: false
+    Rewards:
+      Commands:
+      - cc give p Vote 1 %player%
+      - eco give %player% 100
+      Messages:
+        player: '&7You have been given 100 coins!'
+  MCSL:
+    Enabled: true
+    ServiceSite: MCSL
+    VoteURL: https://minecraft-server-list.com
+    VoteDelay: 24
+    DisplayItem:
+      Material: GRASS
+      Amount: 1
+    Rewards:
+      Commands:
+      - cc give p Vote 1 %player%
+      - eco give %player% 100
+      Messages:
+        player: '&7You have been given 100 coins!'
+  MC-Lists:
+    Enabled: true
+    ServiceSite: MC-Lists
+    VoteURL: VoteURL
+    VoteDelay: 24
+    DisplayItem:
+      Material: GRASS
+      Amount: 1
+    Rewards:
+      Messages:
+        Player: '&7You have been given 100 coins!'
+EverySiteReward: []

@@ -1,0 +1,39 @@
+tasks:
+  dig:
+    type: "blockbreakcertain"
+    amount: 64
+    block: "COARSE_DIRT"
+display:
+  name: "&#e6e06aDigger Quest &8| &fCoarse Dirt" 
+  lore-normal:
+    - ""
+    - "&#e6e06aDescription"
+    - " &#adadadYou have to dig 64 coarse dirt"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#e6e06aInformation"
+    - " &8■ &7Objective: &#e6e06aDig 64 Coarse Dirt."
+    - " &8■ &7Progress: &#e6e06a{dig:progress}&8/&#e6e06a64 Coarse Dirt"
+    - ""
+    - "&#e6e06aRewards"
+    - " &8■ &a&l$&a50"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "COARSE_DIRT"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a50"
+rewards:
+  - "eco give {player} 50"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a50 &#808080&o(( added to your balance ))"
+options:
+  category: "digger"
+  requires: [digger20coarsedirt]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 21

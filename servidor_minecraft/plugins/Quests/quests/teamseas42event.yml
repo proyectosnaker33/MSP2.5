@@ -1,0 +1,39 @@
+tasks:
+  teamseas:
+    type: "blockplacecertain"
+    amount: 16
+    block: "BRAIN_CORAL_BLOCK"
+display:
+  name: "&#1357fbT&#1f63fbe&#2b6ffba&#377bfbm&#4287fbs&#4e93fbe&#5a9ffca&#66abfcs &#7dc3fcQ&#89cffcu&#95dbfce&#a1e7fcs&#acf2fdt &8| &fBrain Coral Block" 
+  lore-normal:
+    - ""
+    - "&#175bfbD&#266afbe&#3579fbs&#4488fbc&#5397fbr&#62a7fci&#71b6fcp&#80c5fct&#8fd4fci&#9ee3fco&#adf3fdn"
+    - " &#adadadPlace 16 undead brain coral block into the sea"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#175bfbI&#266afbn&#3579fbf&#4488fbo&#5397fbr&#62a7fcm&#71b6fca&#80c5fct&#8fd4fci&#9ee3fco&#adf3fdn"
+    - " &8■ &7Objective: &#175bfbPlace 16 Undead Brain Coral Block."
+    - " &8■ &7Progress: &#175bfb{teamseas:progress}&8/&#175bfb16 Brain Coral Block"
+    - ""
+    - "&#1f63fbR&#377bfbe&#4e93fbw&#66abfca&#7dc3fcr&#95dbfcd&#acf2fds"
+    - " &8■ &a&l$&a250"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "BRAIN_CORAL_BLOCK"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a250"
+rewards:
+  - "eco give {player} 250"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a250 &#808080&o(( added to your balance ))"
+options:
+  category: "teamseas"
+  requires: [teamseas41event]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 42

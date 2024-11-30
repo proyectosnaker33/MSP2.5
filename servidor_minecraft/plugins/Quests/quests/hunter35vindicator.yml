@@ -1,0 +1,39 @@
+tasks:
+  kill:
+    type: "mobkillingcertain"
+    amount: 10
+    mob: VINDICATOR
+display:
+  name: "&#ff781fHunter Quest &8| &f10 Vindicator" 
+  lore-normal:
+    - ""
+    - "&#ff781fDescription"
+    - " &#adadadYou have to kill 10 vindicator"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#ff781fInformation"
+    - " &8■ &7Objective: &#ff781fKill 10 Vindicator."
+    - " &8■ &7Progress: &#ff781f{kill:progress}&8/&#ff781f10 Vindicator"
+    - ""
+    - "&#ff781fRewards"
+    - " &8■ &a&l$&a3,000"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "IRON_AXE"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a3,000"
+rewards:
+  - "eco give {player} 3000"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a3,000 &#808080&o(( added to your balance ))"
+options:
+  category: "hunter"
+  requires: [hunter34vindicator]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 35

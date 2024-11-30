@@ -1,0 +1,34 @@
+# DeluxeMenus 1.14.0-DEV-160 main configuration file
+#
+# A full wiki on how to use this plugin can be found at:
+# https://wiki.helpch.at/clips-plugins/deluxemenus
+
+debug: false
+check_updates: true
+gui_menus:
+  Warps:
+    file: warps.yml
+  Menu:
+    file: menu.yml
+  Vote:
+    file: vote.yml
+  shop-main:
+    file: shop-main.yml
+  shop-wood:
+    file: shop-wood.yml
+  shop-blocks:
+    file: shop-blocks.yml
+  shop-food:
+    file: shop-food.yml
+  shop-tools:
+    file: shop-tools.yml
+  shop-workstations:
+    file: shop-workstations.yml
+  shop-redstone:
+    file: shop-redstone.yml
+  shop-misc:
+    file: shop-misc.yml
+  shop-color:
+    file: shop-color.yml
+  spawners:
+    file: spawners.yml

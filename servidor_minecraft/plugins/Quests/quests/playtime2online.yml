@@ -1,0 +1,39 @@
+tasks:
+  playtime:
+    type: "playtime"
+    minutes: 5
+    ignore-afk: true #recomendded!!!
+display:
+  name: "&#ffff00Playtime Quest &8| &f5 Minutes" 
+  lore-normal:
+    - ""
+    - "&#ffff00Description"
+    - " &#adadadYou have to online for 5 minutes"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#ffff00Information"
+    - " &8■ &7Objective: &#ffff00Play 5 Minutes."
+    - " &8■ &7Progress: &#ffff00{playtime:progress}&8/&#ffff005 Minutes"
+    - ""
+    - "&#ffff00Rewards"
+    - " &8■ &a&l$&a250"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "CLOCK"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a250"
+rewards:
+  - "eco give {player} 250"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a250 &#808080&o(( added to your balance ))"
+options:
+  category: "playtime"
+  requires: [playtime1online]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 2

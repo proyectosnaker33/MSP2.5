@@ -1,0 +1,39 @@
+tasks:
+  kill:
+    type: "mobkillingcertain"
+    amount: 5
+    mob: ZOMBIE
+display:
+  name: "&#ff781fHunter Quest &8| &f5 Zombie" 
+  lore-normal:
+    - ""
+    - "&#ff781fDescription"
+    - " &#adadadYou have to kill 5 zombie"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#ff781fInformation"
+    - " &8■ &7Objective: &#ff781fKill 5 Zombie."
+    - " &8■ &7Progress: &#ff781f{kill:progress}&8/&#ff781f5 Zombie"
+    - ""
+    - "&#ff781fRewards"
+    - " &8■ &a&l$&a50"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "ZOMBIE_HEAD"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a50"
+rewards:
+  - "eco give {player} 50"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a50 &#808080&o(( added to your balance ))"
+options:
+  category: "hunter"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 1

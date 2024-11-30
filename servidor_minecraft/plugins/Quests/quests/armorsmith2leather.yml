@@ -1,0 +1,40 @@
+tasks:
+  armorsmith:
+    type: "inventory"
+    item: LEATHER_CHESTPLATE
+    amount: 1
+    update-progress: true
+display:
+  name: "&#bf6922Armorsmith Quest &8| &fLeather Chestplate" 
+  lore-normal:
+    - ""
+    - "&#bf6922Description"
+    - " &#adadadYou have to craft 1 leather chestplate"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#bf6922Information"
+    - " &8■ &7Objective: &#bf6922Craft 1 Leather Chestplate."
+    - " &8■ &7Progress: &#bf6922{armorsmith:progress}&8/&#bf69221 Leather Chestplate"
+    - ""
+    - "&#bf6922Rewards"
+    - " &8■ &a&l$&a7.5"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "LEATHER_CHESTPLATE"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a7.5"
+rewards:
+  - "eco give {player} 7.5"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a7.5 &#808080&o(( added to your balance ))"
+options:
+  category: "armorsmith"
+  requires: [armorsmith1leather]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 2

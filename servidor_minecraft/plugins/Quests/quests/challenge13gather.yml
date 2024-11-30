@@ -1,0 +1,41 @@
+tasks:
+  gather:
+    type: "inventory"
+    item: LAVA_BUCKET
+    amount: 4
+    remove-items-when-complete: true
+    update-progress: true
+display:
+  name: "&#ffa161Challenge Quest &8| &fLava Bucket &7&o(x4)" 
+  lore-normal:
+    - ""
+    - "&#ffa161Description"
+    - " &#adadadYou have to gather 4 lava bucket"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#ffa161Information"
+    - " &8■ &7Objective: &#ffa161Gather 4 Lava Bucket"
+    - " &8■ &7Progress: &#ffa161{gather:progress}&8/&#ffa1614 Lava Bucket"
+    - ""
+    - "&#ffa161Rewards"
+    - " &8■ &a&l$&a25"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "LAVA_BUCKET"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a25"
+rewards:
+  - "eco give {player} 25"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a25 &#808080&o(( added to your balance ))"
+options:
+  category: "challenge"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 13

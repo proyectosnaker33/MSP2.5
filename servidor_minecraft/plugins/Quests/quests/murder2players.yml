@@ -1,0 +1,38 @@
+tasks:
+  murder:
+    type: "playerkilling"
+    amount: 2
+display:
+  name: "&#ff0000Murder Quest &8| &f2 Player" 
+  lore-normal:
+    - ""
+    - "&#ff0000Description"
+    - " &#adadadYou have to murder 2 player"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#ff0000Information"
+    - " &8■ &7Objective: &#ff0000Murder 2 Player."
+    - " &8■ &7Progress: &#ff0000{murder:progress}&8/&#ff00002 Player"
+    - ""
+    - "&#ff0000Rewards"
+    - " &8■ &a&l$&a500"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "SKELETON_SKULL"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a500"
+rewards:
+  - "eco give {player} 500"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a500 &#808080&o(( added to your balance ))"
+options:
+  category: "murder"
+  requires: [murder1players]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 2

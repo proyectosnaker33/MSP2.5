@@ -1,0 +1,39 @@
+tasks:
+  eat:
+    type: "consume"
+    item: MUSHROOM_STEW
+    amount: 16
+display:
+  name: "&#f2ca72Consumer Quest &8| &fMushroom Stew" 
+  lore-normal:
+    - ""
+    - "&#f2ca72Description"
+    - " &#adadadYou have to eat 16 mushroom stew"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#f2ca72Information"
+    - " &8■ &7Objective: &#f2ca72Eat 16 Mushroom Stew"
+    - " &8■ &7Progress: &#f2ca72{eat:progress}&8/&#f2ca7216 Mushroom Stew"
+    - ""
+    - "&#f2ca72Rewards"
+    - " &8■ &a&l$&a400"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "MUSHROOM_STEW"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a400"
+rewards:
+  - "eco give {player} 400"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a400 &#808080&o(( added to your balance ))"
+options:
+  category: "consume"
+  requires: [consumer11mushroomstew]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 12

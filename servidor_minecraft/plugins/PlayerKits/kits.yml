@@ -1,0 +1,605 @@
+Kits:
+  iron:
+    slot: 12
+    display_item: STONE_SWORD
+    display_name: '&7&lSTARTER KIT'
+    display_lore:
+    - '&eThis kit includes:'
+    - ''
+    - '&e» &7x1 Stone Sword'
+    - '&e» &7x1 Stone Pickaxe'
+    - '&e» &7x1 Stone Axe'
+    - '&e» &7x1 Golden Shovel'
+    - '&e» &7x8 Apple'
+    - '&e» &7x1 Leather Helmet'
+    - '&e» &7x1 Leather Chestplate'
+    - '&e» &7x1 Leather Leggings'
+    - '&e» &7x1 Leather Boots'
+    - ''
+    - '&7Cooldown: &c3 hours'
+    - ''
+    - '&6Left Click to claim!'
+    - '&eRight Click to preview!'
+    cooldown: 10800
+    Items:
+      '1':
+        id: STONE_SWORD
+        amount: '1'
+        durability: '0'
+        preview_slot: 0
+      '2':
+        id: STONE_PICKAXE
+        amount: '1'
+        durability: '0'
+        preview_slot: 1
+      '3':
+        id: STONE_AXE
+        amount: '1'
+        durability: '0'
+        preview_slot: 2
+      '4':
+        id: GOLDEN_SHOVEL
+        amount: '1'
+        durability: '0'
+        preview_slot: 3
+      '5':
+        id: APPLE
+        amount: '8'
+        durability: '0'
+        preview_slot: 4
+      '6':
+        color: 10511680
+        id: LEATHER_HELMET
+        amount: '1'
+        durability: '0'
+        preview_slot: 5
+      '7':
+        color: 10511680
+        id: LEATHER_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        preview_slot: 6
+      '8':
+        color: 10511680
+        id: LEATHER_LEGGINGS
+        amount: '1'
+        durability: '0'
+        preview_slot: 7
+      '9':
+        color: 10511680
+        id: LEATHER_BOOTS
+        amount: '1'
+        durability: '0'
+        preview_slot: 8
+    first_join: true
+  vip:
+    slot: 30
+    display_item: DIAMOND_SWORD
+    display_name: '&a&lVIP KIT'
+    display_lore:
+    - '&eThis kit includes:'
+    - ''
+    - '&e» &7x1 Diamond Tools'
+    - '&e» &7x1 Diamond Armor'
+    - '&e» &7x32 Steak'
+    - '&e» &7x8 Golden Apples'
+    - '&e» &7x8 Shulker Shells'
+    - '&e» &7x64 Grass Blocks'
+    - '&e» &7x32 XP Bottles'
+    - '&e» &7x1 Totem Of Undying'
+    - '&e» &7x64 Firework Rockets'
+    - ''
+    - '&7Cooldown: &c3 days'
+    - ''
+    - '&6Left Click to claim!'
+    - '&eRight Click to preview!'
+    cooldown: 259200
+    permission: playerkits.kit.vip
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&a&lVIP KIT'
+      display_lore:
+      - '&cYou don''t have permissions to claim'
+      - '&cthis kit.'
+      - ''
+      - '&6Purchase the &a&lVIP &6rank to claim!'
+      - '&eRight Click to preview!'
+    Items:
+      '1':
+        id: DIAMOND_SWORD
+        amount: '1'
+        durability: '0'
+        name: '&a&lVIP SWORD'
+        enchants:
+        - DAMAGE_ALL;2
+        - DURABILITY;2
+        unbreakable: 'false'
+        preview_slot: 0
+      '2':
+        id: DIAMOND_PICKAXE
+        amount: '1'
+        durability: '0'
+        name: '&a&lVIP PICKAXE'
+        enchants:
+        - DIG_SPEED;2
+        - DURABILITY;2
+        unbreakable: 'false'
+        preview_slot: 1
+      '3':
+        id: DIAMOND_AXE
+        amount: '1'
+        durability: '0'
+        name: '&a&lVIP AXE'
+        enchants:
+        - DIG_SPEED;2
+        - DURABILITY;2
+        unbreakable: 'false'
+        preview_slot: 2
+      '4':
+        id: DIAMOND_SHOVEL
+        amount: '1'
+        durability: '0'
+        name: '&a&lVIP SHOVEL'
+        enchants:
+        - DIG_SPEED;2
+        - DURABILITY;2
+        unbreakable: 'false'
+        preview_slot: 3
+      '5':
+        id: DIAMOND_HELMET
+        amount: '1'
+        durability: '0'
+        name: '&a&lVIP HELMET'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;2
+        - DURABILITY;2
+        unbreakable: 'false'
+        preview_slot: 4
+      '6':
+        id: DIAMOND_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        name: '&a&lVIP CHESTPLATE'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;2
+        - DURABILITY;2
+        unbreakable: 'false'
+        preview_slot: 5
+      '7':
+        id: DIAMOND_LEGGINGS
+        amount: '1'
+        durability: '0'
+        name: '&a&lVIP LEGGINGS'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;2
+        - DURABILITY;2
+        unbreakable: 'false'
+        preview_slot: 6
+      '8':
+        id: DIAMOND_BOOTS
+        amount: '1'
+        durability: '0'
+        name: '&a&lVIP BOOTS'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;2
+        - DURABILITY;2
+        unbreakable: 'false'
+        preview_slot: 7
+      '9':
+        id: COOKED_BEEF
+        amount: '32'
+        durability: '0'
+        preview_slot: 8
+      '10':
+        id: GOLDEN_APPLE
+        amount: '8'
+        durability: '0'
+        preview_slot: 9
+      '11':
+        id: SHULKER_SHELL
+        amount: '8'
+        durability: '0'
+        preview_slot: 10
+      '12':
+        id: GRASS_BLOCK
+        amount: '64'
+        durability: '0'
+        preview_slot: 11
+      '13':
+        id: EXPERIENCE_BOTTLE
+        amount: '32'
+        durability: '0'
+        preview_slot: 12
+      '14':
+        id: TOTEM_OF_UNDYING
+        amount: '1'
+        durability: '0'
+        preview_slot: 13
+      '15':
+        firework-effects: []
+        firework-power: '0'
+        id: FIREWORK_ROCKET
+        amount: '64'
+        durability: '0'
+        preview_slot: 14
+    display_item_glowing: true
+  vip+:
+    slot: 31
+    display_item: DIAMOND_SWORD
+    display_name: '&a&lVIP+ KIT'
+    display_lore:
+    - '&eThis kit includes:'
+    - ''
+    - '&e» &7x1 Diamond Tools'
+    - '&e» &7x1 Diamond Armor'
+    - '&e» &7x1 Elytra'
+    - '&e» &7x64 Golden Carrots'
+    - '&e» &7x16 Golden Apples'
+    - '&e» &7x16 Shulker Shells'
+    - '&e» &7x128 Grass Blocks'
+    - '&e» &7x64 XP Bottles'
+    - '&e» &7x1 Totem Of Undying'
+    - '&e» &7x64 Firework Rockets'
+    - '&e» &7x8 Diamonds'
+    - ''
+    - '&7Cooldown: &c3 days'
+    - ''
+    - '&6Left Click to claim!'
+    - '&eRight Click to preview!'
+    cooldown: 259200
+    permission: playerkits.kit.vip+
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&a&lVIP+ KIT'
+      display_lore:
+      - '&cYou don''t have permissions to claim'
+      - '&cthis kit.'
+      - ''
+      - '&6Purchase the &a&lVIP+ &6rank to claim!'
+      - '&eRight Click to preview!'
+    Items:
+      '1':
+        id: DIAMOND_SWORD
+        amount: '1'
+        durability: '0'
+        name: '&a&lVIP+ SWORD'
+        enchants:
+        - DAMAGE_ALL;3
+        - DURABILITY;3
+        unbreakable: 'false'
+        preview_slot: 0
+      '2':
+        id: DIAMOND_PICKAXE
+        amount: '1'
+        durability: '0'
+        name: '&a&lVIP+ PICKAXE'
+        enchants:
+        - DIG_SPEED;3
+        - DURABILITY;3
+        unbreakable: 'false'
+        preview_slot: 1
+      '3':
+        id: DIAMOND_AXE
+        amount: '1'
+        durability: '0'
+        name: '&a&lVIP+ AXE'
+        enchants:
+        - DIG_SPEED;3
+        - DURABILITY;3
+        unbreakable: 'false'
+        preview_slot: 2
+      '4':
+        id: DIAMOND_SHOVEL
+        amount: '1'
+        durability: '0'
+        name: '&a&lVIP+ SHOVEL'
+        enchants:
+        - DIG_SPEED;3
+        - DURABILITY;3
+        unbreakable: 'false'
+        preview_slot: 3
+      '5':
+        id: DIAMOND_HELMET
+        amount: '1'
+        durability: '0'
+        name: '&a&lVIP+ HELMET'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;3
+        - DURABILITY;3
+        unbreakable: 'false'
+        preview_slot: 4
+      '6':
+        id: DIAMOND_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        name: '&a&lVIP+ CHESTPLATE'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;3
+        - DURABILITY;3
+        unbreakable: 'false'
+        preview_slot: 5
+      '7':
+        id: DIAMOND_LEGGINGS
+        amount: '1'
+        durability: '0'
+        name: '&a&lVIP+ LEGGINGS'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;3
+        - DURABILITY;3
+        unbreakable: 'false'
+        preview_slot: 6
+      '8':
+        id: DIAMOND_BOOTS
+        amount: '1'
+        durability: '0'
+        name: '&a&lVIP+ BOOTS'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;3
+        - DURABILITY;3
+        unbreakable: 'false'
+        preview_slot: 7
+      '9':
+        id: ELYTRA
+        amount: '1'
+        durability: '0'
+        name: '&a&lVIP+ ELYTRA'
+        enchants:
+        - DURABILITY;3
+        unbreakable: 'false'
+        preview_slot: 8
+      '10':
+        id: OAK_LOG
+        amount: '64'
+        durability: '0'
+        preview_slot: 9
+      '11':
+        id: GRASS_BLOCK
+        amount: '64'
+        durability: '0'
+        preview_slot: 10
+      '12':
+        id: GOLDEN_CARROT
+        amount: '64'
+        durability: '0'
+        preview_slot: 11
+      '13':
+        id: GOLDEN_APPLE
+        amount: '16'
+        durability: '0'
+        preview_slot: 12
+      '14':
+        id: EXPERIENCE_BOTTLE
+        amount: '64'
+        durability: '0'
+        preview_slot: 13
+      '15':
+        id: SHULKER_SHELL
+        amount: '16'
+        durability: '0'
+        preview_slot: 14
+      '16':
+        id: TOTEM_OF_UNDYING
+        amount: '1'
+        durability: '0'
+        preview_slot: 15
+      '17':
+        firework-effects: []
+        firework-power: '0'
+        id: FIREWORK_ROCKET
+        amount: '64'
+        durability: '0'
+        preview_slot: 16
+      '18':
+        id: DIAMOND
+        amount: '8'
+        durability: '0'
+        preview_slot: 17
+    display_item_glowing: true
+  god:
+    Items:
+      '1':
+        id: DIAMOND_SWORD
+        amount: '1'
+        durability: '0'
+        name: '&c&lGOD SWORD'
+        enchants:
+        - DAMAGE_ALL;5
+        - DURABILITY;3
+        unbreakable: 'false'
+      '2':
+        id: DIAMOND_PICKAXE
+        amount: '1'
+        durability: '0'
+        name: '&c&lGOD PICKAXE'
+        enchants:
+        - DIG_SPEED;5
+        - DURABILITY;3
+        unbreakable: 'false'
+      '3':
+        id: DIAMOND_AXE
+        amount: '1'
+        durability: '0'
+        name: '&c&lGOD AXE'
+        enchants:
+        - DIG_SPEED;5
+        - DURABILITY;3
+        unbreakable: 'false'
+      '4':
+        id: DIAMOND_SHOVEL
+        amount: '1'
+        durability: '0'
+        name: '&c&lGOD SHOVEL'
+        enchants:
+        - DIG_SPEED;5
+        - DURABILITY;3
+        unbreakable: 'false'
+      '5':
+        id: DIAMOND_HELMET
+        amount: '1'
+        durability: '0'
+        name: '&c&lGOD HELMET'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;5
+        - DURABILITY;3
+        unbreakable: 'false'
+      '6':
+        id: DIAMOND_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        name: '&c&lGOD CHESTPLATE'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;5
+        - DURABILITY;3
+        unbreakable: 'false'
+      '7':
+        id: DIAMOND_LEGGINGS
+        amount: '1'
+        durability: '0'
+        name: '&c&lGOD LEGGINGS'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;5
+        - DURABILITY;3
+        unbreakable: 'false'
+      '8':
+        id: DIAMOND_BOOTS
+        amount: '1'
+        durability: '0'
+        name: '&c&lGOD BOOTS'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;5
+        - DURABILITY;3
+        unbreakable: 'false'
+      '9':
+        id: ELYTRA
+        amount: '1'
+        durability: '0'
+        name: '&c&lGOD ELYTRA'
+        enchants:
+        - MENDING;1
+        - DURABILITY;3
+        unbreakable: 'false'
+      '10':
+        id: OAK_LOG
+        amount: '64'
+        durability: '0'
+      '11':
+        id: GRASS_BLOCK
+        amount: '64'
+        durability: '0'
+      '12':
+        id: GOLDEN_CARROT
+        amount: '64'
+        durability: '0'
+      '13':
+        id: GOLDEN_APPLE
+        amount: '16'
+        durability: '0'
+      '14':
+        id: EXPERIENCE_BOTTLE
+        amount: '64'
+        durability: '0'
+      '15':
+        id: EXPERIENCE_BOTTLE
+        amount: '64'
+        durability: '0'
+      '16':
+        id: SHULKER_SHELL
+        amount: '32'
+        durability: '0'
+      '17':
+        id: TOTEM_OF_UNDYING
+        amount: '2'
+        durability: '0'
+      '18':
+        firework-effects: []
+        firework-power: '0'
+        id: FIREWORK_ROCKET
+        amount: '64'
+        durability: '0'
+      '19':
+        firework-effects: []
+        firework-power: '0'
+        id: FIREWORK_ROCKET
+        amount: '64'
+        durability: '0'
+      '20':
+        id: DIAMOND
+        amount: '16'
+        durability: '0'
+      '21':
+        id: EMERALD_BLOCK
+        amount: '8'
+        durability: '0'
+      '22':
+        nbt:
+        - type;Insane
+        - UCI;true;boolean
+        id: GHAST_SPAWN_EGG
+        amount: '1'
+        durability: '0'
+        name: '&b&lTier 3 Egg'
+        lore:
+        - '&7Chance: &6100%'
+        - '&7Cost: &6$5000.0'
+        unbreakable: 'false'
+    slot: 32
+    display_item: DIAMOND_SWORD
+    display_name: '&c&lGOD KIT'
+    display_lore:
+    - '&eThis kit includes:'
+    - ''
+    - '&e» &7x1 Diamond Tools'
+    - '&e» &7x1 Diamond Armor'
+    - '&e» &7x1 Elytra'
+    - '&e» &7x64 Golden Carrots'
+    - '&e» &7x16 Golden Apples'
+    - '&e» &7x32 Shulker Shells'
+    - '&e» &7x128 Grass Blocks'
+    - '&e» &7x128 XP Bottles'
+    - '&e» &7x2 Totem Of Undying'
+    - '&e» &7x64 Firework Rockets'
+    - '&e» &7x16 Diamonds'
+    - '&e» &7x8 Emerald Blocks'
+    - '&e» &7x1 Tier 3 Egg'
+    - ''
+    - '&7Cooldown: &c3 days'
+    - ''
+    - '&6Left Click to claim!'
+    - '&eRight Click to preview!'
+    cooldown: 259200
+    permission: playerkits.kit.god
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&c&lGOD KIT'
+      display_lore:
+      - '&cYou don''t have permissions to claim'
+      - '&cthis kit.'
+      - ''
+      - '&6Purchase the &c&lGOD &6rank to claim!'
+      - '&eRight Click to preview!'
+    display_item_glowing: true
+  grass:
+    Items:
+      '1':
+        id: GRASS_BLOCK
+        amount: '64'
+        durability: '0'
+    slot: 14
+    display_item: GRASS_BLOCK
+    display_name: '&6&lDAILY GRASS'
+    display_lore:
+    - '&eThis kit includes:'
+    - ''
+    - '&e» &7x64 Grass Blocks'
+    - ''
+    - '&7Cooldown: &c12 Hours'
+    - ''
+    - '&6Left Click to claim!'
+    - '&eRight Click to preview!'
+    cooldown: 43200
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&6&lDAILY GRASS'
+      display_lore:
+      - '&cYou don''t have permissions to claim'
+      - '&cthis kit.'

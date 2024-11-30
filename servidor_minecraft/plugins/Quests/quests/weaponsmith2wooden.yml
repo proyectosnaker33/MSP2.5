@@ -1,0 +1,40 @@
+tasks:
+  weaponsmith:
+    type: "inventory"
+    item: WOODEN_PICKAXE
+    amount: 1
+    update-progress: true
+display:
+  name: "&#495aa3Weaponsmith Quest &8| &fWooden Pickaxe" 
+  lore-normal:
+    - ""
+    - "&#495aa3Description"
+    - " &#adadadYou have to craft 1 wooden pickaxe"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#495aa3Information"
+    - " &8■ &7Objective: &#495aa3Craft 1 Wooden Pickaxe."
+    - " &8■ &7Progress: &#495aa3{weaponsmith:progress}&8/&#495aa31 Wooden Pickaxe"
+    - ""
+    - "&#495aa3Rewards"
+    - " &8■ &a&l$&a5"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "WOODEN_PICKAXE"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a5"
+rewards:
+  - "eco give {player} 5"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a5 &#808080&o(( added to your balance ))"
+options:
+  category: "weaponsmith"
+  requires: [weaponsmith1wooden]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 2

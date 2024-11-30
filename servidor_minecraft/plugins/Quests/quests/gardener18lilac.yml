@@ -1,0 +1,40 @@
+tasks:
+  gardener:
+    type: "blockplacecertain"
+    amount: 64
+    block: "LILAC"
+display:
+  name: "&#ff70deGardener Quest &8| &fLilac" 
+  lore-normal:
+    - ""
+    - "&#ff70deDescription"
+    - " &#adadadYou have to plant 64 lilac"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#ff70deInformation"
+    - " &8■ &7Objective: &#ff70dePlant 64 Lilac."
+    - " &8■ &7Progress:"
+    - " &8- &#ff70de{gardener:progress}&8/&#ff70de64 Lilac"
+    - ""
+    - "&#ff70deRewards"
+    - " &8■ &a&l$&a750"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "LILAC"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a750"
+rewards:
+  - "eco give {player} 750"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a750 &#808080&o(( added to your balance ))"
+options:
+  category: "gardener"
+  requires: [gardener17lilac]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 18

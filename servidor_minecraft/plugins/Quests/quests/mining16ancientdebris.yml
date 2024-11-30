@@ -1,0 +1,39 @@
+tasks:
+  mine:
+    type: "blockbreakcertain"
+    amount: 8
+    block: "ANCIENT_DEBRIS"
+display:
+  name: "&#0affdaMining Quest &8| &fAncient Debris" 
+  lore-normal:
+    - ""
+    - "&#0affdaDescription"
+    - " &#adadadYou have to mine 8 ancient debris"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#0affdaInformation"
+    - " &8■ &7Objective: &#0affdaMine 8 Ancient Debris."
+    - " &8■ &7Progress: &#0affda{mine:progress}&8/&#0affda8 Ancient Debris"
+    - ""
+    - "&#0affdaRewards"
+    - " &8■ &a&l$&a5,000"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "ANCIENT_DEBRIS"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a5,000"
+rewards:
+  - "eco give {player} 5000"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a5,000 &#808080&o(( added to your balance ))"
+options:
+  category: "mining"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 16

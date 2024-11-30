@@ -1,0 +1,39 @@
+tasks:
+  dig:
+    type: "blockbreakcertain"
+    amount: 16
+    block: "SOUL_SAND"
+display:
+  name: "&#e6e06aDigger Quest &8| &fSoul Sand" 
+  lore-normal:
+    - ""
+    - "&#e6e06aDescription"
+    - " &#adadadYou have to dig 16 soul sand"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#e6e06aInformation"
+    - " &8■ &7Objective: &#e6e06aDig 16 Soul Sand."
+    - " &8■ &7Progress: &#e6e06a{dig:progress}&8/&#e6e06a16 Soul Sand"
+    - ""
+    - "&#e6e06aRewards"
+    - " &8■ &a&l$&a25"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "SOUL_SAND"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a25"
+rewards:
+  - "eco give {player} 25"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a25 &#808080&o(( added to your balance ))"
+options:
+  category: "digger"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 10

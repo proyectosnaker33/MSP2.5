@@ -1,0 +1,45 @@
+tasks:
+  wood:
+    type: "blockplacecertain"
+    amount: 16
+    block: "OAK_LOG"
+  leaves:
+    type: "blockplacecertain"
+    amount: 96
+    block: "OAK_LEAVES"
+display:
+  name: "&#ffbb00Builder Quest &8| &fTree" 
+  lore-normal:
+    - ""
+    - "&#ffbb00Description"
+    - " &#adadadYou have to build 1 fancy oak tree"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#ffbb00Information"
+    - " &8■ &7Objective: &#ffbb00Build 1 Oak Tree."
+    - " &8■ &7Progress:"
+    - " &8- &#ffbb00{wood:progress}&8/&#ffbb0016 Oak Log"
+    - " &8- &#ffbb00{leaves:progress}&8/&#ffbb0096 Oak Leaves"
+    - ""
+    - "&#ffbb00Rewards"
+    - " &8■ &a&l$&a300"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "OAK_SAPLING"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a300"
+rewards:
+  - "eco give {player} 300"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a300 &#808080&o(( added to your balance ))"
+options:
+  category: "builder"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 1

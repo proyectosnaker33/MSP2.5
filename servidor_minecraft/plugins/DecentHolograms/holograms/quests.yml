@@ -1,0 +1,18 @@
+location: Spawn:91,500:240,700:113,500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&6✯ &e&lQUESTS &6✯'
+    height: 0.3
+  - content: '&r'
+    height: 0.3
+  - content: '&fComplete quests and receive rewards'
+    height: 0.3
+  - content: '&fthere are currently 550+ quests.'
+    height: 0.3
+  actions: {}

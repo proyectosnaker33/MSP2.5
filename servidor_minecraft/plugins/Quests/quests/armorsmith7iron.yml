@@ -1,0 +1,40 @@
+tasks:
+  armorsmith:
+    type: "inventory"
+    item: IRON_LEGGINGS
+    amount: 1
+    update-progress: true
+display:
+  name: "&#bf6922Armorsmith Quest &8| &fIron Leggings" 
+  lore-normal:
+    - ""
+    - "&#bf6922Description"
+    - " &#adadadYou have to craft 1 iron leggings"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#bf6922Information"
+    - " &8■ &7Objective: &#bf6922Forge 1 Iron Leggings."
+    - " &8■ &7Progress: &#bf6922{armorsmith:progress}&8/&#bf69221 Iron Leggings"
+    - ""
+    - "&#bf6922Rewards"
+    - " &8■ &a&l$&a50"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "IRON_LEGGINGS"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a50"
+rewards:
+  - "eco give {player} 50"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a50 &#808080&o(( added to your balance ))"
+options:
+  category: "armorsmith"
+  requires: [armorsmith6iron]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 7

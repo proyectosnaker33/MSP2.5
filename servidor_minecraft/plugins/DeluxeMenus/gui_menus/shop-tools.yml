@@ -1,0 +1,920 @@
+menu_title: '&8» Shop - Ores'
+size: 54
+open_command:
+- shop-ores
+items:
+  '0':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 0
+    display_name: '&7'
+  '1':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 1
+    display_name: '&7'
+  '2':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 2
+    display_name: '&7'
+  '3':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 3
+    display_name: '&7'
+  '4':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 4
+    display_name: '&7'
+  '5':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 5
+    display_name: '&7'
+  '6':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 6
+    display_name: '&7'
+  '7':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 7
+    display_name: '&7'
+  '8':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 8
+    display_name: '&7'
+  '9':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 9
+    display_name: '&7'
+  '10':
+    material: COAL_ORE
+    amount: 8
+    slot: 10
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &6240.0 ⛃'
+    - '&8| &7Sell for: &672.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 240
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: COAL_ORE
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% COAL_ORE amt:8 -s'
+    - '[takemoney] 240.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:COAL_ORE amt:8 -s'
+    - '[givemoney] 72.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '11':
+    material: IRON_ORE
+    amount: 8
+    slot: 11
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &696.0 ⛃'
+    - '&8| &7Sell for: &628.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 96
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: IRON_ORE
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% IRON_ORE amt:8 -s'
+    - '[takemoney] 96.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:IRON_ORE amt:8 -s'
+    - '[givemoney] 28.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '12':
+    material: GOLD_ORE
+    amount: 8
+    slot: 12
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &6240.0 ⛃'
+    - '&8| &7Sell for: &672.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 240
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: GOLD_ORE
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% GOLD_ORE amt:8 -s'
+    - '[takemoney] 240.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:GOLD_ORE amt:8 -s'
+    - '[givemoney] 72.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '13':
+    material: LAPIS_ORE
+    amount: 8
+    slot: 13
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &6960.0 ⛃'
+    - '&8| &7Sell for: &6288.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 960
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: LAPIS_ORE
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% LAPIS_ORE amt:8 -s'
+    - '[takemoney] 960.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:LAPIS_ORE amt:8 -s'
+    - '[givemoney] 288.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '14':
+    material: REDSTONE_ORE
+    amount: 8
+    slot: 14
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &6480.0 ⛃'
+    - '&8| &7Sell for: &6144.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 480
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: REDSTONE_ORE
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% REDSTONE_ORE amt:8 -s'
+    - '[takemoney] 480.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:REDSTONE_ORE amt:8 -s'
+    - '[givemoney] 144.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '15':
+    material: EMERALD_ORE
+    amount: 8
+    slot: 15
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &66400.0 ⛃'
+    - '&8| &7Sell for: &61920.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 6400
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: EMERALD_ORE
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% EMERALD_ORE amt:8 -s'
+    - '[takemoney] 6400.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:EMERALD_ORE amt:8 -s'
+    - '[givemoney] 1920.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '16':
+    material: DIAMOND_ORE
+    amount: 8
+    slot: 16
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &65120.0 ⛃'
+    - '&8| &7Sell for: &61536.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 5120
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: DIAMOND_ORE
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% DIAMOND_ORE amt:8 -s'
+    - '[takemoney] 5120.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:DIAMOND_ORE amt:8 -s'
+    - '[givemoney] 1536.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '17':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 17
+    display_name: '&7'
+  '18':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 18
+    display_name: '&7'
+  '19':
+    material: COAL_BLOCK
+    amount: 8
+    slot: 19
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &6576.0 ⛃'
+    - '&8| &7Sell for: &6172.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 576
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: COAL_BLOCK
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% COAL_BLOCK amt:8 -s'
+    - '[takemoney] 576.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:COAL_BLOCK amt:8 -s'
+    - '[givemoney] 172.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '20':
+    material: IRON_BLOCK
+    amount: 8
+    slot: 20
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &61080.0 ⛃'
+    - '&8| &7Sell for: &6324.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 1080
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: IRON_BLOCK
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% IRON_BLOCK amt:8 -s'
+    - '[takemoney] 1080.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:IRON_BLOCK amt:8 -s'
+    - '[givemoney] 324.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '21':
+    material: GOLD_BLOCK
+    amount: 8
+    slot: 21
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &62880.0 ⛃'
+    - '&8| &7Sell for: &6864.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 2880
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: GOLD_BLOCK
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% GOLD_BLOCK amt:8 -s'
+    - '[takemoney] 2880.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:GOLD_BLOCK amt:8 -s'
+    - '[givemoney] 864.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '22':
+    material: LAPIS_BLOCK
+    amount: 8
+    slot: 22
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &6560.0 ⛃'
+    - '&8| &7Sell for: &6168.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 560
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: LAPIS_BLOCK
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% LAPIS_BLOCK amt:8 -s'
+    - '[takemoney] 560.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:LAPIS_BLOCK amt:8 -s'
+    - '[givemoney] 168.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '23':
+    material: REDSTONE_BLOCK
+    amount: 8
+    slot: 23
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &6288.0 ⛃'
+    - '&8| &7Sell for: &686.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 288
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: REDSTONE_BLOCK
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% REDSTONE_BLOCK amt:8 -s'
+    - '[takemoney] 288.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:REDSTONE_BLOCK amt:8 -s'
+    - '[givemoney] 86.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '24':
+    material: EMERALD_BLOCK
+    amount: 8
+    slot: 24
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &67200.0 ⛃'
+    - '&8| &7Sell for: &62160.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 7200
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: EMERALD_BLOCK
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% EMERALD_BLOCK amt:8 -s'
+    - '[takemoney] 7200.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:EMERALD_BLOCK amt:8 -s'
+    - '[givemoney] 2160.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '25':
+    material: DIAMOND_BLOCK
+    amount: 8
+    slot: 25
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &611600.0 ⛃'
+    - '&8| &7Sell for: &63480.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 11600
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: DIAMOND_BLOCK
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% DIAMOND_BLOCK amt:8 -s'
+    - '[takemoney] 11600.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:DIAMOND_BLOCK amt:8 -s'
+    - '[givemoney] 3480.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '26':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 26
+    display_name: '&7'
+  '27':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 27
+    display_name: '&7'
+  '28':
+    material: COAL
+    amount: 8
+    slot: 28
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &664.0 ⛃'
+    - '&8| &7Sell for: &619.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 64
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: COAL
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% COAL amt:8 -s'
+    - '[takemoney] 64.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:COAL amt:8 -s'
+    - '[givemoney] 19.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '29':
+    material: IRON_INGOT
+    amount: 8
+    slot: 29
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &6120.0 ⛃'
+    - '&8| &7Sell for: &636.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 120
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: IRON_INGOT
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% IRON_INGOT amt:8 -s'
+    - '[takemoney] 120.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:IRON_INGOT amt:8 -s'
+    - '[givemoney] 36.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '30':
+    material: GOLD_INGOT
+    amount: 8
+    slot: 30
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &6320.0 ⛃'
+    - '&8| &7Sell for: &696.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 320
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: GOLD_INGOT
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% GOLD_INGOT amt:8 -s'
+    - '[takemoney] 320.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:GOLD_INGOT amt:8 -s'
+    - '[givemoney] 96.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '31':
+    material: LAPIS_LAZULI
+    amount: 8
+    slot: 31
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &664.0 ⛃'
+    - '&8| &7Sell for: &619.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 64
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: LAPIS_LAZULI
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% LAPIS_LAZULI amt:8 -s'
+    - '[takemoney] 64.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:LAPIS_LAZULI amt:8 -s'
+    - '[givemoney] 19.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '32':
+    material: REDSTONE
+    amount: 8
+    slot: 32
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &632.0 ⛃'
+    - '&8| &7Sell for: &69.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 32
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: REDSTONE
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% REDSTONE amt:8 -s'
+    - '[takemoney] 32.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:REDSTONE amt:8 -s'
+    - '[givemoney] 9.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '33':
+    material: EMERALD
+    amount: 8
+    slot: 33
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &6800.0 ⛃'
+    - '&8| &7Sell for: &6240.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 800
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: EMERALD
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% EMERALD amt:8 -s'
+    - '[takemoney] 800.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:EMERALD amt:8 -s'
+    - '[givemoney] 240.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '34':
+    material: DIAMOND
+    amount: 8
+    slot: 34
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &61280.0 ⛃'
+    - '&8| &7Sell for: &6384.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 1280
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: DIAMOND
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% DIAMOND amt:8 -s'
+    - '[takemoney] 1280.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:DIAMOND amt:8 -s'
+    - '[givemoney] 384.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '35':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 35
+    display_name: '&7'
+  '36':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 36
+    display_name: '&7'
+  '37':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 37
+    display_name: '&7'
+  '38':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 38
+    display_name: '&7'
+  '39':
+    material: NETHER_QUARTZ_ORE
+    amount: 8
+    slot: 39
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &6320.0 ⛃'
+    - '&8| &7Sell for: &696.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 320
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: NETHER_QUARTZ_ORE
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% NETHER_QUARTZ_ORE amt:8 -s'
+    - '[takemoney] 320.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:NETHER_QUARTZ_ORE amt:8 -s'
+    - '[givemoney] 96.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '40':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 40
+    display_name: '&7'
+  '41':
+    material: NETHER_GOLD_ORE
+    amount: 8
+    slot: 41
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &6320.0 ⛃'
+    - '&8| &7Sell for: &696.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 320
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: NETHER_GOLD_ORE
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% NETHER_GOLD_ORE amt:8 -s'
+    - '[takemoney] 320.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:NETHER_GOLD_ORE amt:8 -s'
+    - '[givemoney] 96.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '42':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 42
+    display_name: '&7'
+  '43':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 43
+    display_name: '&7'
+  '44':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 44
+    display_name: '&7'
+  '45':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 45
+    display_name: '&7'
+  '46':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 46
+    display_name: '&7'
+  '47':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 47
+    display_name: '&7'
+  '48':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 48
+    display_name: '&7'
+  '49':
+    material: BARRIER
+    slot: 49
+    display_name: '&8| &cBack to Category''s'
+    lore:
+    - '&7'
+    - '&8| &eClick to return!'
+    left_click_commands:
+    - '[openguimenu] shop-main'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[openguimenu] shop-main'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '50':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 50
+    display_name: '&7'
+  '51':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 51
+    display_name: '&7'
+  '52':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 52
+    display_name: '&7'
+  '53':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 53
+    display_name: '&7'

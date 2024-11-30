@@ -1,0 +1,40 @@
+tasks:
+  weaponsmith:
+    type: "inventory"
+    item: IRON_SWORD
+    amount: 1
+    update-progress: true
+display:
+  name: "&#495aa3Weaponsmith Quest &8| &fIron Sword" 
+  lore-normal:
+    - ""
+    - "&#495aa3Description"
+    - " &#adadadYou have to forge 1 iron sword"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#495aa3Information"
+    - " &8■ &7Objective: &#495aa3Forge 1 Iron Sword."
+    - " &8■ &7Progress: &#495aa3{weaponsmith:progress}&8/&#495aa31 Iron Sword"
+    - ""
+    - "&#495aa3Rewards"
+    - " &8■ &a&l$&a50"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "IRON_SWORD"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a50"
+rewards:
+  - "eco give {player} 50"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a50 &#808080&o(( added to your balance ))"
+options:
+  category: "weaponsmith"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 11

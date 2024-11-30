@@ -1,0 +1,108 @@
+# Timed Rewards by Bradley.
+#
+# /Contact
+# Spigot: https://www.spigotmc.org/members/292138/
+
+
+menu:
+  title: '&e➔ &6&lDAILY REWARDS'
+  size: 27
+  items:
+    # The reward key, must be unique.
+    reward1:
+      # Slot that the item will appear in the (/rewards) inventory.
+      # Note: slots start at 0
+      slot: 10
+      item:
+        # The amount of the item.
+        amount: 1
+        # The item type, materials can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+        # Note: material types will vary depending on version.
+        material: COAL
+        # The amount of damage the item has, this is also used for certain items such as
+        # potions, stained glass, wool, etc. For example, use 'damage: 13' for red wool,
+        # and make sure the material (above) is wool.
+        damage: 0
+        # The display name of the item, uses & for colours.
+        name: '&8[&7&lMember&8] &a&lREWARD'
+        # The lore of the item, can add as many lines as you want.
+        lore:
+        - '&7This reward is free!.'
+        - ''
+        - '&7Time until next claim: {cooldown_digital}'
+        - '&cClick to claim!'
+      # The cooldown, in seconds, until the reward can be claimed again.
+      cooldown: 86400
+      # The commands to be ran when the item is claimed. Put [PLAYER] before the
+      # command if you want the player to run the command.
+      commands:
+      - '[CONSOLE]eco give {player} 200'
+      - '[CONSOLE]timedrewards blankmsg {player} &e&lREWARD &6➔ &7Thanks for claiming the &7member rank daily &7reward! Come back tomorrow for another.'
+      # - '[CONSOLE]give {player} diamond 64'
+      # - '[PLAYER]spawn'
+      # The permission node required to claim the reward. Do not include
+      # this line if you don't want the reward to have a permission.
+      #permission: my.permission.node
+      # Optional message to send to players when they don't have permission
+      # for the reward. If this tag is not included and the reward requires
+      # a permission, 'reward-no-permission' in the locale will be used instead.
+      #permission-deny-msg: '&7You do not have permission for the &edaily &7reward!'
+    reward2:
+      slot: 12
+      item:
+        amount: 1
+        material: IRON_INGOT
+        damage: 0
+        name: '&8[&e&lVIP&8] &a&lREWARD'
+        lore:
+        - '&7VIP rank daily reward.'
+        - ' '
+        - '&7Requires &bVIP Rank'
+        - ' '
+        - '&7Time until next claim: {cooldown_digital}'
+        - '&cClick to claim!'
+      cooldown: 86400
+      commands:
+      - '[CONSOLE]eco give {player} 300'
+      - '[CONSOLE]timedrewards blankmsg {player} &e&lREWARD &6➔ &7Thanks for claiming the &bvip rank daily &7reward! Come back tomorrow for another.'
+      permission: timedrewards.vip
+    reward3:
+      slot: 14
+      item:
+        amount: 1
+        material: DIAMOND
+        damage: 0
+        name: '&8[&e&lVIP+&8] &a&lREWARD'
+        lore:
+        - '&7VIP+ rank daily reward.'
+        - ' '
+        - '&7Requires &bVIP&6+&b Rank'
+        - ' '
+        - '&7Time until next claim: {cooldown_digital}'
+        - '&cClick to claim!'
+      cooldown: 86400
+      commands:
+      - '[CONSOLE]cc give v Soul 1 {player}'
+      - '[CONSOLE]eco give {player} 500'
+      - '[CONSOLE]timedrewards blankmsg {player} &e&lREWARD &6➔ &7Thanks for claiming the &bvip&6+&b rank daily &7reward! Come back tomorrow for another.'
+      permission: timedrewards.vipplus
+    reward4:
+      slot: 16
+      item:
+        amount: 1
+        material: EMERALD
+        damage: 0
+        name: '&8[&c&lGOD&8] &a&lREWARD'
+        lore:
+        - '&7GOD rank daily reward.'
+        - ' '
+        - '&7Requires &aGOD Rank'
+        - ' '
+        - '&7Time until next claim: {cooldown_digital}'
+        - '&cClick to claim!'
+      cooldown: 86400
+      commands:
+      - '[CONSOLE]cc give v Soul 1 {player}'
+      - '[CONSOLE]eco give {player} 700'
+      - '[CONSOLE]timedrewards blankmsg {player} &e&lREWARD &6➔ &7Thanks for claiming the &aGOD rank daily &7reward! Come back tomorrow for another.'
+      permission: timedrewards.god

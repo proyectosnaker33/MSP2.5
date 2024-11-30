@@ -1,0 +1,38 @@
+tasks:
+  fishing:
+    type: "fishing"
+    amount: 1
+display:
+  name: "&#1f9effFishing Quest &8| &f1 Fish" 
+  lore-normal:
+    - ""
+    - "&#1f9effDescription"
+    - " &#adadadYou have to catch 1 fish"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#1f9effInformation"
+    - " &8■ &7Objective: &#1f9effCatch 1 Fish."
+    - " &8■ &7Progress: &#1f9eff{fishing:progress}&8/&#1f9eff1 Fish"
+    - ""
+    - "&#1f9effRewards"
+    - " &8■ &a&l$&a50"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "COD"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a50"
+rewards:
+  - "eco give {player} 50"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a50 &#808080&o(( added to your balance ))"
+options:
+  category: "fishing"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 1

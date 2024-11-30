@@ -1,0 +1,38 @@
+tasks:
+  tame:
+    type: "taming"
+    amount: 1
+display:
+  name: "&#ff00ffTaming Quest &8| &f1 Animal" 
+  lore-normal:
+    - ""
+    - "&#ff00ffDescription"
+    - " &#adadadYou have to tame 1 animal"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#ff00ffInformation"
+    - " &8■ &7Objective: &#ff00ffTame 1 Animal."
+    - " &8■ &7Progress: &#ff00ff{tame:progress}&8/&#ff00ff1 Animal"
+    - ""
+    - "&#ff00ffRewards"
+    - " &8■ &a&l$&a5"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "BONE"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a5"
+rewards:
+  - "eco give {player} 5"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a5 &#808080&o(( added to your balance ))"
+options:
+  category: "tamer"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 1

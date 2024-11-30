@@ -1,0 +1,18 @@
+# This is a reward file
+# Define rewards in here (Items, commands, etc)
+# File name is the reward name, without file extention
+# This reward is named "ExampleBasic"
+# That is what you put as a reward for other plugins, like VotingPlugin
+# DO NOT HAVE DUPLICATE NAMES!!
+
+# Wiki Page: 
+# https://github.com/Ben12345rocks/AdvancedCore/wiki/Reward-files
+
+OnlyOneItemChance: false
+Items:
+Money: 100
+EXPLevels: 3
+Commands:
+- cc give p Vote 1 %player%
+Messages:
+  Broadcast: '&6&lVOTE &8&l» &7Player %player% just voted for the server!'

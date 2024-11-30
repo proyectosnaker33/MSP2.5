@@ -1,0 +1,87 @@
+aoneblock:
+  commands:
+    admin:
+      setcount:
+        parameters: <name> <count> [lifetime]
+        description: установить количество блоков игрока
+        set: '&a [name] кол-во блоков установлено на [number]'
+        set-lifetime: '&a Счетчик жизни [name] установлен на [number]'
+      setchest:
+        parameters: <phase> <rarity>
+        description: положить проверенный сундук в фазу с указанной редкостью
+        chest-is-empty: '&c Этот сундук пуст, поэтому не может быть добавлен'
+        unknown-phase: '&c Неизвестная фаза. Используйте Tab-Complete, чтобы увидеть
+          их'
+        unknown-rarity: '&c Неизвестная редкость. Используйте COMMON, UNCOMMON, RARE
+          или EPIC'
+        look-at-chest: '&c Посмотрите на заполненный сундук, чтобы установить его'
+        only-single-chest: '&c Можно установить только один сундук'
+        success: '&a Сундук успешно добавлен в фазу'
+        failure: '&c Сундук не может быть добавлен в фазу! Смотрите консоль для ошибок'
+      sanity:
+        parameters: <phase>
+        description: отобразить проверку исправности фазовых вероятностей в консоли
+        see-console: '&a Смотрите консоль для отчета'
+    count:
+      description: показать количество блоков и фаз
+      info: '&a Вы находитесь в блоке &b [number] в &a [name] фазе'
+    phases:
+      description: показать список всех фаз
+      title: '&2 Фазы OneBlock'
+      name-syntax: '&a [name]'
+      description-syntax: '&b [number] блоков'
+    island:
+      setcount:
+        parameters: <count>
+        description: установить счетчик блоков на ранее завершенное значение
+        set: '&a Счетчик установлен на [number].'
+        too-high: '&c Максимум, что вы можете установить, это [number]!'
+    respawn-block:
+      description: возрождает магический блок в ситуациях, когда они исчезают
+      block-exist: '&a Блок существует, не требует возрождения. Я отметил это для
+        вас.'
+      block-respawned: '& Блок возродился, пожалуйста, не аннулируйте его снова.'
+  phase:
+    insufficient-level: '&c Уровень вашего острова слишком низок для продолжения!
+      Должно быть [number].'
+    insufficient-funds: '&c У вас слишком мало средств для продолжения! Они должны
+      быть [number].'
+    insufficient-bank-balance: '&c Баланс банка острова слишком низок для продолжения!
+      Должно быть [number].'
+    insufficient-permission: '&c Вы не можете продолжать, пока не получите разрешение
+      [name]!'
+  placeholders:
+    infinite: Бесконечный
+  gui:
+    titles:
+      phases: '&0&l Фазы OneBlock'
+    buttons:
+      previous:
+        name: '&f&l Предыдущая страница'
+        description: '&7 Перейти на [number] страницы'
+      next:
+        name: '&f&l Следующая страница'
+        description: '&7 Перейти на [number] страницы'
+      phase:
+        name: '&f&l [phase]'
+        description: |-
+          [starting-block]
+          [biome]
+          [bank]
+          [economy]
+          [level]
+          [permission]
+        starting-block: '&7 Запускается после разбиения блоков &e [number].'
+        biome: '&7 Биом: &e [biome]'
+        bank: '&7 Требуется &e $[number] &7 на банковском счете.'
+        economy: '&7 Требуется &e $[number] &7 в учетной записи игрока.'
+        level: '&7 Требуется &e [number] &7 уровня острова.'
+        permission: '&7 Требуется разрешение `&e[permission]&7`.'
+    tips:
+      click-to-previous: '&e Нажмите &7, чтобы просмотреть предыдущую страницу.'
+      click-to-next: '&e Нажмите &7 для просмотра следующей страницы.'
+      click-to-change: '&e Нажмите &7, чтобы изменить.'
+  island:
+    starting-hologram: |-
+      &aДобро пожаловать в AOneBlock
+      &eРазбейте этот блок, чтобы начать

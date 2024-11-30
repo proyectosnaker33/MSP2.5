@@ -1,0 +1,710 @@
+menu_title: '&8» Shop - Wood'
+size: 54
+open_command:
+- shop-wood
+items:
+  '0':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 0
+    display_name: '&7'
+  '1':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 1
+    display_name: '&7'
+  '2':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 2
+    display_name: '&7'
+  '3':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 3
+    display_name: '&7'
+  '4':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 4
+    display_name: '&7'
+  '5':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 5
+    display_name: '&7'
+  '6':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 6
+    display_name: '&7'
+  '7':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 7
+    display_name: '&7'
+  '8':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 8
+    display_name: '&7'
+  '9':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 9
+    display_name: '&7'
+  '10':
+    material: OAK_LOG
+    amount: 8
+    slot: 10
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &630.0 ⛃'
+    - '&8| &7Sell for: &68.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 30
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: OAK_LOG
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% oak_log amt:8 -s'
+    - '[takemoney] 30.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:oak_log amt:8 -s'
+    - '[givemoney] 8.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '11':
+    material: SPRUCE_LOG
+    amount: 8
+    slot: 11
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &630.0 ⛃'
+    - '&8| &7Sell for: &68.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 30
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: SPRUCE_LOG
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% SPRUCE_LOG amt:8 -s'
+    - '[takemoney] 30.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:SPRUCE_LOG amt:8 -s'
+    - '[givemoney] 8.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '12':
+    material: BIRCH_LOG
+    amount: 8
+    slot: 12
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &630.0 ⛃'
+    - '&8| &7Sell for: &68.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 30
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: BIRCH_LOG
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% BIRCH_LOG amt:8 -s'
+    - '[takemoney] 30.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:BIRCH_LOG amt:8 -s'
+    - '[givemoney] 8.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '13':
+    material: JUNGLE_LOG
+    amount: 8
+    slot: 13
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &630.0 ⛃'
+    - '&8| &7Sell for: &68.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 30
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: JUNGLE_LOG
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% JUNGLE_LOG amt:8 -s'
+    - '[takemoney] 30.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:JUNGLE_LOG amt:8 -s'
+    - '[givemoney] 8.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '14':
+    material: ACACIA_LOG
+    amount: 8
+    slot: 14
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &630.0 ⛃'
+    - '&8| &7Sell for: &68.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 30
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: ACACIA_LOG
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% ACACIA_LOG amt:8 -s'
+    - '[takemoney] 30.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:ACACIA_LOG amt:8 -s'
+    - '[givemoney] 8.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '15':
+    material: DARK_OAK_LOG
+    amount: 8
+    slot: 15
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &630.0 ⛃'
+    - '&8| &7Sell for: &68.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 30
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: DARK_OAK_LOG
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% DARK_OAK_LOG amt:8 -s'
+    - '[takemoney] 30.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:DARK_OAK_LOG amt:8 -s'
+    - '[givemoney] 8.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '16':
+    material: CRIMSON_STEM
+    amount: 8
+    slot: 16
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &630.0 ⛃'
+    - '&8| &7Sell for: &68.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 30
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: CRIMSON_STEM
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% CRIMSON_STEM amt:8 -s'
+    - '[takemoney] 30.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:CRIMSON_STEM amt:8 -s'
+    - '[givemoney] 8.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '17':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 17
+    display_name: '&7'
+  '18':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 18
+    display_name: '&7'
+  '19':
+    material: OAK_PLANKS
+    amount: 8
+    slot: 19
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &68.0 ⛃'
+    - '&8| &7Sell for: &61.8 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: OAK_PLANKS
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% OAK_PLANKS amt:8 -s'
+    - '[takemoney] 7.5'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:OAK_PLANKS amt:8 -s'
+    - '[givemoney] 1.8'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '20':
+    material: SPRUCE_PLANKS
+    amount: 8
+    slot: 20
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &68.0 ⛃'
+    - '&8| &7Sell for: &61.8 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: SPRUCE_PLANKS
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% SPRUCE_PLANKS amt:8 -s'
+    - '[takemoney] 7.5'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:SPRUCE_PLANKS amt:8 -s'
+    - '[givemoney] 1.8'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '21':
+    material: BIRCH_PLANKS
+    amount: 8
+    slot: 21
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &68.0 ⛃'
+    - '&8| &7Sell for: &61.8 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: BIRCH_PLANKS
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% BIRCH_PLANKS amt:8 -s'
+    - '[takemoney] 7.5'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:BIRCH_PLANKS amt:8 -s'
+    - '[givemoney] 1.8'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '22':
+    material: JUNGLE_PLANKS
+    amount: 8
+    slot: 22
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &68.0 ⛃'
+    - '&8| &7Sell for: &61.8 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: JUNGLE_PLANKS
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% JUNGLE_PLANKS amt:8 -s'
+    - '[takemoney] 7.5'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:JUNGLE_PLANKS amt:8 -s'
+    - '[givemoney] 1.8'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '23':
+    material: ACACIA_PLANKS
+    amount: 8
+    slot: 23
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &68.0 ⛃'
+    - '&8| &7Sell for: &61.8 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: ACACIA_PLANKS
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% ACACIA_PLANKS amt:8 -s'
+    - '[takemoney] 7.5'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:ACACIA_PLANKS amt:8 -s'
+    - '[givemoney] 1.8'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '24':
+    material: DARK_OAK_PLANKS
+    amount: 8
+    slot: 24
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &68.0 ⛃'
+    - '&8| &7Sell for: &61.8 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: DARK_OAK_PLANKS
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% DARK_OAK_PLANKS amt:8 -s'
+    - '[takemoney] 7.5'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:DARK_OAK_PLANKS amt:8 -s'
+    - '[givemoney] 1.8'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '25':
+    material: CRIMSON_PLANKS
+    amount: 8
+    slot: 25
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &68.0 ⛃'
+    - '&8| &7Sell for: &61.8 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: CRIMSON_PLANKS
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% CRIMSON_PLANKS amt:8 -s'
+    - '[takemoney] 7.5'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:CRIMSON_PLANKS amt:8 -s'
+    - '[givemoney] 1.8'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '26':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 26
+    display_name: '&7'
+  '27':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 27
+    display_name: '&7'
+  '28':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 28
+    display_name: '&7'
+  '29':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 29
+    display_name: '&7'
+  '30':
+    material: WARPED_STEM
+    amount: 8
+    slot: 30
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &630.0 ⛃'
+    - '&8| &7Sell for: &68.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 30
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: WARPED_STEM
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% WARPED_STEM amt:8 -s'
+    - '[takemoney] 30.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:WARPED_STEM amt:8 -s'
+    - '[givemoney] 8.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '31':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 31
+    display_name: '&7'
+  '32':
+    material: WARPED_PLANKS
+    amount: 8
+    slot: 32
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &68.0 ⛃'
+    - '&8| &7Sell for: &61.8 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: WARPED_PLANKS
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% WARPED_PLANKS amt:8 -s'
+    - '[takemoney] 7.5'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:WARPED_PLANKS amt:8 -s'
+    - '[givemoney] 1.8'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '33':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 33
+    display_name: '&7'
+  '34':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 34
+    display_name: '&7'
+  '35':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 35
+    display_name: '&7'
+  '36':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 36
+    display_name: '&7'
+  '37':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 37
+    display_name: '&7'
+  '38':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 38
+    display_name: '&7'
+  '39':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 39
+    display_name: '&7'
+  '40':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 40
+    display_name: '&7'
+  '41':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 41
+    display_name: '&7'
+  '42':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 42
+    display_name: '&7'
+  '43':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 43
+    display_name: '&7'
+  '44':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 44
+    display_name: '&7'
+  '45':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 45
+    display_name: '&7'
+  '46':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 46
+    display_name: '&7'
+  '47':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 47
+    display_name: '&7'
+  '48':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 48
+    display_name: '&7'
+  '49':
+    material: BARRIER
+    slot: 49
+    display_name: '&8| &cBack to Category''s'
+    lore:
+    - '&7'
+    - '&8| &eClick to return!'
+    left_click_commands:
+    - '[openguimenu] shop-main'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[openguimenu] shop-main'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '50':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 50
+    display_name: '&7'
+  '51':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 51
+    display_name: '&7'
+  '52':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 52
+    display_name: '&7'
+  '53':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 53
+    display_name: '&7'

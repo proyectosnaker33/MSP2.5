@@ -1,0 +1,41 @@
+tasks:
+  crafter:
+    type: "inventory"
+    item: RAIL
+    amount: 6
+    remove-items-when-complete: true
+    update-progress: true
+display:
+  name: "&#ffb412Crafter Quest &8| &fRail" 
+  lore-normal:
+    - ""
+    - "&#ffb412Description"
+    - " &#adadadYou have to craft 6 rail"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#ffb412Information"
+    - " &8■ &7Objective: &#ffb412Craft 6 Rail"
+    - " &8■ &7Progress: &#ffb412{crafter:progress}&8/&#ffb4126 Rail"
+    - ""
+    - "&#ffb412Rewards"
+    - " &8■ &a&l$&a50"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "RAIL"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a50"
+rewards:
+  - "eco give {player} 50"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a50 &#808080&o(( added to your balance ))"
+options:
+  category: "crafter"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 31

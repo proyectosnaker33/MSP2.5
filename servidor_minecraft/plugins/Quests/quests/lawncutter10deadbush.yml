@@ -1,0 +1,39 @@
+tasks:
+  lawncutter:
+    type: "blockbreakcertain"
+    amount: 512
+    block: "DEAD_BUSH"
+display:
+  name: "&#38d170Lawncutter Quest &8| &fDead Bush" 
+  lore-normal:
+    - ""
+    - "&#38d170Description"
+    - " &#adadadYou have to cut 512 dead bush"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#38d170Information"
+    - " &8■ &7Objective: &#38d170Cut 512 Dead Bush."
+    - " &8■ &7Progress: &#38d170{lawncutter:progress}&8/&#38d170512 Dead Bush"
+    - ""
+    - "&#fffe8fRewards"
+    - " &8■ &a&l$&a1,000"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "DEAD_BUSH"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a1,000"
+rewards:
+  - "eco give {player} 1000"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a1,000 &#808080&o(( added to your balance ))"
+options:
+  category: "lawncutter"
+  requires: [lawncutter9deadbush]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 10

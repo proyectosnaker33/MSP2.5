@@ -1,0 +1,39 @@
+tasks:
+  cut:
+    type: "blockbreakcertain"
+    amount: 28
+    block: "ACACIA_LOG"
+display:
+  name: "&#fffe8fForaging Quest &8| &fAcacia Log" 
+  lore-normal:
+    - ""
+    - "&#fffe8fDescription"
+    - " &#adadadYou have to cut 28 acacia log"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#fffe8fInformation"
+    - " &8■ &7Objective: &#fffe8fCut 28 Acacia Log."
+    - " &8■ &7Progress: &#fffe8f{cut:progress}&8/&#fffe8f28 Acacia Log"
+    - ""
+    - "&#fffe8fRewards"
+    - " &8■ &a&l$&a250"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "ACACIA_LOG"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a250"
+rewards:
+  - "eco give {player} 250"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a250 &#808080&o(( added to your balance ))"
+options:
+  category: "foraging"
+  requires: [foraging13acacia]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 14

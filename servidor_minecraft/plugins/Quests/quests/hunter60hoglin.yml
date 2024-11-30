@@ -1,0 +1,39 @@
+tasks:
+  kill:
+    type: "mobkillingcertain"
+    amount: 32
+    mob: HOGLIN
+display:
+  name: "&#ff781fHunter Quest &8| &f32 Hoglin" 
+  lore-normal:
+    - ""
+    - "&#ff781fDescription"
+    - " &#adadadYou have to kill 32 hoglin"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#ff781fInformation"
+    - " &8■ &7Objective: &#ff781fKill 32 Hoglin."
+    - " &8■ &7Progress: &#ff781f{kill:progress}&8/&#ff781f32 Hoglin"
+    - ""
+    - "&#ff781fRewards"
+    - " &8■ &a&l$&a3,000"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "PORKCHOP"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a3,000"
+rewards:
+  - "eco give {player} 3000"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a3,000 &#808080&o(( added to your balance ))"
+options:
+  category: "hunter"
+  requires: [hunter59hoglin]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 60

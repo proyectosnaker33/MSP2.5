@@ -1,0 +1,32 @@
+VotingPlugin:
+  Version: 'git-Purpur-2014 (MC: 1.20.1)'
+  VoteParty:
+    Total: 0
+    Voted: []
+  AutoCachePlaceholders: []
+  AutoCacheUpdated: true
+PluginVersions:
+  VotingPlugin: 6.13.1
+Month: NOVEMBER
+PrevWeek: 48
+PrevDay: 30
+LastUpdated: 1732983599857
+IntColumns:
+- VotePartyVotes
+- MilestoneCount
+- MonthTotal
+- AllTimeTotal
+- DailyTotal
+- WeeklyTotal
+- Points
+- DayVoteStreak
+- BestDayVoteStreak
+- WeekVoteStreak
+- BestWeekVoteStreak
+- MonthVoteStreak
+- HighestDailyTotal
+- HighestMonthlyTotal
+- HighestWeeklyTotal
+- LastMonthTotal
+- BestMonthVoteStreak
+IgnoreTime: false

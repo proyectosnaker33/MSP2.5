@@ -1,0 +1,143 @@
+tasks:
+  1:
+    type: "blockplacecertain"
+    amount: 6
+    block: "SUGAR_CANE"
+  2:
+    type: "blockplacecertain"
+    amount: 8
+    block: "OAK_TRAPDOOR"
+  3:
+    type: "blockplacecertain"
+    amount: 12
+    block: "MOSSY_COBBLESTONE_SLAB"
+  4:
+    type: "blockplacecertain"
+    amount: 16
+    block: "MOSSY_STONE_BRICK_SLAB"
+  5:
+    type: "blockplacecertain"
+    amount: 8
+    block: "POLISHED_ANDESITE_SLAB"
+  6:
+    type: "blockplacecertain"
+    amount: 12
+    block: "STONE_BRICK_SLAB"
+  7:
+    type: "blockplacecertain"
+    amount: 8
+    block: "KELP_PLANT"
+  8:
+    type: "blockplacecertain"
+    amount: 10
+    block: "LILY_PAD"
+  9:
+    type: "blockplacecertain"
+    amount: 2
+    block: "BRAIN_CORAL_FAN"
+  10:
+    type: "blockplacecertain"
+    amount: 1
+    block: "BRAIN_CORAL"
+  11:
+    type: "blockplacecertain"
+    amount: 2
+    block: "BUBBLE_CORAL_FAN"
+  12:
+    type: "blockplacecertain"
+    amount: 1
+    block: "BUBBLE_CORAL"
+  13:
+    type: "blockplacecertain"
+    amount: 2
+    block: "FIRE_CORAL_FAN"
+  14:
+    type: "blockplacecertain"
+    amount: 1
+    block: "FIRE_CORAL"
+  15:
+    type: "blockplacecertain"
+    amount: 2
+    block: "HORN_CORAL_FAN"
+  16:
+    type: "blockplacecertain"
+    amount: 1
+    block: "HORN_CORAL"
+  17:
+    type: "blockplacecertain"
+    amount: 2
+    block: "TUBE_CORAL_FAN"
+  18:
+    type: "blockplacecertain"
+    amount: 1
+    block: "TUBE_CORAL"
+  19:
+    type: "blockplacecertain"
+    amount: 8
+    block: "ANDESITE_WALL"
+  20:
+    type: "blockplacecertain"
+    amount: 8
+    block: "COBBLESTONE_WALL"
+  21:
+    type: "blockplacecertain"
+    amount: 3
+    block: "MOSSY_COBBLESTONE_WALL"
+  22:
+    type: "blockplacecertain"
+    amount: 4
+    block: "MOSSY_STONE_BRICK_WALL"
+  23:
+    type: "blockplacecertain"
+    amount: 24
+    block: "SEA_PICKLE"
+  24:
+    type: "blockplacecertain"
+    amount: 18
+    block: "SEAGRASS"
+display:
+  name: "&#ffbb00Builder Quest &8| &fBig Pond" 
+  lore-normal:
+    - ""
+    - "&#ffbb00Description"
+    - " &#adadadYou have to build 1 big pond"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#ffbb00Information"
+    - " &8■ &7Objective: &#ffbb00Build 1 Big Pond."
+    - " &8■ &7Progress:"
+    - " &8- &#ffbb00{1:progress}&8/&#ffbb006 Sugar Cane &8| &#ffbb00{2:progress}&8/&#ffbb008 Oak Trapdoor"
+    - " &8- &#ffbb00{3:progress}&8/&#ffbb0012 Mossy Cobblestone Slab &8| &#ffbb00{4:progress}&8/&#ffbb0016 Mossy Stone Brick Slab"
+    - " &8- &#ffbb00{5:progress}&8/&#ffbb008 Polished Andesite Slab &8| &#ffbb00{6:progress}&8/&#ffbb0012 Stone Brick Slab"
+    - " &8- &#ffbb00{7:progress}&8/&#ffbb008 Kelp &8| &#ffbb00{8:progress}&8/&#ffbb0010 Lily Pad"
+    - " &8- &#ffbb00{9:progress}&8/&#ffbb002 Brain coral fan &8| &#ffbb00{10:progress}&8/&#ffbb001 Brain coral"
+    - " &8- &#ffbb00{11:progress}&8/&#ffbb002 Bubble coral fan &8| &#ffbb00{12:progress}&8/&#ffbb001 Bubble coral"
+    - " &8- &#ffbb00{13:progress}&8/&#ffbb002 Fire coral fan &8| &#ffbb00{14:progress}&8/&#ffbb001 Fire coral"
+    - " &8- &#ffbb00{15:progress}&8/&#ffbb002 Horn coral fan &8| &#ffbb00{16:progress}&8/&#ffbb001 Horn coral"
+    - " &8- &#ffbb00{17:progress}&8/&#ffbb002 Tube coral fan &8| &#ffbb00{18:progress}&8/&#ffbb001 Tube coral"
+    - " &8- &#ffbb00{19:progress}&8/&#ffbb008 Andesite Wall &8| &#ffbb00{20:progress}&8/&#ffbb006 Cobblestone Wall"
+    - " &8- &#ffbb00{21:progress}&8/&#ffbb003 Mossy Cobblestone Wall &8| &#ffbb00{22:progress}&8/&#ffbb004 Mossy Stone Brick Wall"
+    - " &8- &#ffbb00{23:progress}&8/&#ffbb0024 Sea Pickle &8| &#ffbb00{24:progress}&8/&#ffbb0018 Seagrass"
+    - ""
+    - "&#ffbb00Rewards"
+    - " &8■ &a&l$&a5,000"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "WATER_BUCKET"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a5,000"
+rewards:
+  - "eco give {player} 5000"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a5000 &#808080&o(( added to your balance ))"
+options:
+  category: "builder"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 8

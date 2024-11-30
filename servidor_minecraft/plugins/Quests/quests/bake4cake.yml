@@ -1,0 +1,41 @@
+tasks:
+  bake:
+    type: "inventory"
+    item: CAKE
+    amount: 25
+    remove-items-when-complete: true
+    update-progress: true
+display:
+  name: "&#fcba03Bake Quest &8| &fCake" 
+  lore-normal:
+    - ""
+    - "&#fcba03Description"
+    - " &#adadadYou have to bake 25 cake"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#fcba03Information"
+    - " &8■ &7Objective: &#fcba03Bake 25 Cake."
+    - " &8■ &7Progress: &#fcba03{bake:progress}&8/&#fcba0325 Cake"
+    - ""
+    - "&#fcba03Rewards"
+    - " &8■ &a&l$&a500"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "CAKE"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a500"
+rewards:
+  - "eco give {player} 500"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a500 &#808080&o(( added to your balance ))"
+options:
+  category: "bake"
+  requires: [bake3cake]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 4

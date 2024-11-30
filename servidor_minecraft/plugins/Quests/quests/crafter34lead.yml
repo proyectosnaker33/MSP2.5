@@ -1,0 +1,41 @@
+tasks:
+  crafter:
+    type: "inventory"
+    item: LEAD
+    amount: 8
+    remove-items-when-complete: true
+    update-progress: true
+display:
+  name: "&#ffb412Crafter Quest &8| &fLead" 
+  lore-normal:
+    - ""
+    - "&#ffb412Description"
+    - " &#adadadYou have to craft 8 lead"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#ffb412Information"
+    - " &8■ &7Objective: &#ffb412Craft 8 Lead"
+    - " &8■ &7Progress: &#ffb412{crafter:progress}&8/&#ffb4128 Lead"
+    - ""
+    - "&#ffb412Rewards"
+    - " &8■ &a&l$&a75"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "LEAD"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a75"
+rewards:
+  - "eco give {player} 75"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a75 &#808080&o(( added to your balance ))"
+options:
+  category: "crafter"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 34

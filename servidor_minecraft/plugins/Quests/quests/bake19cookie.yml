@@ -1,0 +1,41 @@
+tasks:
+  bake:
+    type: "inventory"
+    item: COOKIE
+    amount: 64
+    remove-items-when-complete: true
+    update-progress: true
+display:
+  name: "&#fcba03Bake Quest &8| &fCookie" 
+  lore-normal:
+    - ""
+    - "&#fcba03Description"
+    - " &#adadadYou have to bake 64 cookie"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#fcba03Information"
+    - " &8■ &7Objective: &#fcba03Bake 64 Cookie."
+    - " &8■ &7Progress: &#fcba03{bake:progress}&8/&#fcba0364 Cookie"
+    - ""
+    - "&#fcba03Rewards"
+    - " &8■ &a&l$&a10"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "COOKIE"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a10"
+rewards:
+  - "eco give {player} 10"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a10 &#808080&o(( added to your balance ))"
+options:
+  category: "bake"
+  requires: [bake18cookie]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 19

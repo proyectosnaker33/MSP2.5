@@ -1,0 +1,38 @@
+tasks:
+  brewer:
+    type: "brewing"
+    amount: 16
+display:
+  name: "&#e66adfBrewing Quest &8| &f16 Potion" 
+  lore-normal:
+    - ""
+    - "&#e66adfDescription"
+    - " &#adadadYou have to brew 16 potion"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#e66adfInformation"
+    - " &8■ &7Objective: &#00ff00Brew 16 Potion."
+    - " &8■ &7Progress: &#00ff00{brewer:progress}&8/&#00ff0016 Potion"
+    - ""
+    - "&#e66adfRewards"
+    - " &8■ &a&l$&a500"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "BREWING_STAND"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a500"
+rewards:
+  - "eco give {player} 500"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a500 &#808080&o(( added to your balance ))"
+options:
+  category: "brewing"
+  requires: [brewing2potions]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 3

@@ -1,0 +1,40 @@
+tasks:
+  armorsmith:
+    type: "inventory"
+    item: IRON_BOOTS
+    amount: 1
+    update-progress: true
+display:
+  name: "&#bf6922Armorsmith Quest &8| &fIron Boots" 
+  lore-normal:
+    - ""
+    - "&#bf6922Description"
+    - " &#adadadYou have to craft 1 iron boots"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#bf6922Information"
+    - " &8■ &7Objective: &#bf6922Forge 1 Iron Boots."
+    - " &8■ &7Progress: &#bf6922{armorsmith:progress}&8/&#bf69221 Iron Boots"
+    - ""
+    - "&#bf6922Rewards"
+    - " &8■ &a&l$&a20"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "IRON_BOOTS"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a20"
+rewards:
+  - "eco give {player} 20"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a20 &#808080&o(( added to your balance ))"
+options:
+  category: "armorsmith"
+  requires: [armorsmith7iron]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 8

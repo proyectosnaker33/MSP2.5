@@ -1,0 +1,39 @@
+tasks:
+  harvest:
+    type: "blockbreakcertain"
+    amount: 64
+    block: "SUGAR_CANE"
+display:
+  name: "&#00ff00Farming Quest &8| &fSugar Cane" 
+  lore-normal:
+    - ""
+    - "&#00ff00Description"
+    - " &#adadadYou have to harvest 64 sugar cane"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#00ff00Information"
+    - " &8■ &7Objective: &#00ff00Harvest 64 Sugar Cane."
+    - " &8■ &7Progress: &#00ff00{harvest:progress}&8/&#00ff0064 Sugar Cane"
+    - ""
+    - "&#00ff00Rewards"
+    - " &8■ &a&l$&a200"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "SUGAR_CANE"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a200"
+rewards:
+  - "eco give {player} 200"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a200 &#808080&o(( added to your balance ))"
+options:
+  category: "farming"
+  requires: [farming23sugarcane]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 24

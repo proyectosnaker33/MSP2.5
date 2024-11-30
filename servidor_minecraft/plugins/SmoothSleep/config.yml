@@ -1,0 +1,73 @@
+# More info: https://www.spigotmc.org/resources/smoothsleep.32043
+enable-stats: false
+update-notify-login: false
+logging-settings:
+  log-debug: false
+  log-warning: true
+  log-info: true
+worlds:
+  world:
+    min-night-speed-mult: 10
+    max-night-speed-mult: 20
+    night-speed-curve: 0.5
+    accelerate-random-tick: false
+    max-random-tick: 3
+    accelerate-weather: true
+    clear-weather-when-morning: true
+    heal-slept-villagers: true
+    morning-sound: ENTITY_PLAYER_LEVELUP
+    morning-particle-options:
+      particle: VILLAGER_HAPPY
+      amount: 15
+      radius: 0.6
+      enabled: true
+      delay-ticks: 5
+      pattern: RANDOM
+    instant-day-if-all-sleeping: false
+    essentials-settings: {}
+    replenish-settings:
+      heal-negative-statuses: true
+      hours-to-heal-negative: 3
+      heal-positive-statuses: false
+      hours-to-heal-positive: 3
+      ticks-per-heal: 1000
+      heal-amount: 0
+      heal-awake: false
+      ticks-per-feed: 1000
+      feed-amount: 0
+      feed-awake: false
+      add-saturation: true
+      max-saturation: 1.0
+      saturation-amount: 1.0
+    sleep-rewards:
+      potion-effects:
+        enabled: true
+        required-hours-sleep: 3
+        show-effect-particles: false
+        effects:
+          REGENERATION:
+            duration: 3600
+            amplifier: 0
+    titles:
+      enabled: true
+      sleep-title: '&9&l{12H}:{MIN} {MER_UPPER}'
+      sleep-subtitle: '&f{SLEEPERS}/{TOTAL} Sleeping &7(&9{TIMESCALE}x speed&7)'
+      morning-title: '&a&l{12H}:{MIN} {MER_UPPER}'
+      morning-subtitle: '&fGood morning &a{USERNAME}&f!'
+      stay-ticks: 20
+      fade-ticks: 40
+    action-bar:
+      enabled: true
+      show-if-awake: false
+      title: '&cHealth: &c{HEALTH_BAR}   &aFood: &a{FOOD_BAR}'
+    boss-bar:
+      enabled: false
+      show-if-awake: false
+      color: WHITE
+      title: '&a{SLEEPERS}&7/&a{TOTAL} SLEEPING &f- &a{12H}:{MIN} {MER_UPPER}'
+      style: SOLID
+    compatibility-settings:
+      ignore-afk: true
+      ignore-vanish: true
+    all-sleeping-speed-mult: 30.0
+enable-update-check: true

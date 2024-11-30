@@ -1,0 +1,39 @@
+tasks:
+  harvest:
+    type: "blockbreakcertain"
+    amount: 32
+    block: "NETHER_WART"
+display:
+  name: "&#00ff00Farming Quest &8| &fNether Wart" 
+  lore-normal:
+    - ""
+    - "&#00ff00Description"
+    - " &#adadadYou have to harvest 32 nether wart"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#00ff00Information"
+    - " &8■ &7Objective: &#00ff00Harvest 32 Nether Wart."
+    - " &8■ &7Progress: &#00ff00{harvest:progress}&8/&#00ff0032 Nether Wart"
+    - ""
+    - "&#00ff00Rewards"
+    - " &8■ &a&l$&a250"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "NETHER_WART"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a250"
+rewards:
+  - "eco give {player} 250"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a250 &#808080&o(( added to your balance ))"
+options:
+  category: "farming"
+  requires: [farming43netherwart]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 44

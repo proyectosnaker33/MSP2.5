@@ -1,0 +1,60 @@
+Auto_Broadcast:
+  Global_Messages:
+    Enable: true
+    Header_And_Footer: true
+    Interval: 620
+    Prefix: "&8&l【&e&lTIP&8&l】 &8&l»"
+    Header: "&8"
+    Footer: "&8"
+    Sound: ''
+    Messages:
+      - "{Prefix} &7Use &6/menu&7 to access gameplay features."
+      - "{Prefix} &7Use &6/vote&7 for daily rewards!"
+      - "{Prefix} &7Use &6/ah&7 to sell and buy items from players!"
+      - "{Prefix} &7Travel around the server using &6/warp&7."
+  Per_World_Messages:
+    Enable: false
+    Header_And_Footer: true
+    Interval: 60
+    Prefix: "&6&lSERVER NAME »"
+    Header: "&7"
+    Footer: "&7"
+    Sound: ''
+    Messages:
+      world:
+        - "{Prefix} &aWelcome to the server!"
+        - "{Prefix} &aHope you enjoy our server!"
+        - "{Prefix} &aJoin our discord <Link>"
+      world_nether:
+        - "{Prefix} &7The nether is a scary place"
+        - "{Prefix} &aWelcome to the server!"
+        - "{Prefix} &aHope you enjoy our server!"
+        - "{Prefix} &aJoin our discord <Link>"
+      world_the_end:
+        - "{Prefix} &aThe end is a scary place"
+        - "{Prefix} &aWatch out for the ender dragon!"
+        - "{Prefix} &cDon't make eye contact with the enderman!"
+  Actionbar_Messages:
+    Enable: false
+    Interval: 60
+    Prefix: "&7[&6AutoBroadcast&7]"
+    Sound: ''
+    Messages:
+      - "{Prefix} &7Auto-Broadcast action bar message."
+      - "{Prefix} &7Hello &c{player} &7there are &c{online} &7players online."
+  Title_Messages:
+    Enable: false
+    Interval: 60
+    Sound: ''
+    Title: "&cTitle"
+    Messages:
+      - "&7Auto-Broadcast title message."
+      - "&7Hello &c{player} &7there are &c{online} &7players online."
+  Bossbar_Messages: #1.9+
+    Enable: false
+    Interval: 50
+    Sound: ''
+    Bar_Time: 10 #How long the boss bar stays on for.
+    Messages:
+      - "&e&lHELP US STAY ONLINE WITH &6&l/RANKS"
+      - "&7Hello &c{player} &7there are &c{online} &7players online."

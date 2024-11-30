@@ -1,0 +1,37 @@
+owner:
+  tabprefix: '%luckperms_prefix%&r '
+  tagprefix: '&8[&cOWNER&8] &f'
+  tabsuffix: ''
+admin:
+  tabprefix: '%luckperms_prefix%&r '
+  tagprefix: '&8[&9ADMIN&8] &f'
+  tabsuffix: ''
+mod:
+  tabprefix: '%luckperms_prefix%&r '
+  tagprefix: '&8[&9MOD&8] &f'
+  tabsuffix: ''
+god:
+  tabprefix: '%luckperms_prefix%&r '
+  tagprefix: '&8[&cGOD&8] &f'
+  tabsuffix: ''
+vipplus:
+  tabprefix: '%luckperms_prefix%&r '
+  tagprefix: '&8[&aVIP+&8] &f'
+  tabsuffix: ''
+vip:
+  tabprefix: '%luckperms_prefix%&r '
+  tagprefix: '&8[&aVIP&8] &f'
+  tabsuffix: ''
+default:
+  tabprefix: '%luckperms_prefix%&r '
+  tagprefix: '&8[&7MEMBER&8] &f'
+  tabsuffix: ''
+per-world:
+  world1:
+    Owner:
+      tabprefix: '&0&l[&a&lOwner&0&l] &a'
+      tagprefix: '&2&lOwner &a'
+    default:
+      tabprefix: ''
+      tagprefix: '&8⌈&7Citizen&8⌋ &f'
+_DEFAULT_: {}

@@ -1,0 +1,45 @@
+tasks:
+  teamtrees:
+    type: "blockplacecertain"
+    block: SPRUCE_LOG
+    amount: 25
+  teamtrees1:
+    type: "blockplacecertain"
+    block: SPRUCE_LEAVES
+    amount: 100
+display:
+  name: "&#00ff00&lT&#08f200&le&#0fe600&la&#17d900&lm&#1fcc00&lT&#26bf00&lr&#2eb300&le&#35a600&le&#3d9900&ls &8| &f5 Spruce Tree" 
+  lore-normal:
+    - ""
+    - "&#00ff00D&#06f500e&#0ceb00s&#12e000c&#18d600r&#1fcc00i&#25c200p&#2bb800t&#31ad00i&#37a300o&#3d9900n"
+    - " &#adadadBuild 5 spruce tree"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#00ff00I&#06f500n&#0ceb00f&#12e000o&#18d600r&#1fcc00m&#25c200a&#2bb800t&#31ad00i&#37a300o&#3d9900n"
+    - " &8■ &7Objective: &#37a300Build 5 Tree."
+    - " &8■ &7Progress:"
+    - " &8- &#37a300{teamtrees:progress}&8/&#37a30025 Spruce Log"
+    - " &8- &#37a300{teamtrees1:progress}&8/&#37a300100 Spruce Leaves"
+    - ""
+    - "&#00ff00R&#0aee00e&#14dd00w&#1fcc00a&#29bb00r&#33aa00d&#3d9900s"
+    - " &8■ &a&l$&a150"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "SPRUCE_SAPLING"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a150"
+rewards:
+  - "eco give {player} 150"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a150 &#808080&o(( added to your balance ))"
+options:
+  category: "teamtrees"
+  requires: [teamtrees11event]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 12

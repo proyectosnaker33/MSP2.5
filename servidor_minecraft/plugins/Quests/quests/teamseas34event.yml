@@ -1,0 +1,41 @@
+tasks:
+  teamseas:
+    type: "inventory"
+    item: BONE
+    amount: 48
+    remove-items-when-complete: true
+    update-progress: true
+display:
+  name: "&#1357fbT&#1f63fbe&#2b6ffba&#377bfbm&#4287fbs&#4e93fbe&#5a9ffca&#66abfcs &#7dc3fcQ&#89cffcu&#95dbfce&#a1e7fcs&#acf2fdt &8| &f48 Bone" 
+  lore-normal:
+    - ""
+    - "&#175bfbD&#266afbe&#3579fbs&#4488fbc&#5397fbr&#62a7fci&#71b6fcp&#80c5fct&#8fd4fci&#9ee3fco&#adf3fdn"
+    - " &#adadadPickup 48 bone from sea using fishing rod"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#175bfbI&#266afbn&#3579fbf&#4488fbo&#5397fbr&#62a7fcm&#71b6fca&#80c5fct&#8fd4fci&#9ee3fco&#adf3fdn"
+    - " &8■ &7Objective: &#175bfbPick 48 Bone."
+    - " &8■ &7Progress: &#175bfb{teamseas:progress}&8/&#175bfb48 Bone"
+    - ""
+    - "&#1f63fbR&#377bfbe&#4e93fbw&#66abfca&#7dc3fcr&#95dbfcd&#acf2fds"
+    - " &8■ &a&l$&a220"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "BONE"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a220"
+rewards:
+  - "eco give {player} 220"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a220 &#808080&o(( added to your balance ))"
+options:
+  category: "teamseas"
+  requires: [teamseas33event]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 34

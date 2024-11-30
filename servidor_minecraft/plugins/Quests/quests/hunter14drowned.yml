@@ -1,0 +1,39 @@
+tasks:
+  kill:
+    type: "mobkillingcertain"
+    amount: 10
+    mob: DROWNED
+display:
+  name: "&#ff781fHunter Quest &8| &f10 Drowned" 
+  lore-normal:
+    - ""
+    - "&#ff781fDescription"
+    - " &#adadadYou have to kill 10 drowned"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#ff781fInformation"
+    - " &8■ &7Objective: &#ff781fKill 10 Drowned."
+    - " &8■ &7Progress: &#ff781f{kill:progress}&8/&#ff781f10 Drowned"
+    - ""
+    - "&#ff781fRewards"
+    - " &8■ &a&l$&a250"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "TRIDENT"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a250"
+rewards:
+  - "eco give {player} 250"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a250 &#808080&o(( added to your balance ))"
+options:
+  category: "hunter"
+  requires: [hunter13drowned]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 14

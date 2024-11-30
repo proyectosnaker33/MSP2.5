@@ -1,0 +1,39 @@
+tasks:
+  dig:
+    type: "blockbreakcertain"
+    amount: 38
+    block: "GRASS_BLOCK"
+display:
+  name: "&#e6e06aDigger Quest &8| &fGrass Block" 
+  lore-normal:
+    - ""
+    - "&#e6e06aDescription"
+    - " &#adadadYou have to dig 38 grass block"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#e6e06aInformation"
+    - " &8■ &7Objective: &#e6e06aDig 38 Grass Block."
+    - " &8■ &7Progress: &#e6e06a{dig:progress}&8/&#e6e06a38 Grass Block"
+    - ""
+    - "&#e6e06aRewards"
+    - " &8■ &a&l$&a25"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "GRASS_BLOCK"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a25"
+rewards:
+  - "eco give {player} 25"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a25 &#808080&o(( added to your balance ))"
+options:
+  category: "digger"
+  requires: [digger28grassblock]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 29

@@ -1,0 +1,39 @@
+tasks:
+  lawncutter:
+    type: "blockbreakcertain"
+    amount: 64
+    block: "TALL_GRASS"
+display:
+  name: "&#38d170Lawncutter Quest &8| &fTall Grass" 
+  lore-normal:
+    - ""
+    - "&#38d170Description"
+    - " &#adadadYou have to cut 64 tall grass"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#38d170Information"
+    - " &8■ &7Objective: &#38d170Cut 64 Tall Grass."
+    - " &8■ &7Progress: &#38d170{lawncutter:progress}&8/&#38d17064 Tall Grass"
+    - ""
+    - "&#fffe8fRewards"
+    - " &8■ &a&l$&a250"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "TALL_GRASS"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a250"
+rewards:
+  - "eco give {player} 250"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a250 &#808080&o(( added to your balance ))"
+options:
+  category: "lawncutter"
+  requires: [lawncutter21tallgrass]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 22

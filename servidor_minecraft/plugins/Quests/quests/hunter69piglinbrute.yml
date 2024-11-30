@@ -1,0 +1,39 @@
+tasks:
+  kill:
+    type: "mobkillingcertain"
+    amount: 32
+    mob: PIGLIN_BRUTE
+display:
+  name: "&#ff781fHunter Quest &8| &f32 Piglin Brute" 
+  lore-normal:
+    - ""
+    - "&#ff781fDescription"
+    - " &#adadadYou have to kill 32 piglin brute"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#ff781fInformation"
+    - " &8■ &7Objective: &#ff781fKill 32 Piglin Brute."
+    - " &8■ &7Progress: &#ff781f{kill:progress}&8/&#ff781f32 Piglin Brute"
+    - ""
+    - "&#ff781fRewards"
+    - " &8■ &a&l$&a30,000"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "GOLDEN_AXE"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a30,000"
+rewards:
+  - "eco give {player} 30000"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a30,000 &#808080&o(( added to your balance ))"
+options:
+  category: "hunter"
+  requires: [hunter68piglinbrute]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 69

@@ -1,0 +1,50 @@
+tasks:
+  wood:
+    type: "blockplacecertain"
+    amount: 12
+    block: "JUNGLE_LOG"
+  leaves:
+    type: "blockplacecertain"
+    amount: 32
+    block: "JUNGLE_LEAVES"
+  coconut:
+    type: "blockplacecertain"
+    amount: 4
+    block: "COCOA"
+display:
+  name: "&#ffbb00Builder Quest &8| &fTree" 
+  lore-normal:
+    - ""
+    - "&#ffbb00Description"
+    - " &#adadadYou have to build 1 fancy coconut tree"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#ffbb00Information"
+    - " &8■ &7Objective: &#ffbb00Build 1 Coconut Tree."
+    - " &8■ &7Progress:"
+    - " &8- &#ffbb00{wood:progress}&8/&#ffbb0012 Jungle Log"
+    - " &8- &#ffbb00{leaves:progress}&8/&#ffbb0032 Jungle Leaves"
+    - " &8- &#ffbb00{coconut:progress}&8/&#ffbb004 Cocoa Beans"
+    - ""
+    - "&#ffbb00Rewards"
+    - " &8■ &a&l$&a500"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "JUNGLE_SAPLING"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a500"
+rewards:
+  - "eco give {player} 500"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a500 &#808080&o(( added to your balance ))"
+options:
+  category: "builder"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 4

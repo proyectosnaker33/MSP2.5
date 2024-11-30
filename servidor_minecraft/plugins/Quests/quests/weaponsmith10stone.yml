@@ -1,0 +1,40 @@
+tasks:
+  weaponsmith:
+    type: "inventory"
+    item: STONE_HOE
+    amount: 1
+    update-progress: true
+display:
+  name: "&#495aa3Weaponsmith Quest &8| &fStone Hoe" 
+  lore-normal:
+    - ""
+    - "&#495aa3Description"
+    - " &#adadadYou have to craft 1 stone hoe"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#495aa3Information"
+    - " &8■ &7Objective: &#495aa3Craft 1 Stone Hoe."
+    - " &8■ &7Progress: &#495aa3{weaponsmith:progress}&8/&#495aa31 Stone Hoe"
+    - ""
+    - "&#495aa3Rewards"
+    - " &8■ &a&l$&a10"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "STONE_HOE"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a10"
+rewards:
+  - "eco give {player} 10"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a10 &#808080&o(( added to your balance ))"
+options:
+  category: "weaponsmith"
+  requires: [weaponsmith9stone]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 10

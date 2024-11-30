@@ -1,0 +1,39 @@
+tasks:
+  kill:
+    type: "mobkillingcertain"
+    amount: 5
+    mob: BLAZE
+display:
+  name: "&#ff781fHunter Quest &8| &f5 Blaze" 
+  lore-normal:
+    - ""
+    - "&#ff781fDescription"
+    - " &#adadadYou have to kill 5 blaze"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#ff781fInformation"
+    - " &8■ &7Objective: &#ff781fKill 5 Blaze."
+    - " &8■ &7Progress: &#ff781f{kill:progress}&8/&#ff781f5 Blaze"
+    - ""
+    - "&#ff781fRewards"
+    - " &8■ &a&l$&a1,000"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "BLAZE_ROD"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a1,000"
+rewards:
+  - "eco give {player} 1000"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a1,000 &#808080&o(( added to your balance ))"
+options:
+  category: "hunter"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 49

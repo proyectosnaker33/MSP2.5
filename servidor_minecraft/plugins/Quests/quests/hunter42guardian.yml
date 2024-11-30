@@ -1,0 +1,39 @@
+tasks:
+  kill:
+    type: "mobkillingcertain"
+    amount: 32
+    mob: GUARDIAN
+display:
+  name: "&#ff781fHunter Quest &8| &f32 Guardian" 
+  lore-normal:
+    - ""
+    - "&#ff781fDescription"
+    - " &#adadadYou have to kill 32 guardian"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#ff781fInformation"
+    - " &8■ &7Objective: &#ff781fKill 32 Guardian."
+    - " &8■ &7Progress: &#ff781f{kill:progress}&8/&#ff781f32 Guardian"
+    - ""
+    - "&#ff781fRewards"
+    - " &8■ &a&l$&a1,500"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "PRISMARINE_SHARD"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a1,500"
+rewards:
+  - "eco give {player} 1500"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a1,500 &#808080&o(( added to your balance ))"
+options:
+  category: "hunter"
+  requires: [hunter41guardian]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 42

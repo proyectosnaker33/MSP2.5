@@ -1,0 +1,39 @@
+tasks:
+  dig:
+    type: "blockbreakcertain"
+    amount: 18
+    block: "MOSS_BLOCK"
+display:
+  name: "&#e6e06aDigger Quest &8| &fMoss Block" 
+  lore-normal:
+    - ""
+    - "&#e6e06aDescription"
+    - " &#adadadYou have to dig 18 moss block"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#e6e06aInformation"
+    - " &8■ &7Objective: &#e6e06aDig 18 Moss Block."
+    - " &8■ &7Progress: &#e6e06a{dig:progress}&8/&#e6e06a18 Moss Block"
+    - ""
+    - "&#e6e06aRewards"
+    - " &8■ &a&l$&a10"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "MOSS_BLOCK"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a10"
+rewards:
+  - "eco give {player} 10"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a10 &#808080&o(( added to your balance ))"
+options:
+  category: "digger"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 31

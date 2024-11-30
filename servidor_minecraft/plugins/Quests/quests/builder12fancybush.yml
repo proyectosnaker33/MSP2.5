@@ -1,0 +1,65 @@
+tasks:
+  leaves:
+    type: "blockplacecertain"
+    amount: 6
+    block: "OAK_LEAVES"
+  leaves1:
+    type: "blockplacecertain"
+    amount: 6
+    block: "ACACIA_LEAVES"
+  leaves2:
+    type: "blockplacecertain"
+    amount: 6
+    block: "JUNGLE_LEAVES"
+  bamboo:
+    type: "blockplacecertain"
+    amount: 3
+    block: "BAMBOO"
+  fence:
+    type: "blockplacecertain"
+    amount: 4
+    block: "SPRUCE_FENCE"
+  pot:
+    type: "blockplacecertain"
+    amount: 2
+    block: "FLOWER_POT"
+display:
+  name: "&#ffbb00Builder Quest &8| &fFancy Bush" 
+  lore-normal:
+    - ""
+    - "&#ffbb00Description"
+    - " &#adadadYou have to build 1 Fancy Bush"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#ffbb00Information"
+    - " &8■ &7Objective: &#ffbb00Build 1 Fancy Bush."
+    - " &8■ &7Progress:"
+    - " &8- &#ffbb00{leaves:progress}&8/&#ffbb006 Oak Leaves"
+    - " &8- &#ffbb00{leaves1:progress}&8/&#ffbb006 Acacia Leaves"
+    - " &8- &#ffbb00{leaves2:progress}&8/&#ffbb006 Jungle Leaves"
+    - " &8- &#ffbb00{bamboo:progress}&8/&#ffbb003 Bamboo"
+    - " &8- &#ffbb00{fence:progress}&8/&#ffbb004 Spruce Fence"
+    - " &8- &#ffbb00{pot:progress}&8/&#ffbb002 Flower Pot"
+    - ""
+    - "&#ffbb00Rewards"
+    - " &8■ &a&l$&a500"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "OAK_LEAVES"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a500"
+rewards:
+  - "eco give {player} 500"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a500 &#808080&o(( added to your balance ))"
+options:
+  category: "builder"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 12

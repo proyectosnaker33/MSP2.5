@@ -1,0 +1,356 @@
+menu_title: '&8» Shop - Category''s'
+size: 54
+open_command:
+- shop
+items:
+  '0':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 0
+    display_name: '&7'
+  '1':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 1
+    display_name: '&7'
+  '2':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 2
+    display_name: '&7'
+  '3':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 3
+    display_name: '&7'
+  '4':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 4
+    display_name: '&7'
+  '5':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 5
+    display_name: '&7'
+  '6':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 6
+    display_name: '&7'
+  '7':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 7
+    display_name: '&7'
+  '8':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 8
+    display_name: '&7'
+  '9':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 9
+    display_name: '&7'
+  '10':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 10
+    display_name: '&7'
+  '11':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 11
+    display_name: '&7'
+  '12':
+    material: SPAWNER
+    slot: 13
+    display_name: '&8| &7&lSpawner Shop'
+    lore:
+    - '&7'
+    - '&8| &fPurchase spawners to get more mobs! '
+    - '&7'
+    - '&8| &7&oThis section contains spawner types'
+    - '&8| &7&othat can be useful for your survival!'
+    - '&7'
+    - '&8| &eClick to open!'
+    left_click_commands:
+    - '[openguimenu] spawners'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[openguimenu] spawners'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '13':
+    material: OAK_LOG
+    slot: 21
+    display_name: '&8| &e&lWood Types'
+    lore:
+    - '&7'
+    - '&8| &fPurchase or Sell your wood here! '
+    - '&7'
+    - '&8| &7&oThis section contains all wood types'
+    - '&8| &7&othat you could need to build your projects!'
+    - '&7'
+    - '&8| &eClick to open!'
+    left_click_commands:
+    - '[openguimenu] shop-wood'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[openguimenu] shop-wood'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '14':
+    material: RED_WOOL
+    slot: 23
+    display_name: '&8| &5&lColored Dye'
+    lore:
+    - '&7'
+    - '&8| &7Purchase or Sell coloured dye! '
+    - '&7'
+    - '&8| &7&oThis section contains all dye colors'
+    - '&8| &7&ofor you to customize your items!'
+    - '&7'
+    - '&8| &eClick to open!'
+    left_click_commands:
+    - '[openguimenu] shop-color'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[openguimenu] shop-color'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '15':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 15
+    display_name: '&7'
+  '16':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 16
+    display_name: '&7'
+  '17':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 17
+    display_name: '&7'
+  '18':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 18
+    display_name: '&7'
+  '19':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 19
+    display_name: '&7'
+  '20':
+    material: GRASS_BLOCK
+    slot: 20
+    display_name: '&8| &a&lBlocks'
+    lore:
+    - '&7'
+    - '&8| &7Purchase or Sell building blocks! '
+    - '&7'
+    - '&8| &7&oThis section contains building blocks'
+    - '&8| &7&othat help you create your builds!'
+    - '&7'
+    - '&8| &eClick to open!'
+    left_click_commands:
+    - '[openguimenu] shop-blocks'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[openguimenu] shop-blocks'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '21':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 12
+    display_name: '&7'
+  '22':
+    material: COMPOSTER
+    slot: 22
+    display_name: '&8| &f&lWorkstations'
+    lore:
+    - '&7'
+    - '&8| &7Purchase or Sell Workstations! '
+    - '&7'
+    - '&8| &7&oThis section contains all workstations'
+    - '&8| &7&ofor villagers, or yourself!'
+    - '&7'
+    - '&8| &eClick to open!'
+    left_click_commands:
+    - '[openguimenu] shop-workstations'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[openguimenu] shop-workstations'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '23':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 14
+    display_name: '&7'
+  '24':
+    material: NOTE_BLOCK
+    slot: 24
+    display_name: '&8| &c&lRedstone'
+    lore:
+    - '&7'
+    - '&8| &7Purchase redstone components! '
+    - '&7'
+    - '&8| &7&oThis section contains restone components'
+    - '&8| &7&owich you can create machines with!'
+    - '&7'
+    - '&8| &eClick to open!'
+    left_click_commands:
+    - '[openguimenu] shop-redstone'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[openguimenu] shop-redstone'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '25':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 25
+    display_name: '&7'
+  '26':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 26
+    display_name: '&7'
+  '27':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 27
+    display_name: '&7'
+  '28':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 28
+    display_name: '&7'
+  '29':
+    material: BREAD
+    slot: 30
+    display_name: '&8| &d&lFood'
+    lore:
+    - '&7'
+    - '&8| &7Purchase or Sell food here! '
+    - '&7'
+    - '&8| &7&oThis section contains food and farming'
+    - '&8| &7&oitems wich you can sell and purchase!'
+    - '&7'
+    - '&8| &eClick to open!'
+    left_click_commands:
+    - '[openguimenu] shop-food'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[openguimenu] shop-food'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '30':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 29
+    display_name: '&7'
+  '31':
+    material: DIAMOND
+    slot: 31
+    display_name: '&8| &b&lOres'
+    lore:
+    - '&7'
+    - '&8| &7Purchase armor or tools! '
+    - '&7'
+    - '&8| &7&oThis section contains all ore types'
+    - '&8| &7&ofor if you quickly need resources!'
+    - '&7'
+    - '&8| &eClick to open!'
+    left_click_commands:
+    - '[openguimenu] shop-tools'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[openguimenu] shop-tools'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '32':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 33
+    display_name: '&7'
+  '33':
+    material: NAUTILUS_SHELL
+    slot: 32
+    display_name: '&8| &9&lMisc'
+    lore:
+    - '&7'
+    - '&8| &7Purchase or Sell various items here! '
+    - '&7'
+    - '&8| &7&oThis section contains random items'
+    - '&8| &7&oand may change from time to time!'
+    - '&7'
+    - '&8| &eClick to open!'
+    left_click_commands:
+    - '[openguimenu] shop-misc'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[openguimenu] shop-misc'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '34':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 34
+    display_name: '&7'
+  '35':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 35
+    display_name: '&7'
+  '36':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 36
+    display_name: '&7'
+  '37':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 37
+    display_name: '&7'
+  '38':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 38
+    display_name: '&7'
+  '39':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 39
+    display_name: '&7'
+  '40':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 40
+    display_name: '&7'
+  '41':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 41
+    display_name: '&7'
+  '42':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 42
+    display_name: '&7'
+  '43':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 43
+    display_name: '&7'
+  '44':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 44
+    display_name: '&7'
+  '45':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 45
+    display_name: '&7'
+  '46':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 46
+    display_name: '&7'
+  '47':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 47
+    display_name: '&7'
+  '48':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 48
+    display_name: '&7'
+  '49':
+    material: BARRIER
+    slot: 49
+    display_name: '&8| &cBack to Menu'
+    lore:
+    - '&7'
+    - '&8| &eClick to return!'
+    left_click_commands:
+    - '[openguimenu] menu-main'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[openguimenu] menu-main'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '50':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 50
+    display_name: '&7'
+  '51':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 51
+    display_name: '&7'
+  '52':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 52
+    display_name: '&7'
+  '53':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 53
+    display_name: '&7'

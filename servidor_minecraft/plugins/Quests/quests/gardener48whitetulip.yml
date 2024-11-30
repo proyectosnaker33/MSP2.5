@@ -1,0 +1,40 @@
+tasks:
+  gardener:
+    type: "blockplacecertain"
+    amount: 64
+    block: "WHITE_TULIP"
+display:
+  name: "&#ff70deGardener Quest &8| &fWhite Tulip" 
+  lore-normal:
+    - ""
+    - "&#ff70deDescription"
+    - " &#adadadYou have to plant 64 white tulip"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#ff70deInformation"
+    - " &8■ &7Objective: &#ff70dePlant 64 White Tulip."
+    - " &8■ &7Progress:"
+    - " &8- &#ff70de{gardener:progress}&8/&#ff70de64 White Tulip"
+    - ""
+    - "&#ff70deRewards"
+    - " &8■ &a&l$&a500"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "WHITE_TULIP"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a500"
+rewards:
+  - "eco give {player} 500"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a500 &#808080&o(( added to your balance ))"
+options:
+  category: "gardener"
+  requires: [gardener47whitetulip]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 48

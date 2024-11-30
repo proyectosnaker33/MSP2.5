@@ -1,0 +1,40 @@
+tasks:
+  table:
+    type: "blockplacecertain"
+    amount: 6
+    block: "SPRUCE_TRAPDOOR"
+display:
+  name: "&#ffbb00Builder Quest &8| &fSimple Table" 
+  lore-normal:
+    - ""
+    - "&#ffbb00Description"
+    - " &#adadadYou have to build 1 Simple Table"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#ffbb00Information"
+    - " &8■ &7Objective: &#ffbb00Build 1 Simple Table."
+    - " &8■ &7Progress:"
+    - " &8- &#ffbb00{table:progress}&8/&#ffbb006 Spruce Trapdoor"
+    - ""
+    - "&#ffbb00Rewards"
+    - " &8■ &a&l$&a100"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "SPRUCE_TRAPDOOR"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a100"
+rewards:
+  - "eco give {player} 100"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a100 &#808080&o(( added to your balance ))"
+options:
+  category: "builder"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 13

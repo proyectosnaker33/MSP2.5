@@ -1,0 +1,39 @@
+tasks:
+  harvest:
+    type: "blockbreakcertain"
+    amount: 16
+    block: "RED_MUSHROOM"
+display:
+  name: "&#00ff00Farming Quest &8| &fRed Mushroom" 
+  lore-normal:
+    - ""
+    - "&#00ff00Description"
+    - " &#adadadYou have to harvest 16 red mushroom"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#00ff00Information"
+    - " &8■ &7Objective: &#00ff00Harvest 16 Red Mushroom."
+    - " &8■ &7Progress: &#00ff00{harvest:progress}&8/&#00ff0016 Red Mushroom"
+    - ""
+    - "&#00ff00Rewards"
+    - " &8■ &a&l$&a25"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "RED_MUSHROOM"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a25"
+rewards:
+  - "eco give {player} 25"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a25 &#808080&o(( added to your balance ))"
+options:
+  category: "farming"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 25

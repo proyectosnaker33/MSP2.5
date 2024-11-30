@@ -1,0 +1,39 @@
+tasks:
+  eat:
+    type: "consume"
+    item: DRIED_KELP
+    amount: 64
+display:
+  name: "&#f2ca72Consumer Quest &8| &fDried Kelp" 
+  lore-normal:
+    - ""
+    - "&#f2ca72Description"
+    - " &#adadadYou have to eat 64 dried kelp"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#f2ca72Information"
+    - " &8■ &7Objective: &#f2ca72Eat 64 Dried Kelp"
+    - " &8■ &7Progress: &#f2ca72{eat:progress}&8/&#f2ca7264 Dried Kelp"
+    - ""
+    - "&#f2ca72Rewards"
+    - " &8■ &a&l$&a100"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "DRIED_KELP"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a100"
+rewards:
+  - "eco give {player} 100"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a100 &#808080&o(( added to your balance ))"
+options:
+  category: "consume"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 22

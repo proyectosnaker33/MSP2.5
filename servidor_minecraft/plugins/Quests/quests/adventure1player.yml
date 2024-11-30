@@ -1,0 +1,38 @@
+tasks:
+  adventure:
+    type: "walking"
+    distance: 250
+display:
+  name: "&#35d60dAdventure Quest &8| &f250 Blocks" 
+  lore-normal:
+    - ""
+    - "&#35d60dDescription"
+    - " &#adadadYou have to travel 250 blocks away"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#35d60dInformation"
+    - " &8■ &7Objective: &#35d60dTravel 250 Blocks."
+    - " &8■ &7Progress: &#35d60d{adventure:progress}&8/&#35d60d250 Blocks"
+    - ""
+    - "&#35d60dRewards"
+    - " &8■ &a&l$&a100"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "MAP"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a100"
+rewards:
+  - "eco give {player} 100"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a100 &#808080&o(( added to your balance ))"
+options:
+  category: "adventure"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 1

@@ -1,0 +1,39 @@
+tasks:
+  playtime:
+    type: "playtime"
+    minutes: 1
+    ignore-afk: true #recomendded!!!
+display:
+  name: "&#ffff00Playtime Quest &8| &f1 Minute" 
+  lore-normal:
+    - ""
+    - "&#ffff00Description"
+    - " &#adadadYou have to online for 1 minute"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#ffff00Information"
+    - " &8■ &7Objective: &#ffff00Play 1 Minute."
+    - " &8■ &7Progress: &#ffff00{playtime:progress}&8/&#ffff001 Minute"
+    - ""
+    - "&#ffff00Rewards"
+    - " &8■ &a&l$&a100"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "CLOCK"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a100"
+rewards:
+  - "eco give {player} 100"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a100 &#808080&o(( added to your balance ))"
+options:
+  category: "playtime"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 1

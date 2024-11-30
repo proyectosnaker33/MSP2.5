@@ -12,10 +12,8 @@
 # Discord: https://discord.gg/papermc
 # Website: https://papermc.io/
 
-_version: 29
+_version: 28
 block-updates:
-  disable-chorus-plant-updates: false
-  disable-mushroom-block-updates: false
   disable-noteblock-updates: false
   disable-tripwire-updates: false
 chunk-loading-advanced:
@@ -54,6 +52,7 @@ item-validation:
   resolve-selectors-in-books: false
 logging:
   deobfuscate-stacktraces: true
+  log-player-ip-addresses: true
 messages:
   kick:
     authentication-servers-down: <lang:multiplayer.disconnect.authservers_down>
@@ -67,8 +66,8 @@ misc:
   chat-threads:
     chat-executor-core-size: -1
     chat-executor-max-size: -1
-  compression-level: default
   fix-entity-position-desync: true
+  lag-compensate-block-breaking: true
   load-permissions-yml-before-plugins: true
   max-joins-per-tick: 5
   region-file-cache-size: 256
@@ -95,7 +94,7 @@ proxies:
   proxy-protocol: false
   velocity:
     enabled: false
-    online-mode: true
+    online-mode: false
     secret: ''
 scoreboards:
   save-empty-scoreboard-teams: false
@@ -122,9 +121,6 @@ unsupported-settings:
   allow-headless-pistons: false
   allow-permanent-block-break-exploits: false
   allow-piston-duplication: false
-  allow-tripwire-disarming-exploits: false
-  allow-unsafe-end-portal-teleportation: false
-  compression-format: ZLIB
   perform-username-validation: true
 watchdog:
   early-warning-delay: 10000

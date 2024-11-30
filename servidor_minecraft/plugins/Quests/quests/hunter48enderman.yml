@@ -1,0 +1,39 @@
+tasks:
+  kill:
+    type: "mobkillingcertain"
+    amount: 32
+    mob: ENDERMAN
+display:
+  name: "&#ff781fHunter Quest &8| &f32 Enderman" 
+  lore-normal:
+    - ""
+    - "&#ff781fDescription"
+    - " &#adadadYou have to kill 32 enderman"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#ff781fInformation"
+    - " &8■ &7Objective: &#ff781fKill 32 Enderman."
+    - " &8■ &7Progress: &#ff781f{kill:progress}&8/&#ff781f32 Enderman"
+    - ""
+    - "&#ff781fRewards"
+    - " &8■ &a&l$&a10,000"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "ENDER_PEARL"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a10,000"
+rewards:
+  - "eco give {player} 10000"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a10,000 &#808080&o(( added to your balance ))"
+options:
+  category: "hunter"
+  requires: [hunter47enderman]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 48

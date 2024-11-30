@@ -1,0 +1,1182 @@
+menu_title: '&8» Shop - Food'
+size: 54
+open_command:
+- shop-food
+items:
+  '0':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 0
+    display_name: '&7'
+  '1':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 1
+    display_name: '&7'
+  '2':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 2
+    display_name: '&7'
+  '3':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 3
+    display_name: '&7'
+  '4':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 4
+    display_name: '&7'
+  '5':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 5
+    display_name: '&7'
+  '6':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 6
+    display_name: '&7'
+  '7':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 7
+    display_name: '&7'
+  '8':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 8
+    display_name: '&7'
+  '9':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 9
+    display_name: '&7'
+  '10':
+    material: COOKED_BEEF
+    amount: 8
+    slot: 10
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &630.0 ⛃'
+    - '&8| &7Sell for: &615.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 30
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: COOKED_BEEF
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% cooked_beef amt:8 -s'
+    - '[takemoney] 30.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:cooked_beef amt:8 -s'
+    - '[givemoney] 15.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '11':
+    material: COOKED_PORKCHOP
+    amount: 8
+    slot: 11
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &630.0 ⛃'
+    - '&8| &7Sell for: &615.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 30
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: COOKED_PORKCHOP
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% COOKED_PORKCHOP amt:8 -s'
+    - '[takemoney] 30.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:COOKED_PORKCHOP amt:8 -s'
+    - '[givemoney] 15.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '12':
+    material: COOKED_CHICKEN
+    amount: 8
+    slot: 12
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &625.0 ⛃'
+    - '&8| &7Sell for: &612.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 25
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: COOKED_CHICKEN
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% COOKED_CHICKEN amt:8 -s'
+    - '[takemoney] 25.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:COOKED_CHICKEN amt:8 -s'
+    - '[givemoney] 12.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '13':
+    material: COOKED_RABBIT
+    amount: 8
+    slot: 13
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &620.0 ⛃'
+    - '&8| &7Sell for: &68.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 20
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: COOKED_RABBIT
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% COOKED_RABBIT amt:8 -s'
+    - '[takemoney] 20.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:COOKED_RABBIT amt:8 -s'
+    - '[givemoney] 8.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '14':
+    material: COOKED_SALMON
+    amount: 8
+    slot: 14
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &620.0 ⛃'
+    - '&8| &7Sell for: &68.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 20
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: COOKED_SALMON
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% COOKED_SALMON amt:8 -s'
+    - '[takemoney] 20.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:COOKED_SALMON amt:8 -s'
+    - '[givemoney] 8.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '15':
+    material: COOKED_COD
+    amount: 8
+    slot: 15
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &620.0 ⛃'
+    - '&8| &7Sell for: &68.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 20
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: COOKED_COD
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% COOKED_COD amt:8 -s'
+    - '[takemoney] 20.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:COOKED_COD amt:8 -s'
+    - '[givemoney] 8.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '16':
+    material: BAKED_POTATO
+    amount: 8
+    slot: 16
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &616.0 ⛃'
+    - '&8| &7Sell for: &68.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 16
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: BAKED_POTATO
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% BAKED_POTATO amt:8 -s'
+    - '[takemoney] 16.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:BAKED_POTATO amt:8 -s'
+    - '[givemoney] 8.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '17':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 17
+    display_name: '&7'
+  '18':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 18
+    display_name: '&7'
+  '19':
+    material: BEEF
+    amount: 8
+    slot: 19
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &615.0 ⛃'
+    - '&8| &7Sell for: &67.5 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 15
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: BEEF
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% BEEF amt:8 -s'
+    - '[takemoney] 15.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:BEEF amt:8 -s'
+    - '[givemoney] 7.5'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '20':
+    material: PORKCHOP
+    amount: 8
+    slot: 20
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &615.0 ⛃'
+    - '&8| &7Sell for: &67.5 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 15
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: PORKCHOP
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% PORKCHOP amt:8 -s'
+    - '[takemoney] 15.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:PORKCHOP amt:8 -s'
+    - '[givemoney] 7.5'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '21':
+    material: CHICKEN
+    amount: 8
+    slot: 21
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &612.5 ⛃'
+    - '&8| &7Sell for: &66.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 13
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: CHICKEN
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% CHICKEN amt:8 -s'
+    - '[takemoney] 12.5'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:CHICKEN amt:8 -s'
+    - '[givemoney] 6.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '22':
+    material: RABBIT
+    amount: 8
+    slot: 22
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &610.0 ⛃'
+    - '&8| &7Sell for: &64.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 10
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: RABBIT
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% RABBIT amt:8 -s'
+    - '[takemoney] 10.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:RABBIT amt:8 -s'
+    - '[givemoney] 4.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '23':
+    material: SALMON
+    amount: 8
+    slot: 23
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &610.0 ⛃'
+    - '&8| &7Sell for: &64.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 10
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: SALMON
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% SALMON amt:8 -s'
+    - '[takemoney] 10.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:SALMON amt:8 -s'
+    - '[givemoney] 4.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '24':
+    material: COD
+    amount: 8
+    slot: 24
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &610.0 ⛃'
+    - '&8| &7Sell for: &64.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 10
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: COD
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% COD amt:8 -s'
+    - '[takemoney] 10.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:COD amt:8 -s'
+    - '[givemoney] 4.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '25':
+    material: POTATO
+    amount: 8
+    slot: 25
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &68.0 ⛃'
+    - '&8| &7Sell for: &64.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: POTATO
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% POTATO amt:8 -s'
+    - '[takemoney] 10.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:POTATO amt:8 -s'
+    - '[givemoney] 4.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '26':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 26
+    display_name: '&7'
+  '27':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 27
+    display_name: '&7'
+  '28':
+    material: SWEET_BERRIES
+    amount: 8
+    slot: 28
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &68.0 ⛃'
+    - '&8| &7Sell for: &62.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: SWEET_BERRIES
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% SWEET_BERRIES amt:8 -s'
+    - '[takemoney] 10.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:SWEET_BERRIES amt:8 -s'
+    - '[givemoney] 2.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '29':
+    material: APPLE
+    amount: 8
+    slot: 29
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &68.0 ⛃'
+    - '&8| &7Sell for: &62.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: APPLE
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% APPLE amt:8 -s'
+    - '[takemoney] 10.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:APPLE amt:8 -s'
+    - '[givemoney] 2.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '30':
+    material: PUMPKIN_PIE
+    amount: 8
+    slot: 30
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &625.0 ⛃'
+    - '&8| &7Sell for: &612.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 25
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: PUMPKIN_PIE
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% PUMPKIN_PIE amt:8 -s'
+    - '[takemoney] 25.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:PUMPKIN_PIE amt:8 -s'
+    - '[givemoney] 12.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '31':
+    material: COOKIE
+    amount: 8
+    slot: 31
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &68.0 ⛃'
+    - '&8| &7Sell for: &62.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: COOKIE
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% COOKIE amt:8 -s'
+    - '[takemoney] 8.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:COOKIE amt:8 -s'
+    - '[givemoney] 2.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '32':
+    material: CARROT
+    amount: 8
+    slot: 32
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &616.0 ⛃'
+    - '&8| &7Sell for: &62.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 16
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: CARROT
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% CARROT amt:8 -s'
+    - '[takemoney] 16.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:CARROT amt:8 -s'
+    - '[givemoney] 2.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '33':
+    material: BEETROOT
+    amount: 8
+    slot: 33
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &616.0 ⛃'
+    - '&8| &7Sell for: &62.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 16
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: BEETROOT
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% BEETROOT amt:8 -s'
+    - '[takemoney] 16.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:BEETROOT amt:8 -s'
+    - '[givemoney] 2.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '34':
+    material: RABBIT_STEW
+    amount: 8
+    slot: 34
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &632.0 ⛃'
+    - '&8| &7Sell for: &68.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 32
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: RABBIT_STEW
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% RABBIT_STEW amt:8 -s'
+    - '[takemoney] 32.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:RABBIT_STEW amt:8 -s'
+    - '[givemoney] 8.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '35':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 35
+    display_name: '&7'
+  '36':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 36
+    display_name: '&7'
+  '37':
+    material: WHEAT_SEEDS
+    amount: 8
+    slot: 37
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &68.0 ⛃'
+    - '&8| &7Sell for: &62.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: WHEAT_SEEDS
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% WHEAT_SEEDS amt:8 -s'
+    - '[takemoney] 8.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:WHEAT_SEEDS amt:8 -s'
+    - '[givemoney] 2.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '38':
+    material: MELON_SEEDS
+    amount: 8
+    slot: 38
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &68.0 ⛃'
+    - '&8| &7Sell for: &62.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: MELON_SEEDS
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% MELON_SEEDS amt:8 -s'
+    - '[takemoney] 8.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:MELON_SEEDS amt:8 -s'
+    - '[givemoney] 2.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '39':
+    material: PUMPKIN_SEEDS
+    amount: 8
+    slot: 39
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &68.0 ⛃'
+    - '&8| &7Sell for: &62.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: PUMPKIN_SEEDS
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% PUMPKIN_SEEDS amt:8 -s'
+    - '[takemoney] 8.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:PUMPKIN_SEEDS amt:8 -s'
+    - '[givemoney] 2.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '40':
+    material: BEETROOT_SEEDS
+    amount: 8
+    slot: 40
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &68.0 ⛃'
+    - '&8| &7Sell for: &62.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: BEETROOT_SEEDS
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% BEETROOT_SEEDS amt:8 -s'
+    - '[takemoney] 8.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:BEETROOT_SEEDS amt:8 -s'
+    - '[givemoney] 2.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '41':
+    material: SUGAR_CANE
+    amount: 8
+    slot: 41
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &616.0 ⛃'
+    - '&8| &7Sell for: &68.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 16
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: SUGAR_CANE
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% SUGAR_CANE amt:8 -s'
+    - '[takemoney] 16.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:SUGAR_CANE amt:8 -s'
+    - '[givemoney] 8.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '42':
+    material: CACTUS
+    amount: 8
+    slot: 42
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &616.0 ⛃'
+    - '&8| &7Sell for: &68.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 16
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: CACTUS
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% CACTUS amt:8 -s'
+    - '[takemoney] 16.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:CACTUS amt:8 -s'
+    - '[givemoney] 8.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '43':
+    material: WHEAT
+    amount: 8
+    slot: 43
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &68.0 ⛃'
+    - '&8| &7Sell for: &62.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cRight Click: Sell'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    right_click_requirement:
+      requirements:
+        item1:
+          type: has item
+          material: WHEAT
+          amount: 8
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% WHEAT amt:8 -s'
+    - '[takemoney] 8.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[console] itemmanager remove %player_name% mat:WHEAT amt:8 -s'
+    - '[givemoney] 2.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '44':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 44
+    display_name: '&7'
+  '45':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 45
+    display_name: '&7'
+  '46':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 46
+    display_name: '&7'
+  '47':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 47
+    display_name: '&7'
+  '48':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 48
+    display_name: '&7'
+  '49':
+    material: BARRIER
+    slot: 49
+    display_name: '&8| &cBack to Category''s'
+    lore:
+    - '&7'
+    - '&8| &eClick to return!'
+    left_click_commands:
+    - '[openguimenu] shop-main'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[openguimenu] shop-main'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '50':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 50
+    display_name: '&7'
+  '51':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 51
+    display_name: '&7'
+  '52':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 52
+    display_name: '&7'
+  '53':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 53
+    display_name: '&7'

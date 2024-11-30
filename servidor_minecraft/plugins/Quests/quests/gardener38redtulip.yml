@@ -1,0 +1,40 @@
+tasks:
+  gardener:
+    type: "blockplacecertain"
+    amount: 30
+    block: "RED_TULIP"
+display:
+  name: "&#ff70deGardener Quest &8| &fRed Tulip"
+  lore-normal:
+    - ""
+    - "&#ff70deDescription"
+    - " &#adadadYou have to plant 30 red tulip"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#ff70deInformation"
+    - " &8■ &7Objective: &#ff70dePlant 30 Red Tulip."
+    - " &8■ &7Progress:"
+    - " &8- &#ff70de{gardener:progress}&8/&#ff70de30 Red Tulip"
+    - ""
+    - "&#ff70deRewards"
+    - " &8■ &a&l$&a110"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "RED_TULIP"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a110"
+rewards:
+  - "eco give {player} 110"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a110 &#808080&o(( added to your balance ))"
+options:
+  category: "gardener"
+  requires: [gardener37redtulip]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 38

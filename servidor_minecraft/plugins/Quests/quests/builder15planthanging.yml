@@ -1,0 +1,60 @@
+tasks:
+  fence:
+    type: "blockplacecertain"
+    amount: 8
+    block: "SPRUCE_FENCE"
+  campfire:
+    type: "blockplacecertain"
+    amount: 7
+    block: "CAMPFIRE"
+  chain:
+    type: "blockplacecertain"
+    amount: 5
+    block: "CHAIN"
+  pot:
+    type: "blockplacecertain"
+    amount: 5
+    block: "FLOWER_POT"
+  string:
+    type: "blockplacecertain"
+    amount: 5
+    block: "STRING"
+display:
+  name: "&#ffbb00Builder Quest &8| &fPlant Hanging" 
+  lore-normal:
+    - ""
+    - "&#ffbb00Description"
+    - " &#adadadYou have to build 1 Plant Hanging"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#ffbb00Information"
+    - " &8■ &7Objective: &#ffbb00Build 1 Plant Hanging."
+    - " &8■ &7Progress:"
+    - " &8- &#ffbb00{fence:progress}&8/&#ffbb008 Spruce Fence"
+    - " &8- &#ffbb00{campfire:progress}&8/&#ffbb007 Campfire"
+    - " &8- &#ffbb00{chain:progress}&8/&#ffbb005 Chain"
+    - " &8- &#ffbb00{pot:progress}&8/&#ffbb005 Flower Pot"
+    - " &8- &#ffbb00{string:progress}&8/&#ffbb005 String"
+    - ""
+    - "&#ffbb00Rewards"
+    - " &8■ &a&l$&a500"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "FLOWER_POT"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a500"
+rewards:
+  - "eco give {player} 500"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a500 &#808080&o(( added to your balance ))"
+options:
+  category: "builder"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 15

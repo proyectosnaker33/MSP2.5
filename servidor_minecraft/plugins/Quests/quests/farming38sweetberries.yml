@@ -1,0 +1,40 @@
+tasks:
+  harvest:
+    type: "inventory"
+    item: SWEET_BERRIES
+    amount: 36
+    update-progress: true
+display:
+  name: "&#00ff00Farming Quest &8| &fSweet Berries" 
+  lore-normal:
+    - ""
+    - "&#00ff00Description"
+    - " &#adadadYou have to harvest 36 sweet berries"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#00ff00Information"
+    - " &8■ &7Objective: &#00ff00Harvest 36 Sweet Berries."
+    - " &8■ &7Progress: &#00ff00{harvest:progress}&8/&#00ff0036 Sweet Berries"
+    - ""
+    - "&#00ff00Rewards"
+    - " &8■ &a&l$&a100"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "SWEET_BERRIES"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a100"
+rewards:
+  - "eco give {player} 100"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a100 &#808080&o(( added to your balance ))"
+options:
+  category: "farming"
+  requires: [farming37sweetberries]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 38

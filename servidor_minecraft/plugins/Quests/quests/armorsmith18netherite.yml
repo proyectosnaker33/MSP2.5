@@ -1,0 +1,40 @@
+tasks:
+  armorsmith:
+    type: "inventory"
+    item: NETHERITE_CHESTPLATE
+    amount: 1
+    update-progress: true
+display:
+  name: "&#bf6922Armorsmith Quest &8| &fNetherite Chestplate" 
+  lore-normal:
+    - ""
+    - "&#bf6922Description"
+    - " &#adadadYou have to forge 1 netherite chestplate"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#bf6922Information"
+    - " &8■ &7Objective: &#bf6922Forge 1 Netherite Chestplate."
+    - " &8■ &7Progress: &#bf6922{armorsmith:progress}&8/&#bf69221 Netherite Chestplate"
+    - ""
+    - "&#bf6922Rewards"
+    - " &8■ &a&l$&a1,000"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "NETHERITE_CHESTPLATE"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a1,000"
+rewards:
+  - "eco give {player} 1000"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a1,000 &#808080&o(( added to your balance ))"
+options:
+  category: "armorsmith"
+  requires: [armorsmith17netherite]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 18

@@ -1,0 +1,20 @@
+location: Spawn:101,500:240,700:121,500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&6✯ &e&lONEBLOCK &6✯'
+    height: 0.3
+  - content: '&r'
+    height: 0.3
+  - content: '&fStart your adventure'
+    height: 0.3
+  - content: '&fTalk to the npc and create your island'
+    height: 0.3
+  - content: '&fUse /ob panel to manage it'
+    height: 0.3
+  actions: {}

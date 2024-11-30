@@ -1,0 +1,100 @@
+menu_title:
+- '&e➔ &6&lGLOBAL WARPS'
+open_command:
+- warps
+- warp
+size: 26
+items:
+  'glass1':
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 12
+    - 14
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+    display_name: ' '
+  'island':
+    material: red_bed
+    slot: 11
+    display_name: '&7[&e♦&7] &6&lISLAND &7[&e♦&7]'
+    lore:
+    - '&8&m|--------------------------------'
+    - '&8&l|&r &7'
+    - '&8&l|&r &e◆ &7Teleport back to your island'
+    - '&8&l|&r &e◆ &7don''t have one? use &e/ob&f.'
+    - '&8&l|&r &7'
+    - '&8&l|&r &e◆ &eClick to warp!'
+    - '&8&m|--------------------------------'
+    left_click_commands:
+    - '[player] ob'
+    - '[sound] ENTITY_ENDERMAN_TELEPORT'
+    - '[close]'
+    right_click_commands:
+    - '[player] warp subastas'
+    - '[sound] ENTITY_ENDERMAN_TELEPORT'
+    - '[close]'
+  'Spawn':
+    material: beacon
+    slot: 13
+    display_name: '&7[&e♦&7] &6&lSPAWN &7[&e♦&7]'
+    lore:
+    - '&8&m|--------------------------------'
+    - '&8&l|&r &7'
+    - '&8&l|&r &e◆ &7Travel back to the spawn to'
+    - '&8&l|&r &e◆ &7find useful npc''s!'
+    - '&8&l|&r &7'
+    - '&8&l|&r &e◆ &7Daily Rewards'
+    - '&8&l|&r &e◆ &7Crates'
+    - '&8&l|&r &e◆ &7Quests'
+    - '&8&l|&r &7'
+    - '&8&l|&r &e◆ &eClick to warp!'
+    - '&8&m|--------------------------------'
+    left_click_commands:
+    - '[player] spawn'
+    - '[sound] ENTITY_ENDERMAN_TELEPORT'
+    - '[close]'
+    right_click_commands:
+    - '[player] spawn'
+    - '[sound] ENTITY_ENDERMAN_TELEPORT'
+    - '[close]'
+  'Tienda':
+    material: iron_door
+    slot: 15
+    display_name: '&7[&e♦&7] &6&lPLAYER WARPS &7[&e♦&7]'
+    lore:
+    - '&8&m|--------------------------------'
+    - '&8&l|&r &7'
+    - '&8&l|&r &e◆ &7Visit other player''s their island'
+    - '&8&l|&r &e◆ &7if you want a warp of your own'
+    - '&8&l|&r   &7put a &e[welcome] &7sign somwhere.'
+    - '&8&l|&r &7'
+    - '&8&l|&r &e◆ &eClick to open!'
+    - '&8&m|--------------------------------'
+    left_click_commands:
+    - '[player] ob warps'
+    - '[sound] ENTITY_ENDERMAN_TELEPORT'
+    - '[close]'
+    right_click_commands:
+    - '[player] ob warps'
+    - '[sound] ENTITY_ENDERMAN_TELEPORT'
+    - '[close]'

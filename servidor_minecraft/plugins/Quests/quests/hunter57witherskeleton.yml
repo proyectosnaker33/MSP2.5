@@ -1,0 +1,39 @@
+tasks:
+  kill:
+    type: "mobkillingcertain"
+    amount: 32
+    mob: WITHER_SKELETON
+display:
+  name: "&#ff781fHunter Quest &8| &f32 Wither Skeleton" 
+  lore-normal:
+    - ""
+    - "&#ff781fDescription"
+    - " &#adadadYou have to kill 32 wither skeleton"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#ff781fInformation"
+    - " &8■ &7Objective: &#ff781fKill 32 Wither Skeleton."
+    - " &8■ &7Progress: &#ff781f{kill:progress}&8/&#ff781f32 Wither Skeleton"
+    - ""
+    - "&#ff781fRewards"
+    - " &8■ &a&l$&a25,000"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "WITHER_SKELETON_SKULL"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a25,000"
+rewards:
+  - "eco give {player} 25000"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a25,000 &#808080&o(( added to your balance ))"
+options:
+  category: "hunter"
+  requires: [hunter56witherskeleton]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 57

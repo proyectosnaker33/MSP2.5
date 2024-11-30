@@ -1,0 +1,39 @@
+tasks:
+  eat:
+    type: "consume"
+    item: APPLE
+    amount: 8
+display:
+  name: "&#f2ca72Consumer Quest &8| &fApple" 
+  lore-normal:
+    - ""
+    - "&#f2ca72Description"
+    - " &#adadadYou have to eat 8 apple"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#f2ca72Information"
+    - " &8■ &7Objective: &#f2ca72Eat 8 Apple"
+    - " &8■ &7Progress: &#f2ca72{eat:progress}&8/&#f2ca728 Apple"
+    - ""
+    - "&#f2ca72Rewards"
+    - " &8■ &a&l$&a50"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "APPLE"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a50"
+rewards:
+  - "eco give {player} 50"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a50 &#808080&o(( added to your balance ))"
+options:
+  category: "consume"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 1

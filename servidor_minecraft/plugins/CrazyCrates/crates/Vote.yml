@@ -1,0 +1,352 @@
+Crate:
+  #Type of crate (CSGO/QuadCrate/QuickCrate/Roulette/CrateOnTheGo/FireCracker/Wonder/Wheel/War/Cosmic(This requires a additional info to work.)).
+  CrateType: Wheel
+  #Name of the Inventory if a GUI crate.
+  CrateName: '&e&lVote Crate'
+  #The name of the inventory that will be in the preview GUI.
+  Preview-Name: '&e&lVote Crate Preview'
+  #Starting amount of keys when the player 1st joins.
+  StartingKeys: 0
+  #If the crate shows in the /cc GUI. (If the crate type is QuickCrate/CrateOnTheGo/FireCracker then the Crate will not work. Quick Crate requires a Physical Crate.)
+  InGUI: true
+  #Slot the item is in the GUI.
+  Slot: 21
+  #Enables/Disables the Broadcasts message when they open a crate.
+  OpeningBroadCast: false
+  #Message that is broadcast when opening the crate.
+  BroadCast: '%Prefix%&6&l%Player% &7is opening a &6&lVote Crate&7.'
+  #Item the crate is in the GUI
+  Item: 'CHEST'
+  #If the crate in the main /cc GUI is glowing or not.
+  Glowing: true
+  #Name of the item in the GUI.
+  Name: '&e&lVote Crate'
+  #The lore of the item in the GUI.
+  Lore:
+    - '&7Available Keys: &e%Keys%'
+    - '&7'
+    - '&7This is the vote crate. You can'
+    - '&7win awesome rewards here!'
+    - '&7'
+    - '&eRight-Click to view rewards!'
+  Preview:
+    #Turn on and off the preview for this crate.
+    Toggle: true
+    #How many lines the previewChest should have. Including Header and Bottom (Between 3 and 6)
+    ChestLines: 4
+    Glass:
+      #Turn the glass boarder in the preview on and off.
+      Toggle: true
+      #The item that shows in the boarder. Can be glass or any other item.
+      Item: 'GRAY_STAINED_GLASS_PANE'
+  PhysicalKey:
+    #Name of the Key.
+    Name: '&e&lVote Key'
+    #Lore of the Key.
+    Lore:
+      - '&7This is a Vote Key. You can'
+      - '&7win awesome rewards with this!'
+      - '&7'
+      - '&eRight-Click the Vote Crate!'
+    #The item the key is.
+    Item: 'TRIPWIRE_HOOK'
+    #Makes the key look enchanted.
+    Glowing: true
+    #Settings for the holograms.
+  Hologram:
+    #Toggle on and off the holograms for the crates.
+    Toggle: true
+    #The height of the hologram above the crate.
+    Height: 2
+    #The message that will be displayed.
+    Message:
+      - '&e&lVOTE CRATE'
+      - '&f(Left click to preview)'
+      - '&f(Right click to open)'
+  #All the prizes that can be gotten in the Crate.
+  Prizes:
+    1:
+      DisplayName: '&e&lVoting Helmet'
+      DisplayItem: 'IRON_HELMET'
+      Glowing: true
+      DisplayAmount: 1
+      Lore:
+        - '&8&m|--------------------------------'
+        - '&8&l|&r &e◆ &fReceive a voting helmet!'
+        - '&8&l|&r &e◆ &fChange: &e30%'
+        - '&8&l|&r &7'
+        - '&8&l|&r &e◆ &7Protection 1'
+        - '&8&l|&r &e◆ &7Unbreaking 1'
+        - '&8&m|--------------------------------'
+      MaxRange: 100
+      Chance: 30
+      Items:
+        - 'Item:IRON_HELMET, Amount:1, Name:&eVoting Helmet, PROTECTION_ENVIRONMENTAL:1, UNBREAKING:1'
+    2:
+      DisplayName: '&e&lVoting Chestplate'
+      DisplayItem: 'IRON_CHESTPLATE'
+      Glowing: true
+      DisplayAmount: 1
+      Lore:
+        - '&8&m|--------------------------------'
+        - '&8&l|&r &e◆ &fReceive a voting chestplate!'
+        - '&8&l|&r &e◆ &fChange: &e30%'
+        - '&8&l|&r &7'
+        - '&8&l|&r &e◆ &7Protection 1'
+        - '&8&l|&r &e◆ &7Unbreaking 1'
+        - '&8&m|--------------------------------'
+      MaxRange: 100
+      Chance: 30
+      Items:
+        - 'Item:IRON_CHESTPLATE, Amount:1, Name:&eVoting Chestplate, PROTECTION_ENVIRONMENTAL:1, UNBREAKING:1'
+    3:
+      DisplayName: '&e&lVoting Leggins'
+      DisplayItem: 'IRON_LEGGINGS'
+      Glowing: true
+      DisplayAmount: 1
+      Lore:
+        - '&8&m|--------------------------------'
+        - '&8&l|&r &e◆ &fReceive voting leggings!'
+        - '&8&l|&r &e◆ &fChange: &e30%'
+        - '&8&l|&r &7'
+        - '&8&l|&r &e◆ &7Protection 1'
+        - '&8&l|&r &e◆ &7Unbreaking 1'
+        - '&8&m|--------------------------------'
+      MaxRange: 100
+      Chance: 30
+      Items:
+        - 'Item:IRON_LEGGINGS, Amount:1, Name:&eVoting Leggings, PROTECTION_ENVIRONMENTAL:1, UNBREAKING:1'
+    4:
+      DisplayName: '&e&lVoting Boots'
+      DisplayItem: 'IRON_BOOTS'
+      Glowing: true
+      DisplayAmount: 1
+      Lore:
+        - '&8&m|--------------------------------'
+        - '&8&l|&r &e◆ &fReceive voting boots!'
+        - '&8&l|&r &e◆ &fChange: &e30%'
+        - '&8&l|&r &7'
+        - '&8&l|&r &e◆ &7Protection 1'
+        - '&8&l|&r &e◆ &7Unbreaking 1'
+        - '&8&m|--------------------------------'
+      MaxRange: 100
+      Chance: 30
+      Items:
+        - 'Item:IRON_BOOTS, Amount:1, Name:&eVoting Boots, PROTECTION_ENVIRONMENTAL:1, UNBREAKING:1'
+    5:
+      DisplayName: '&e&l1000 Coins'
+      DisplayItem: 'SUNFLOWER'
+      Glowing: true
+      DisplayAmount: 1
+      Lore:
+        - '&8&m|--------------------------------'
+        - '&8&l|&r &e◆ &fReceive some coins!'
+        - '&8&l|&r &e◆ &fChange: &e50%'
+        - '&8&l|&r &7'
+        - '&8&l|&r &e◆ &7Amount: &e1000'
+        - '&8&m|--------------------------------'
+      MaxRange: 100
+      Chance: 50
+      Commands:
+        - 'eco give %Player% 1000'
+    6:
+      DisplayName: '&e&l5000 Coins'
+      DisplayItem: 'SUNFLOWER'
+      Glowing: true
+      DisplayAmount: 2
+      Lore:
+        - '&8&m|--------------------------------'
+        - '&8&l|&r &e◆ &fReceive some coins!'
+        - '&8&l|&r &e◆ &fChange: &e30%'
+        - '&8&l|&r &7'
+        - '&8&l|&r &e◆ &7Amount: &e5000'
+        - '&8&m|--------------------------------'
+      MaxRange: 100
+      Chance: 30
+      Commands:
+        - 'eco give %Player% 5000'
+    7:
+      DisplayName: '&f&l32x BONE BLOCKS'
+      DisplayItem: 'BONE_BLOCK'
+      DisplayAmount: 32
+      Lore:
+        - '&8&m|--------------------------------'
+        - '&8&l|&r &e◆ &fReceive Bone Blocks!'
+        - '&8&l|&r &e◆ &fChange: &e40%'
+        - '&8&l|&r &7'
+        - '&8&l|&r &e◆ &7Amount: &e32'
+        - '&8&m|--------------------------------'
+      MaxRange: 100
+      Chance: 40
+      Items:
+        - 'Item:BONE_BLOCK, Amount:32'
+    8:
+      DisplayName: '&f&l64x Packed Ice'
+      DisplayItem: 'PACKED_ICE'
+      DisplayAmount: 64
+      Lore:
+        - '&8&m|--------------------------------'
+        - '&8&l|&r &e◆ &fReceive Packed Ice!'
+        - '&8&l|&r &e◆ &fChange: &e40%'
+        - '&8&l|&r &7'
+        - '&8&l|&r &e◆ &7Amount: &e64'
+        - '&8&m|--------------------------------'
+      MaxRange: 100
+      Chance: 40
+      Items:
+        - 'Item:PACKED_ICE, Amount:64'
+    9:
+      DisplayName: '&f&l8x Shulker shells'
+      DisplayItem: 'SHULKER_SHELL'
+      DisplayAmount: 8
+      Lore:
+        - '&8&m|--------------------------------'
+        - '&8&l|&r &e◆ &fReceive Shulker Shells!'
+        - '&8&l|&r &e◆ &fChange: &e25%'
+        - '&8&l|&r &7'
+        - '&8&l|&r &e◆ &7Amount: &e8'
+        - '&8&m|--------------------------------'
+      MaxRange: 100
+      Chance: 25
+      Items:
+        - 'Item:SHULKER_SHELL, Amount:8'
+    10:
+      DisplayName: '&f&l64x Grass Blocks'
+      DisplayItem: 'GRASS_BLOCK'
+      Glowing: false
+      DisplayAmount: 1
+      Lore:
+        - '&8&m|--------------------------------'
+        - '&8&l|&r &e◆ &fReceive Grass Blocks!'
+        - '&8&l|&r &e◆ &fChange: &e25%'
+        - '&8&l|&r &7'
+        - '&8&l|&r &e◆ &7Amount: &e64'
+        - '&8&m|--------------------------------'
+      MaxRange: 100
+      Chance: 25
+      Items:
+        - 'Item:GRASS_BLOCK, Amount:64'
+    11:
+      DisplayName: '&f&l128x Grass Blocks'
+      DisplayItem: 'GRASS_BLOCK'
+      Glowing: false
+      DisplayAmount: 1
+      Lore:
+        - '&8&m|--------------------------------'
+        - '&8&l|&r &e◆ &fReceive Grass Blocks!'
+        - '&8&l|&r &e◆ &fChange: &e25%'
+        - '&8&l|&r &7'
+        - '&8&l|&r &e◆ &7Amount: &e128'
+        - '&8&m|--------------------------------'
+      MaxRange: 100
+      Chance: 25
+      Items:
+        - 'Item:GRASS_BLOCK, Amount:128'
+    12:
+      DisplayName: '&f&l1x Pig Spawner'
+      DisplayItem: 'SPAWNER'
+      Glowing: true
+      DisplayAmount: 1
+      Lore:
+        - '&8&m|--------------------------------'
+        - '&8&l|&r &e◆ &fReceive a Pig Spawner!'
+        - '&8&l|&r &e◆ &fChange: &e10%'
+        - '&8&l|&r &7'
+        - '&8&l|&r &e◆ &7Amount: &e1'
+        - '&8&m|--------------------------------'
+      MaxRange: 100
+      Chance: 10
+      Commands:
+      - 'ms give %Player% pig 1'
+    13:
+      DisplayName: '&e&lTotem of Undying'
+      DisplayItem: 'TOTEM_OF_UNDYING'
+      DisplayAmount: 1
+      Lore:
+        - '&8&m|--------------------------------'
+        - '&8&l|&r &e◆ &fReceive a Totem Of Undying!'
+        - '&8&l|&r &e◆ &fChange: &e5%'
+        - '&8&l|&r &7'
+        - '&8&l|&r &e◆ &7Amount: &e1'
+        - '&8&m|--------------------------------'
+      MaxRange: 100
+      Chance: 5
+      Items:
+        - 'Item:TOTEM_OF_UNDYING, Amount:1'
+    14:
+      DisplayName: '&6&lEPIC KEY'
+      DisplayItem: 'TRIPWIRE_HOOK'
+      DisplayAmount: 1
+      Glowing: true
+      Lore:
+        - '&8&m|--------------------------------'
+        - '&8&l|&r &e◆ &fReceive a &6Epic &fKey!'
+        - '&8&l|&r &e◆ &fChange: &e5%'
+        - '&8&l|&r &7'
+        - '&8&l|&r &e◆ &7Amount: &e1'
+        - '&8&m|--------------------------------'
+      MaxRange: 100
+      Chance: 5
+      Commands:
+      - 'cc give p Epic 1 %Player%'
+    15:
+      DisplayName: '&c&lLEGENDARY KEY'
+      DisplayItem: 'TRIPWIRE_HOOK'
+      DisplayAmount: 1
+      Glowing: true
+      Lore:
+        - '&8&m|--------------------------------'
+        - '&8&l|&r &e◆ &fReceive a &cLegendary &fKey!'
+        - '&8&l|&r &e◆ &fChange: &e1%'
+        - '&8&l|&r &7'
+        - '&8&l|&r &e◆ &7Amount: &e1'
+        - '&8&m|--------------------------------'
+      MaxRange: 100
+      Chance: 1
+      Commands:
+      - 'cc give p Legendary 1 %Player%'
+    16:
+      DisplayName: '&fIRON BLOCKS'
+      DisplayItem: 'IRON_BLOCK'
+      DisplayAmount: 16
+      Lore:
+        - '&8&m|--------------------------------'
+        - '&8&l|&r &e◆ &fReceive Iron Blocks!'
+        - '&8&l|&r &e◆ &fChange: &e50%'
+        - '&8&l|&r &7'
+        - '&8&l|&r &e◆ &7Amount: &e16'
+        - '&8&m|--------------------------------'
+      MaxRange: 100
+      Chance: 50
+      Commands:
+      - 'give %Player% iron_block 16'
+    17:
+      DisplayName: '&6GOLDEN BLOCKS'
+      DisplayItem: 'GOLD_BLOCK'
+      DisplayAmount: 16
+      Lore:
+        - '&8&m|--------------------------------'
+        - '&8&l|&r &e◆ &fReceive Gold Blocks!'
+        - '&8&l|&r &e◆ &fChange: &e50%'
+        - '&8&l|&r &7'
+        - '&8&l|&r &e◆ &7Amount: &e16'
+        - '&8&m|--------------------------------'
+      MaxRange: 100
+      Chance: 50
+      Commands:
+      - 'give %Player% gold_block 16'
+    18:
+      DisplayName: '&bDIAMOND BLOCKS'
+      DisplayItem: 'DIAMOND_BLOCK'
+      DisplayAmount: 8
+      Lore:
+        - '&8&m|--------------------------------'
+        - '&8&l|&r &e◆ &fReceive Diamond Blocks!'
+        - '&8&l|&r &e◆ &fChange: &e25%'
+        - '&8&l|&r &7'
+        - '&8&l|&r &e◆ &7Amount: &e8'
+        - '&8&m|--------------------------------'
+      MaxRange: 100
+      Chance: 25
+      Commands:
+      - 'give %Player% diamond_block 8'

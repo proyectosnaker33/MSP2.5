@@ -1,0 +1,40 @@
+tasks:
+  gardener:
+    type: "blockplacecertain"
+    amount: 14
+    block: "BLUE_ORCHID"
+display:
+  name: "&#ff70deGardener Quest &8| &fBlue Orchid" 
+  lore-normal:
+    - ""
+    - "&#ff70deDescription"
+    - " &#adadadYou have to plant 14 blue orchid"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#ff70deInformation"
+    - " &8■ &7Objective: &#ff70dePlant 14 Blue Orchid."
+    - " &8■ &7Progress:"
+    - " &8- &#ff70de{gardener:progress}&8/&#ff70de14 Blue Orchid"
+    - ""
+    - "&#ff70deRewards"
+    - " &8■ &a&l$&a55"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "BLUE_ORCHID"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a55"
+rewards:
+  - "eco give {player} 55"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a55 &#808080&o(( added to your balance ))"
+options:
+  category: "gardener"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 7

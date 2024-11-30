@@ -1,0 +1,369 @@
+categories:
+  bake:
+    display:
+      name: "&#fcba03Bake Quest &#808080| &#adadadList"
+      lore:
+        - " &r "
+        - "&#fcba03Description"
+        - " &#adadadThis is a baking quest currently there is &#00ff00&n%quests_category:bake_all%&#00ff00 Quests&#adadad listed"
+        - " &#adadadIn this quest you have to &nbake food&#adadad such as cakes,"
+        - " &#adadadbread, & etc"
+        - ""
+        - "&#fcba03Information"
+        - " &8◆ &#adadadTotal of quest that you've completed in this category: &#00ff00%quests_category:bake_completed% &l✔"
+        - " &8◆ &#adadadQuest that you've started on this category: &#ffff00%quests_category:bake_started%"
+        - ""
+        - "&#fcba03Click &8|&7 to view this category."
+      type: "SMOKER"
+  adventure:
+    display:
+      name: "&#35d60dAdventure Quest &#808080| &#adadadList"
+      lore:
+        - " &r "
+        - "&#35d60dDescription"
+        - " &#adadadThis is a adventuring quest currently there is &#00ff00&n%quests_category:adventure_all%&#00ff00 Quests&#adadad listed"
+        - " &#adadadIn this quest you have to &nwalk & explore&#adadad to an"
+        - " &#adadadunexplored world."
+        - ""
+        - "&#35d60dInformation"
+        - " &8◆ &#adadadTotal of quest that you've completed in this category: &#00ff00%quests_category:adventure_completed% &l✔"
+        - " &8◆ &#adadadQuest that you've started on this category: &#ffff00%quests_category:adventure_started%"
+        - ""
+        - "&#35d60dClick &8|&7 to view this category."
+      type: "MAP"
+  tamer:
+    display:
+      name: "&#ff00ffTamer Quest &#808080| &#adadadList"
+      lore:
+        - " &r "
+        - "&#ff00ffDescription"
+        - " &#adadadThis is a taming quest currently there is &#00ff00&n%quests_category:tamer_all%&#00ff00 Quests&#adadad listed"
+        - " &#adadadIn this quest you have to &ntame&#adadad a wild animals"
+        - " &#adadadsuch as wolf, cat, and etc!"
+        - ""
+        - "&#ff00ffInformation"
+        - " &8◆ &#adadadTotal of quest that you've completed in this category: &#00ff00%quests_category:tamer_completed% &l✔"
+        - " &8◆ &#adadadQuest that you've started on this category: &#ffff00%quests_category:tamer_started%"
+        - ""
+        - "&#ff00ffClick &8|&7 to view this category."
+      type: "BONE"
+  armorsmith:
+    display:
+      name: "&#bf6922Armorsmith Quest &#808080| &#adadadList"
+      lore:
+        - " &r "
+        - "&#bf6922Description"
+        - " &#adadadThis is a armorsmith quest currently there is &#00ff00&n%quests_category:armorsmith_all%&#00ff00 Quests&#adadad listed"
+        - " &#adadadIn this quest you have to &ncraft & repair&#adadad an armor"
+        - " &#adadadsuch as helmet, chestplate, leggings, and boots!"
+        - ""
+        - "&#bf6922Information"
+        - " &8◆ &#adadadTotal of quest that you've completed in this category: &#00ff00%quests_category:armorsmith_completed% &l✔"
+        - " &8◆ &#adadadQuest that you've started on this category: &#ffff00%quests_category:armorsmith_started%"
+        - ""
+        - "&#bf6922Click &8|&7 to view this category."
+      type: "SMITHING_TABLE"
+  farming:
+    display:
+      name: "&#00ff00Farming Quest &#808080| &#adadadList"
+      lore:
+        - " &r "
+        - "&#00ff00Description"
+        - " &#adadadThis is a farming quest currently there is &#00ff00&n%quests_category:farming_all%&#00ff00 Quests&#adadad listed"
+        - " &#adadadIn this quest you have to &nbreak crops & plant crops"
+        - " &#adadad and harvest!"
+        - ""
+        - "&#00ff00Information"
+        - " &8◆ &#adadadTotal of quest that you've completed in this category: &#00ff00%quests_category:farming_completed% &l✔"
+        - " &8◆ &#adadadQuest that you've started on this category: &#ffff00%quests_category:farming_started%"
+        - ""
+        - "&#00ff00Click &8|&7 to view this category."
+      type: "BEETROOT_SEEDS"
+  brewing:
+    display:
+      name: "&#e66adfBrewing Quest &#808080| &#adadadList"
+      lore:
+        - " &r "
+        - "&#e66adfDescription"
+        - " &#adadadThis is a brewing quest currently there is &#00ff00&n%quests_category:brewing_all%&#00ff00 Quests&#adadad listed"
+        - " &#adadadIn this quest you have to &nbrew a potion&#adadad then drink it!"
+        - ""
+        - "&#e66adfInformation"
+        - " &8◆ &#adadadTotal of quest that you've completed in this category: &#00ff00%quests_category:brewing_completed% &l✔"
+        - " &8◆ &#adadadQuest that you've started on this category: &#ffff00%quests_category:brewing_started%"
+        - ""
+        - "&#e66adfClick &8|&7 to view this category."
+      type: "BREWING_STAND"
+  digger:
+    display:
+      name: "&#e6e06aDigger Quest &#808080| &#adadadList"
+      lore:
+        - " &r "
+        - "&#e6e06aDescription"
+        - " &#adadadThis is a digger quest currently there is &#00ff00&n%quests_category:digger_all%&#00ff00 Quests&#adadad listed"
+        - " &#adadadIn this quest you have to &ndig & terraform&#adadad a land/terrain!"
+        - ""
+        - "&#e6e06aInformation"
+        - " &8◆ &#adadadTotal of quest that you've completed in this category: &#00ff00%quests_category:digger_completed% &l✔"
+        - " &8◆ &#adadadQuest that you've started on this category: &#ffff00%quests_category:digger_started%"
+        - ""
+        - "&#e6e06aClick &8|&7 to view this category."
+      type: "MYCELIUM"
+  builder:
+    display:
+      name: "&#ffbb00Building Quest &#808080| &#adadadList"
+      lore:
+        - " &r "
+        - "&#ffbb00Description"
+        - " &#adadadThis is a building quest currently there is &#00ff00&n%quests_category:builder_all%&#00ff00 Quests&#adadad listed"
+        - " &#adadadIn this quest you have to &nbuild & place&#adadad a structure!"
+        - ""
+        - "&#ffbb00Information"
+        - " &8◆ &#adadadTotal of quest that you've completed in this category: &#00ff00%quests_category:builder_completed% &l✔"
+        - " &8◆ &#adadadQuest that you've started on this category: &#ffff00%quests_category:builder_started%"
+        - ""
+        - "&#ffbb00Click &8|&7 to view this category."
+      type: "SCAFFOLDING"
+  crafter:
+    display:
+      name: "&#ffb412Crafter Quest &#808080| &#adadadList"
+      lore:
+        - " &r "
+        - "&#ffb412Description"
+        - " &#adadadThis is a crafting quest currently there is &#00ff00&n%quests_category:crafter_all%&#00ff00 Quests&#adadad listed"
+        - " &#adadadIn this quest you have to &ncraft&#adadad a certain items!"
+        - ""
+        - "&#ffb413Information"
+        - " &8◆ &#adadadTotal of quest that you've completed in this category: &#00ff00%quests_category:crafter_completed% &l✔"
+        - " &8◆ &#adadadQuest that you've started on this category: &#ffff00%quests_category:crafter_started%"
+        - ""
+        - "&#ffb412Click &8|&7 to view this category."
+      type: "CRAFTING_TABLE"
+  foraging:
+    display:
+      name: "&#fffd8fForaging Quest &#808080| &#adadadList"
+      lore:
+        - " &r "
+        - "&#fffd8fDescription"
+        - " &#adadadThis is a foraging quest currently there is &#00ff00&n%quests_category:foraging_all%&#00ff00 Quests&#adadad listed"
+        - " &#adadadIn this quest you have to &ncut a tree&#adadad in a certain type!"
+        - ""
+        - "&#fffd8fInformation"
+        - " &8◆ &#adadadTotal of quest that you've completed in this category: &#00ff00%quests_category:foraging_completed% &l✔"
+        - " &8◆ &#adadadQuest that you've started on this category: &#ffff00%quests_category:foraging_started%"
+        - ""
+        - "&#fffd8fClick &8|&7 to view this category."
+      type: "JUNGLE_SAPLING"
+  lawncutter:
+    display:
+      name: "&#38d170Lawncutter Quest &#808080| &#adadadList"
+      lore:
+        - " &r "
+        - "&#38d170Description"
+        - " &#adadadThis is a lawncutter quest currently there is &#00ff00&n%quests_category:lawncutter_all%&#00ff00 Quests&#adadad listed"
+        - " &#adadadIn this quest you have to &ncut a grass&#adadad in a certain type!"
+        - ""
+        - "&#38d170Information"
+        - " &8◆ &#adadadTotal of quest that you've completed in this category: &#00ff00%quests_category:lawncutter_completed% &l✔"
+        - " &8◆ &#adadadQuest that you've started on this category: &#ffff00%quests_category:lawncutter_started%"
+        - ""
+        - "&#38d170Click &8|&7 to view this category."
+      type: "GRASS"
+  breeding:
+    display:
+      name: "&#f272a5Breeder Quest &#808080| &#adadadList"
+      lore:
+        - " &r "
+        - "&#f272a5Description"
+        - " &#adadadThis is a breeder quest currently there is &#00ff00&n%quests_category:breeding_all%&#00ff00 Quests&#adadad listed"
+        - " &#adadadIn this quest you have to &nbreed&#adadad a certain animals!"
+        - ""
+        - "&#f272a5Information"
+        - " &8◆ &#adadadTotal of quest that you've completed in this category: &#00ff00%quests_category:breeding_completed% &l✔"
+        - " &8◆ &#adadadQuest that you've started on this category: &#ffff00%quests_category:breeding_started%"
+        - ""
+        - "&#f272a5Click &8|&7 to view this category."
+      type: "WHEAT"
+  consume:
+    display:
+      name: "&#f2ca72Consume Quest &#808080| &#adadadList"
+      lore:
+        - " &r "
+        - "&#f2ca72Description"
+        - " &#adadadThis is a consuming quest currently there is &#00ff00&n%quests_category:consume_all%&#00ff00 Quests&#adadad listed"
+        - " &#adadadIn this quest you have to &neat or consume&#adadad a spesific food/meals!"
+        - ""
+        - "&#f2ca72Information"
+        - " &8◆ &#adadadTotal of quest that you've completed in this category: &#00ff00%quests_category:consume_completed% &l✔"
+        - " &8◆ &#adadadQuest that you've started on this category: &#ffff00%quests_category:consume_started%"
+        - ""
+        - "&#f2ca72Click &8|&7 to view this category."
+      type: "COOKED_BEEF"
+  fishing:
+    display:
+      name: "&#1f9effFishing Quest &#808080| &#adadadList"
+      lore:
+        - " &r "
+        - "&#1f9effDescription"
+        - " &#adadadThis is a fishing quest currently there is &#00ff00&n%quests_category:fishing_all%&#00ff00 Quests&#adadad listed"
+        - " &#adadadIn this quest you have to &nfishing&#adadad and catch a fish!"
+        - ""
+        - "&#1f9effInformation"
+        - " &8◆ &#adadadTotal of quest that you've completed in this category: &#00ff00%quests_category:fishing_completed% &l✔"
+        - " &8◆ &#adadadQuest that you've started on this category: &#ffff00%quests_category:fishing_started%"
+        - ""
+        - "&#1f9effClick &8|&7 to view this category."
+      type: "COD"
+  hunter:
+    display:
+      name: "&#ff781fHunter Quest &#808080| &#adadadList"
+      lore:
+        - " &r "
+        - "&#ff781fDescription"
+        - " &#adadadThis is a hunting quest currently there is &#00ff00&n%quests_category:hunter_all%&#00ff00 Quests&#adadad listed"
+        - " &#adadadIn this quest you have to &nhunt down&#adadad a mob/animals!"
+        - ""
+        - "&#ff781fInformation"
+        - " &8◆ &#adadadTotal of quest that you've completed in this category: &#00ff00%quests_category:hunter_completed% &l✔"
+        - " &8◆ &#adadadQuest that you've started on this category: &#ffff00%quests_category:hunter_started%"
+        - ""
+        - "&#ff781fClick &8|&7 to view this category."
+      type: "ROTTEN_FLESH"
+  murder:
+    display:
+      name: "&#ff0000Murder Quest &#808080| &#adadadList"
+      lore:
+        - " &r "
+        - "&#ff0000Description"
+        - " &#adadadThis is a murdering quest currently there is &#00ff00&n%quests_category:murder_all%&#00ff00 Quests&#adadad listed"
+        - " &#adadadIn this quest you have to &nkill&#adadad a players!"
+        - ""
+        - "&#ff0000Information"
+        - " &8◆ &#adadadTotal of quest that you've completed in this category: &#00ff00%quests_category:murder_completed% &l✔"
+        - " &8◆ &#adadadQuest that you've started on this category: &#ffff00%quests_category:murder_started%"
+        - ""
+        - "&#ff0000Click &8|&7 to view this category."
+      type: "SKELETON_SKULL"
+  playtime:
+    display:
+      name: "&#ffff00Playtime Quest &#808080| &#adadadList"
+      lore:
+        - " &r "
+        - "&#ffff00Description"
+        - " &#adadadThis is a playing quest currently there is &#00ff00&n%quests_category:playtime_all%&#00ff00 Quests&#adadad listed"
+        - " &#adadadIn this quest you have to &nplaying&#adadad this server,"
+        - " &#adadadfor a certain time."
+        - ""
+        - "&#ffff00Information"
+        - " &8◆ &#adadadTotal of quest that you've completed in this category: &#00ff00%quests_category:playtime_completed% &l✔"
+        - " &8◆ &#adadadQuest that you've started on this category: &#ffff00%quests_category:playtime_started%"
+        - ""
+        - "&#ffff00Click &8|&7 to view this category."
+      type: "CLOCK"
+  mining:
+    display:
+      name: "&#0affdaMining Quest &#808080| &#adadadList"
+      lore:
+        - " &r "
+        - "&#0affdaDescription"
+        - " &#adadadThis is a mining quest currently there is &#00ff00&n%quests_category:mining_all%&#00ff00 Quests&#adadad listed"
+        - " &#adadadIn this quest you have to &nmine & break&#adadad a certain ore."
+        - ""
+        - "&#0affdaInformation"
+        - " &8◆ &#adadadTotal of quest that you've completed in this category: &#00ff00%quests_category:mining_completed% &l✔"
+        - " &8◆ &#adadadQuest that you've started on this category: &#ffff00%quests_category:mining_started%"
+        - ""
+        - "&#0affdaClick &8|&7 to view this category."
+      type: "GOLD_ORE"
+  weaponsmith:
+    display:
+      name: "&#495aa3Weaponsmith Quest &#808080| &#adadadList"
+      lore:
+        - " &r "
+        - "&#495aa3Description"
+        - " &#adadadThis is a weaponsmith quest currently there is &#00ff00&n%quests_category:weaponsmith_all%&#00ff00 Quests&#adadad listed"
+        - " &#adadadIn this quest you have to &ncraft & repair&#adadad an weapon"
+        - " &#adadadsuch as sword, pickaxe, axe, and etc!"
+        - ""
+        - "&#495aa3Information"
+        - " &8◆ &#adadadTotal of quest that you've completed in this category: &#00ff00%quests_category:weaponsmith_completed% &l✔"
+        - " &8◆ &#adadadQuest that you've started on this category: &#ffff00%quests_category:weaponsmith_started%"
+        - ""
+        - "&#495aa3Click &8|&7 to view this category."
+      type: "ANVIL"
+  enchanting:
+    display:
+      name: "&#dd87faEnchanting Quest &#808080| &#adadadList"
+      lore:
+        - " &r "
+        - "&#dd87faDescription"
+        - " &#adadadThis is a enchant quest currently there is &#00ff00&n%quests_category:enchanting_all%&#00ff00 Quests&#adadad listed"
+        - " &#adadadIn this quest you have to &nenchant&#adadad an weapon or armor."
+        - ""
+        - "&#dd87faInformation"
+        - " &8◆ &#adadadTotal of quest that you've completed in this category: &#00ff00%quests_category:enchanting_completed% &l✔"
+        - " &8◆ &#adadadQuest that you've started on this category: &#ffff00%quests_category:enchanting_started%"
+        - ""
+        - "&#dd87faClick &8|&7 to view this category."
+      type: "ENCHANTING_TABLE"
+  gardener:
+    display:
+      name: "&#ff70deGardener Quest &#808080| &#adadadList"
+      lore:
+        - " &r "
+        - "&#ff70deDescription"
+        - " &#adadadThis is a gardener quest currently there is &#00ff00&n%quests_category:gardener_all%&#00ff00 Quests&#adadad listed"
+        - " &#adadadIn this quest you have to &nplant&#adadad a flower ;)."
+        - ""
+        - "&#ff70deInformation"
+        - " &8◆ &#adadadTotal of quest that you've completed in this category: &#00ff00%quests_category:gardener_completed% &l✔"
+        - " &8◆ &#adadadQuest that you've started on this category: &#ffff00%quests_category:gardener_started%"
+        - ""
+        - "&#ff70deClick &8|&7 to view this category."
+      type: "FLOWER_POT"
+  teamseas:
+    display:
+      name: "&#1357fbT&#1f63fbe&#2b6ffba&#377bfbm&#4287fbs&#4e93fbe&#5a9ffca&#66abfcs &#7dc3fcQ&#89cffcu&#95dbfce&#a1e7fcs&#acf2fdt &#808080| &#adadadList "
+      lore:
+        - " &r "
+        - "&#175bfbD&#266afbe&#3579fbs&#4488fbc&#5397fbr&#62a7fci&#71b6fcp&#80c5fct&#8fd4fci&#9ee3fco&#adf3fdn"
+        - " &#adadadThis is a teamseas quest currently there is &#00ff00&n%quests_category:teamseas_all%&#00ff00 Quests&#adadad listed"
+        - " &#adadadIn this quest you have to &nsave&#adadad the sea!."
+        - ""
+        - "&#175bfbI&#266afbn&#3579fbf&#4488fbo&#5397fbr&#62a7fcm&#71b6fca&#80c5fct&#8fd4fci&#9ee3fco&#adf3fdn"
+        - " &8◆ &#adadadTotal of quest that you've completed in this category: &#00ff00%quests_category:teamseas_completed% &l✔"
+        - " &8◆ &#adadadQuest that you've started on this category: &#ffff00%quests_category:teamseas_started%"
+        - ""
+        - "&#1357fbClick &8|&7 to view this category."
+      type: "WATER_BUCKET"
+#
+#  teamtrees:
+#    display:
+#      name: "&#00ff00&lT&#08f200&le&#0fe600&la&#17d900&lm&#1fcc00&lT&#26bf00&lr&#2eb300&le&#35a600&le&#3d9900&ls &#808080| &#adadadList "
+#      lore:
+#        - " &r "
+#        - "&#00ff00D&#06f500e&#0ceb00s&#12e000c&#18d600r&#1fcc00i&#25c200p&#2bb800t&#31ad00i&#37a300o&#3d9900n"
+#        - " &#adadadThis is a teamtrees quest currently there is &#00ff00&n%quests_category:teamtrees_all%&#00ff00 Quests&#adadad listed"
+#        - " &#adadadIn this quest you have to &nsave&#adadad the earth!."
+#        - ""
+#        - "&#00ff00I&#06f500n&#0ceb00f&#12e000o&#18d600r&#1fcc00m&#25c200a&#2bb800t&#31ad00i&#37a300o&#3d9900n"
+#        - " &8◆ &#adadadTotal of quest that you've completed in this category: &#00ff00%quests_category:teamtrees_completed% &l✔"
+#        - " &8◆ &#adadadQuest that you've started on this category: &#ffff00%quests_category:teamtrees_started%"
+#        - ""
+#        - "&#37a300Click &8|&7 to view this category."
+#      type: "OAK_SAPLING"
+  challenge:
+    display:
+      name: "&#ffa161Challenge Quest &8| &#adadadList"
+      lore:
+        - " &r "
+        - "&#ffa161Description"
+        - " &#adadadThis is a challenge quest currently there is &#00ff00&n%quests_category:challenge_all%&#00ff00 Quests&#adadad listed"
+        - " &#adadadIn this quest you have to &ndo&#adadad a certain activities!"
+        - ""
+        - "&#ffa161Information"
+        - " &8◆ &#adadadTotal of quest that you've completed in this category: &#00ff00%quests_category:challenge_completed% &l✔"
+        - " &8◆ &#adadadQuest that you've started on this category: &#ffff00%quests_category:challenge_started%"
+        - ""
+        - "&#ffa161Click &8|&7 to view this category."
+      type: "NETHER_STAR"

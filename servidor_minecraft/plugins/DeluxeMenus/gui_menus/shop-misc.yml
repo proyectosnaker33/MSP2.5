@@ -1,0 +1,439 @@
+menu_title: '&8» Shop - Misc'
+size: 54
+open_command:
+- shop-misc
+items:
+  '0':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 0
+    display_name: '&7'
+  '1':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 1
+    display_name: '&7'
+  '2':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 2
+    display_name: '&7'
+  '3':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 3
+    display_name: '&7'
+  '4':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 4
+    display_name: '&7'
+  '5':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 5
+    display_name: '&7'
+  '6':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 6
+    display_name: '&7'
+  '7':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 7
+    display_name: '&7'
+  '8':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 8
+    display_name: '&7'
+  '9':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 9
+    display_name: '&7'
+  '10':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 10
+    display_name: '&7'
+  '11':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 11
+    display_name: '&7'
+  '12':
+    material: SEA_PICKLE
+    amount: 8
+    slot: 12
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &6260.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cYou cannot sell this item.'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 260
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% SEA_PICKLE amt:8 -s'
+    - '[takemoney] 260.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '13':
+    material: SHULKER_SHELL
+    amount: 8
+    slot: 13
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &62450.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cYou cannot sell this item.'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 2450
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% SHULKER_SHELL amt:8 -s'
+    - '[takemoney] 2450.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '14':
+    material: END_ROD
+    amount: 8
+    slot: 14
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &6260.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cYou cannot sell this item.'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 260
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% END_ROD amt:8 -s'
+    - '[takemoney] 260.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '15':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 15
+    display_name: '&7'
+  '16':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 16
+    display_name: '&7'
+  '17':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 17
+    display_name: '&7'
+  '18':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 18
+    display_name: '&7'
+  '19':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 19
+    display_name: '&7'
+  '20':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 20
+    display_name: '&7'
+  '21':
+    material: ITEM_FRAME
+    amount: 8
+    slot: 21
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &6240.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cYou cannot sell this item.'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 240
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% ITEM_FRAME amt:8 -s'
+    - '[takemoney] 240.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '22':
+    material: LEAD
+    amount: 8
+    slot: 22
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &6160.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cYou cannot sell this item.'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 160
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% LEAD amt:8 -s'
+    - '[takemoney] 160.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '23':
+    material: PAINTING
+    amount: 8
+    slot: 23
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &6112.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cYou cannot sell this item.'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 112
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% PAINTING amt:8 -s'
+    - '[takemoney] 112.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '24':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 24
+    display_name: '&7'
+  '25':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 25
+    display_name: '&7'
+  '26':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 26
+    display_name: '&7'
+  '27':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 27
+    display_name: '&7'
+  '28':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 28
+    display_name: '&7'
+  '29':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 29
+    display_name: '&7'
+  '30':
+    material: SADDLE
+    slot: 30
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &62000.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cYou cannot sell this item.'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 2000
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% SADDLE amt:8 -s'
+    - '[takemoney] 2000.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '31':
+    material: CAMPFIRE
+    amount: 8
+    slot: 31
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &6160.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cYou cannot sell this item.'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 160
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% CAMPFIRE amt:8 -s'
+    - '[takemoney] 160.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '32':
+    material: NAME_TAG
+    amount: 8
+    slot: 32
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &62000.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cYou cannot sell this item.'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 2000
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% NAME_TAG amt:8 -s'
+    - '[takemoney] 2000.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '33':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 33
+    display_name: '&7'
+  '34':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 34
+    display_name: '&7'
+  '35':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 35
+    display_name: '&7'
+  '36':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 36
+    display_name: '&7'
+  '37':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 37
+    display_name: '&7'
+  '38':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 38
+    display_name: '&7'
+  '39':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 39
+    display_name: '&7'
+  '40':
+    material: LAVA_BUCKET
+    amount: 1
+    slot: 40
+    lore:
+    - '&7'
+    - '&8| &7Purchase for: &61500.0 ⛃'
+    - '&7'
+    - '&8| &aLeft Click: Buy'
+    - '&8| &cYou cannot sell this item.'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    left_click_requirement:
+      requirements:
+        item1:
+          type: has money
+          amount: 1500
+          deny_commands:
+          - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] itemmanager give %player_name% LAVA_BUCKET amt:1 -s'
+    - '[takemoney] 1500.0'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '41':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 41
+    display_name: '&7'
+  '42':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 42
+    display_name: '&7'
+  '43':
+    material: GRAY_STAINED_GLASS_PANE
+    slot: 43
+    display_name: '&7'
+  '44':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 44
+    display_name: '&7'
+  '45':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 45
+    display_name: '&7'
+  '46':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 46
+    display_name: '&7'
+  '47':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 47
+    display_name: '&7'
+  '48':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 48
+    display_name: '&7'
+  '49':
+    material: BARRIER
+    slot: 49
+    display_name: '&8| &cBack to Category''s'
+    lore:
+    - '&7'
+    - '&8| &eClick to return!'
+    left_click_commands:
+    - '[openguimenu] shop-main'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    right_click_commands:
+    - '[openguimenu] shop-main'
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+  '50':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 50
+    display_name: '&7'
+  '51':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 51
+    display_name: '&7'
+  '52':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 52
+    display_name: '&7'
+  '53':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 53
+    display_name: '&7'

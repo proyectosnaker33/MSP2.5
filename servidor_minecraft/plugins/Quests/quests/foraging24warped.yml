@@ -1,0 +1,39 @@
+tasks:
+  cut:
+    type: "blockbreakcertain"
+    amount: 64
+    block: "WARPED_STEM"
+display:
+  name: "&#fffe8fForaging Quest &8| &fWarped Stem" 
+  lore-normal:
+    - ""
+    - "&#fffe8fDescription"
+    - " &#adadadYou have to cut 64 warped stem"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#fffe8fInformation"
+    - " &8■ &7Objective: &#fffe8fCut 64 Warped Stem."
+    - " &8■ &7Progress: &#fffe8f{cut:progress}&8/&#fffe8f64 Warped Stem"
+    - ""
+    - "&#fffe8fRewards"
+    - " &8■ &a&l$&a1,000"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "WARPED_STEM"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a1,000"
+rewards:
+  - "eco give {player} 1000"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a1,000 &#808080&o(( added to your balance ))"
+options:
+  category: "foraging"
+  requires: [foraging23warped]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 24

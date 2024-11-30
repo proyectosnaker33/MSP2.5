@@ -1,0 +1,45 @@
+tasks:
+  wood:
+    type: "blockplacecertain"
+    amount: 228
+    block: "ACACIA_LOG"
+  leaves:
+    type: "blockplacecertain"
+    amount: 685
+    block: "ACACIA_LEAVES"
+display:
+  name: "&#ffbb00Builder Quest &8| &fTree" 
+  lore-normal:
+    - ""
+    - "&#ffbb00Description"
+    - " &#adadadYou have to build 1 fancy baobab tree"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#ffbb00Information"
+    - " &8■ &7Objective: &#ffbb00Build 1 Baobab Tree."
+    - " &8■ &7Progress:"
+    - " &8- &#ffbb00{wood:progress}&8/&#ffbb00228 Acacia Log"
+    - " &8- &#ffbb00{leaves:progress}&8/&#ffbb00685 Acacia Leaves"
+    - ""
+    - "&#ffbb00Rewards"
+    - " &8■ &a&l$&a5,000"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "ACACIA_SAPLING"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a5,000"
+rewards:
+  - "eco give {player} 5000"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a300 &#808080&o(( added to your balance ))"
+options:
+  category: "builder"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 3

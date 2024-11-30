@@ -1,0 +1,41 @@
+tasks:
+  crafter:
+    type: "inventory"
+    item: FURNACE
+    amount: 4
+    remove-items-when-complete: true
+    update-progress: true
+display:
+  name: "&#ffb412Crafter Quest &8| &fFurnace" 
+  lore-normal:
+    - ""
+    - "&#ffb412Description"
+    - " &#adadadYou have to craft 4 furnace"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#ffb412Information"
+    - " &8■ &7Objective: &#ffb412Craft 4 Furnace"
+    - " &8■ &7Progress: &#ffb412{crafter:progress}&8/&#ffb4124 Furnace"
+    - ""
+    - "&#ffb412Rewards"
+    - " &8■ &a&l$&a10"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "FURNACE"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a10"
+rewards:
+  - "eco give {player} 10"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a10 &#808080&o(( added to your balance ))"
+options:
+  category: "crafter"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 3

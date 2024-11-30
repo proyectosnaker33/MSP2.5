@@ -1,0 +1,38 @@
+tasks:
+  fishing:
+    type: "fishing"
+    amount: 64
+display:
+  name: "&#1f9effFishing Quest &8| &f64 Fish" 
+  lore-normal:
+    - ""
+    - "&#1f9effDescription"
+    - " &#adadadYou have to catch 64 fish"
+    - " &#adadadbefore receive the reward."
+    - ""
+    - "&#1f9effInformation"
+    - " &8■ &7Objective: &#1f9effCatch 64 Fish."
+    - " &8■ &7Progress: &#1f9eff{fishing:progress}&8/&#1f9eff64 Fish"
+    - ""
+    - "&#1f9effRewards"
+    - " &8■ &a&l$&a1,000"
+    - ""
+  lore-started:
+    - "&e&l▲ &eYou've start this quest."
+  type: "COD"
+startstring:
+  - "&#adadadBy completing the following quest you will be rewarded with:"
+  - " &8■ &a&l$&a1,000"
+rewards:
+  - "eco give {player} 1000"
+rewardstring:
+  - "&#adadadYou've successfully completed the quest! and rewarded with:"
+  - " &8■ &a&l$&a1,000 &#808080&o(( added to your balance ))"
+options:
+  category: "fishing"
+  requires: [fishing3fish]
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 82600
+  sort-order: 4
