@@ -506,3 +506,8 @@ Update at https://www.spigotmc.org/resources/13932/
 [18:20:06] [Craft Scheduler Thread - 82 - BentoBox/INFO]: [BentoBox] Updating Contributors information...
 [18:20:06] [Craft Scheduler Thread - 82 - BentoBox/INFO]: [BentoBox] Gathering contribution data for: BentoBoxWorld/BentoBox, BentoBoxWorld/AOneBlock, BentoBoxWorld/Likes
 [18:20:06] [Craft Scheduler Thread - 82 - BentoBox/INFO]: [BentoBox] Successfully downloaded data from GitHub.
+[19:45:51] [Server thread/INFO]: Bukkit Plugins: (38):
+[19:45:51] [Server thread/INFO]:  - AdvancedBan, AuctionMaster, *BCommons, BentoBox, BentoBox-AOneBlock, BentoBox-Likes, BentoBox-Warps, ChatManager, ChatReaction, ClearLag
+[19:45:51] [Server thread/INFO]:  CrazyCrates, DecentHolograms, DeluxeMenus, DivineDrop, Essentials, EssentialsSpawn, FastAsyncWorldEdit, ItemManager, LuckPerms, MineableSpawners
+[19:45:51] [Server thread/INFO]:  Multiverse-Core, PL-Hide, PlaceholderAPI, PlayerKits, Quests, ServerListPlus, ServersNPC, SmoothSleep, spark, TAB
+[19:45:51] [Server thread/INFO]:  TimedRewards, Vault, ViaBackwards, ViaRewind, ViaVersion, *VoidSpawn, VotingPlugin, WorldGuard
