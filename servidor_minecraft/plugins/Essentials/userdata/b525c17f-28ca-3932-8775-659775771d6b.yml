@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1733012669486
   login: 1733011920236
 money: '0'
 last-account-name: kaled65
@@ -28,3 +28,11 @@ lastlocation:
   z: 0.0
   yaw: 0.0
   pitch: 0.0
+logoutlocation:
+  world: 1dd3f5fe-aa09-47f1-b702-4810aa2afba9
+  world-name: oneblock_world
+  x: 0.7884762585089015
+  y: 81.0
+  z: 800.5872508196812
+  yaw: 75.02205657958984
+  pitch: 74.5708999633789
