@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1733012271437
+  logout: 1733013310537
   login: 1733012276709
 money: '0'
 last-account-name: uvMario
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: 1dd3f5fe-aa09-47f1-b702-4810aa2afba9
   world-name: oneblock_world
-  x: 3.202782752489882
-  y: 83.61943778270853
-  z: 807.1464358638527
-  yaw: 143.1151885986328
-  pitch: 64.79998779296875
+  x: -8.526358313292423
+  y: 88.87067135502616
+  z: 812.6814570188252
+  yaw: -130.03468322753906
+  pitch: 41.699989318847656

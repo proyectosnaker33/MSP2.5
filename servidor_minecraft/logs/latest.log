@@ -578,3 +578,9 @@ Update at https://www.spigotmc.org/resources/13932/
 [00:24:22] [Server thread/INFO]: kaled65 issued server command: /lobby
 [00:24:29] [Server thread/INFO]: kaled65 lost connection: Disconnected
 [00:24:29] [Server thread/INFO]: kaled65 left the game
+[00:35:10] [Server thread/INFO]: uvMario lost connection: Disconnected
+[00:35:10] [Server thread/INFO]: uvMario left the game
+[00:39:26] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /me ls
+[00:39:26] [Server thread/INFO]: ME [@] » ls
+[00:39:27] [Server thread/INFO]: ---------------[ Player List ]---------------
+[00:39:27] [Server thread/INFO]: Online Players 0/100: 
