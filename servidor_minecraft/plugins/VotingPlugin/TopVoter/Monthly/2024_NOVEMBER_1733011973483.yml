@@ -1,0 +1,10 @@
+# Saving top voters for Monthly, file also contains other top voter info as backup
+
+AllTime:
+- 'Combined total: 20'
+Monthly:
+- 'Combined total: 0'
+Weekly:
+- 'Combined total: 0'
+Daily:
+- 'Combined total: 0'

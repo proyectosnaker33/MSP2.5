@@ -1,530 +1,573 @@
-[16:19:43] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[16:19:44] [ServerMain/INFO]: Loaded 7 recipes
-[16:19:45] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[16:19:45] [Server thread/INFO]: Loading properties
-[16:19:45] [Server thread/INFO]: This server is running Purpur version git-Purpur-2014 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 2453fef on HEAD)
-[16:19:45] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:19:45] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:19:45] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[16:19:46] [Server thread/WARN]: [Pufferfish] Will not enable SIMD! These optimizations are only safely supported on Java 17, Java 18, and Java 19.
-[16:19:46] [Server thread/INFO]: Default game type: SURVIVAL
-[16:19:46] [Server thread/INFO]: Generating keypair
-[16:19:46] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
-[16:19:46] [Server thread/INFO]: Using epoll channel type
-[16:19:46] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[16:19:46] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[16:19:47] [Server thread/INFO]: [SpigotLibraryLoader] [BentoBox] Loading 5 libraries... please wait
-[16:19:47] [Server thread/INFO]: [SpigotLibraryLoader] [BentoBox] Loaded library /workspaces/MSP2.5/servidor_minecraft/libraries/mysql/mysql-connector-java/8.0.27/mysql-connector-java-8.0.27.jar
-[16:19:47] [Server thread/INFO]: [SpigotLibraryLoader] [BentoBox] Loaded library /workspaces/MSP2.5/servidor_minecraft/libraries/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar
-[16:19:47] [Server thread/INFO]: [SpigotLibraryLoader] [BentoBox] Loaded library /workspaces/MSP2.5/servidor_minecraft/libraries/org/mariadb/jdbc/mariadb-java-client/3.0.5/mariadb-java-client-3.0.5.jar
-[16:19:47] [Server thread/INFO]: [SpigotLibraryLoader] [BentoBox] Loaded library /workspaces/MSP2.5/servidor_minecraft/libraries/org/postgresql/postgresql/42.2.18/postgresql-42.2.18.jar
-[16:19:47] [Server thread/INFO]: [SpigotLibraryLoader] [BentoBox] Loaded library /workspaces/MSP2.5/servidor_minecraft/libraries/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar
-[16:19:47] [Server thread/INFO]: [SpigotLibraryLoader] [BentoBox] Loaded library /workspaces/MSP2.5/servidor_minecraft/libraries/org/mongodb/mongodb-driver/3.12.8/mongodb-driver-3.12.8.jar
-[16:19:47] [Server thread/INFO]: [SpigotLibraryLoader] [BentoBox] Loaded library /workspaces/MSP2.5/servidor_minecraft/libraries/org/mongodb/bson/3.12.8/bson-3.12.8.jar
-[16:19:47] [Server thread/INFO]: [SpigotLibraryLoader] [BentoBox] Loaded library /workspaces/MSP2.5/servidor_minecraft/libraries/org/mongodb/mongodb-driver-core/3.12.8/mongodb-driver-core-3.12.8.jar
-[16:19:47] [Server thread/INFO]: [SpigotLibraryLoader] [BentoBox] Loaded library /workspaces/MSP2.5/servidor_minecraft/libraries/com/zaxxer/HikariCP/5.0.1/HikariCP-5.0.1.jar
-[16:19:47] [Server thread/INFO]: [SpigotLibraryLoader] [BentoBox] Loaded library /workspaces/MSP2.5/servidor_minecraft/libraries/org/slf4j/slf4j-api/2.0.0-alpha1/slf4j-api-2.0.0-alpha1.jar
-[16:19:47] [Server thread/INFO]: [SpigotLibraryLoader] [VotingPlugin] Loading 1 libraries... please wait
-[16:19:47] [Server thread/INFO]: [SpigotLibraryLoader] [VotingPlugin] Loaded library /workspaces/MSP2.5/servidor_minecraft/libraries/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar
-[16:19:47] [Server thread/INFO]: [SpigotLibraryLoader] [VotingPlugin] Loaded library /workspaces/MSP2.5/servidor_minecraft/libraries/org/ow2/asm/asm/7.3.1/asm-7.3.1.jar
-[16:19:47] [Server thread/INFO]: [SpigotLibraryLoader] [VotingPlugin] Loaded library /workspaces/MSP2.5/servidor_minecraft/libraries/org/ow2/asm/asm-commons/7.3.1/asm-commons-7.3.1.jar
-[16:19:47] [Server thread/INFO]: [SpigotLibraryLoader] [VotingPlugin] Loaded library /workspaces/MSP2.5/servidor_minecraft/libraries/org/ow2/asm/asm-analysis/7.3.1/asm-analysis-7.3.1.jar
-[16:19:47] [Server thread/INFO]: [SpigotLibraryLoader] [VotingPlugin] Loaded library /workspaces/MSP2.5/servidor_minecraft/libraries/org/ow2/asm/asm-tree/7.3.1/asm-tree-7.3.1.jar
-[16:19:47] [Server thread/INFO]: [SpigotLibraryLoader] [VotingPlugin] Loaded library /workspaces/MSP2.5/servidor_minecraft/libraries/org/ow2/asm/asm-util/7.3.1/asm-util-7.3.1.jar
-[16:19:47] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[16:19:50] [Server thread/WARN]: Legacy plugin BCommons v0.3.0 does not specify an api-version.
-[16:19:50] [Server thread/WARN]: Legacy plugin VoidSpawn v1.16.1 does not specify an api-version.
-[16:19:50] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.1.1
-[16:19:50] [Server thread/INFO]: [ViaVersion] ViaVersion 5.1.1 is now loaded. Registering protocol transformers and injecting...
-[16:19:51] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[16:19:51] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[16:19:51] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[16:19:51] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[16:19:51] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[16:19:51] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.98
-[16:19:52] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[16:19:52] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.3
-[16:19:52] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.1.1
-[16:19:52] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1-dev+29-6012959
-[16:19:52] [Server thread/INFO]: [BentoBox] Loading server plugin BentoBox v1.23.1
-[16:19:52] [Server thread/INFO]: [VotingPlugin] Loading server plugin VotingPlugin v6.13.1
-[16:19:52] [Server thread/INFO]: [BCommons] Loading server plugin BCommons v0.3.0
-[16:19:52] [Server thread/INFO]: [AdvancedBan] Loading server plugin AdvancedBan v2.3.0
-[16:19:52] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.3
-[16:19:52] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.8.3
-[16:19:52] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.6.5-SNAPSHOT-521;0a19f64
-[16:19:52] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@141e8441]
-[16:19:52] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.119
-[16:19:52] [Server thread/INFO]: [Quests] Loading server plugin Quests v3.14.2-3345d07
-[16:19:52] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
-[16:19:52] [Server thread/INFO]: [TimedRewards] Loading server plugin TimedRewards v1.1.20
-[16:19:52] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.20.1-dev+29-6012959
-[16:19:52] [Server thread/INFO]: [DivineDrop] Loading server plugin DivineDrop v2.12
-[16:19:52] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.1-b861
-[16:19:53] [Server thread/INFO]: [PlayerKits] Loading server plugin PlayerKits v2.27.1
-[16:19:53] [Server thread/INFO]: [AuctionMaster] Loading server plugin AuctionMaster v4.1
-[16:19:53] [Server thread/INFO]: [SS] Loading server plugin SmoothSleep v2.11.2
-[16:19:53] [Server thread/INFO]: [DeluxeMenus] Loading server plugin DeluxeMenus v1.14.0-DEV-160
-[16:19:53] [Server thread/WARN]: [DeluxeMenus] Could not setup a NMS hook for your server version!
-[16:19:53] [Server thread/INFO]: [ServerListPlus] Loading server plugin ServerListPlus v3.5.0
-[16:19:53] [Server thread/INFO]: [ItemManager] Loading server plugin ItemManager v1.1.2
-[16:19:53] [Server thread/INFO]: [ServersNPC] Loading server plugin ServersNPC v4.9
-[16:19:53] [Server thread/INFO]: [MineableSpawners] Loading server plugin MineableSpawners v3.1.4
-[16:19:53] [Server thread/INFO]: [VoidSpawn] Loading server plugin VoidSpawn v1.16.1
-[16:19:53] [Server thread/INFO]: [PL-Hide] Loading server plugin PL-Hide v1.5.21
-[16:19:53] [Server thread/INFO]: [ChatManager] Loading server plugin ChatManager v3.7.7
-[16:19:53] [Server thread/INFO]: [TAB] Loading server plugin TAB v4.0.2
-[16:19:53] [Server thread/INFO]: [CrazyCrates] Loading server plugin CrazyCrates v1.11.15.4
-[16:19:53] [Server thread/INFO]: [ChatReaction] Loading server plugin ChatReaction v1.8.0
-[16:19:53] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9-beta1+2249-223b80c
-[16:19:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:19:53] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.98
-[16:19:53] [Server thread/INFO]:         __    
-[16:19:53] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.98
-[16:19:53] [Server thread/INFO]:   |___ |      Running on Bukkit - Purpur
-[16:19:53] [Server thread/INFO]: 
-[16:19:53] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[16:19:54] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[16:19:54] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[16:19:54] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[16:19:55] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2073ms)
-[16:19:55] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[16:19:55] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[16:19:55] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[16:19:55] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[16:19:55] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[16:19:55] [Server thread/INFO]: [BentoBox] Enabling BentoBox v1.23.1
-[16:19:55] [Server thread/WARN]: [BentoBox] ************ Disclaimer **************
-[16:19:55] [Server thread/WARN]: [BentoBox] BentoBox may not be compatible with this server!
-[16:19:55] [Server thread/WARN]: [BentoBox] BentoBox is tested only on the following Spigot versions:
-[16:19:55] [Server thread/WARN]: [BentoBox] 1.19, 1.19.1, 1.19.2, 1.19.3, 1.19.4
-[16:19:55] [Server thread/WARN]: [BentoBox] **************************************
-[16:19:55] [Server thread/INFO]: [BentoBox] Loading Settings from config.yml...
-[16:19:56] [Server thread/INFO]: [BentoBox] Loading addons...
-[16:19:56] [Server thread/INFO]: [BentoBox-Warps] Loading server plugin BentoBox-Warps v1.13.0
-[16:19:56] [Server thread/INFO]: [BentoBox-AOneBlock] Loading server plugin BentoBox-AOneBlock v1.13.0
-[16:19:56] [Server thread/INFO]: [BentoBox-Likes] Loading server plugin BentoBox-Likes v2.3.1
-[16:19:57] [Server thread/INFO]: [BentoBox] Loaded 4 addons.
-[16:19:57] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.3
-[16:19:57] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.6.5-SNAPSHOT-521;0a19f64
-[16:19:57] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[16:19:57] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[16:19:57] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[16:19:57] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[16:19:57] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_20_R1.PaperweightFaweAdapter as the Bukkit adapter
-[16:19:58] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:19:58] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:19:58] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[16:19:58] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[16:19:58] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:19:58] [Server thread/INFO]: Preparing level "Spawn"
-[16:19:58] [ForkJoinPool.commonPool-worker-1/WARN]: [com.fastasyncworldedit.core.util.UpdateNotification] An update for FastAsyncWorldEdit is available. You are 465 build(s) out of date.
+[00:11:37] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[00:11:38] [ServerMain/INFO]: Loaded 7 recipes
+[00:11:38] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[00:11:38] [Server thread/INFO]: Loading properties
+[00:11:39] [Server thread/INFO]: This server is running Purpur version git-Purpur-2014 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 2453fef on HEAD)
+[00:11:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:11:39] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:11:39] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[00:11:40] [Server thread/WARN]: [Pufferfish] Will not enable SIMD! These optimizations are only safely supported on Java 17, Java 18, and Java 19.
+[00:11:40] [Server thread/INFO]: Default game type: SURVIVAL
+[00:11:40] [Server thread/INFO]: Generating keypair
+[00:11:40] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
+[00:11:40] [Server thread/INFO]: Using epoll channel type
+[00:11:40] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[00:11:40] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[00:11:41] [Server thread/INFO]: [SpigotLibraryLoader] [BentoBox] Loading 5 libraries... please wait
+[00:11:41] [Server thread/INFO]: [SpigotLibraryLoader] [BentoBox] Loaded library /workspaces/MSP2.5/servidor_minecraft/libraries/mysql/mysql-connector-java/8.0.27/mysql-connector-java-8.0.27.jar
+[00:11:41] [Server thread/INFO]: [SpigotLibraryLoader] [BentoBox] Loaded library /workspaces/MSP2.5/servidor_minecraft/libraries/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar
+[00:11:41] [Server thread/INFO]: [SpigotLibraryLoader] [BentoBox] Loaded library /workspaces/MSP2.5/servidor_minecraft/libraries/org/mariadb/jdbc/mariadb-java-client/3.0.5/mariadb-java-client-3.0.5.jar
+[00:11:41] [Server thread/INFO]: [SpigotLibraryLoader] [BentoBox] Loaded library /workspaces/MSP2.5/servidor_minecraft/libraries/org/postgresql/postgresql/42.2.18/postgresql-42.2.18.jar
+[00:11:41] [Server thread/INFO]: [SpigotLibraryLoader] [BentoBox] Loaded library /workspaces/MSP2.5/servidor_minecraft/libraries/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar
+[00:11:41] [Server thread/INFO]: [SpigotLibraryLoader] [BentoBox] Loaded library /workspaces/MSP2.5/servidor_minecraft/libraries/org/mongodb/mongodb-driver/3.12.8/mongodb-driver-3.12.8.jar
+[00:11:41] [Server thread/INFO]: [SpigotLibraryLoader] [BentoBox] Loaded library /workspaces/MSP2.5/servidor_minecraft/libraries/org/mongodb/bson/3.12.8/bson-3.12.8.jar
+[00:11:41] [Server thread/INFO]: [SpigotLibraryLoader] [BentoBox] Loaded library /workspaces/MSP2.5/servidor_minecraft/libraries/org/mongodb/mongodb-driver-core/3.12.8/mongodb-driver-core-3.12.8.jar
+[00:11:41] [Server thread/INFO]: [SpigotLibraryLoader] [BentoBox] Loaded library /workspaces/MSP2.5/servidor_minecraft/libraries/com/zaxxer/HikariCP/5.0.1/HikariCP-5.0.1.jar
+[00:11:41] [Server thread/INFO]: [SpigotLibraryLoader] [BentoBox] Loaded library /workspaces/MSP2.5/servidor_minecraft/libraries/org/slf4j/slf4j-api/2.0.0-alpha1/slf4j-api-2.0.0-alpha1.jar
+[00:11:41] [Server thread/INFO]: [SpigotLibraryLoader] [VotingPlugin] Loading 1 libraries... please wait
+[00:11:41] [Server thread/INFO]: [SpigotLibraryLoader] [VotingPlugin] Loaded library /workspaces/MSP2.5/servidor_minecraft/libraries/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar
+[00:11:41] [Server thread/INFO]: [SpigotLibraryLoader] [VotingPlugin] Loaded library /workspaces/MSP2.5/servidor_minecraft/libraries/org/ow2/asm/asm/7.3.1/asm-7.3.1.jar
+[00:11:41] [Server thread/INFO]: [SpigotLibraryLoader] [VotingPlugin] Loaded library /workspaces/MSP2.5/servidor_minecraft/libraries/org/ow2/asm/asm-commons/7.3.1/asm-commons-7.3.1.jar
+[00:11:41] [Server thread/INFO]: [SpigotLibraryLoader] [VotingPlugin] Loaded library /workspaces/MSP2.5/servidor_minecraft/libraries/org/ow2/asm/asm-analysis/7.3.1/asm-analysis-7.3.1.jar
+[00:11:41] [Server thread/INFO]: [SpigotLibraryLoader] [VotingPlugin] Loaded library /workspaces/MSP2.5/servidor_minecraft/libraries/org/ow2/asm/asm-tree/7.3.1/asm-tree-7.3.1.jar
+[00:11:41] [Server thread/INFO]: [SpigotLibraryLoader] [VotingPlugin] Loaded library /workspaces/MSP2.5/servidor_minecraft/libraries/org/ow2/asm/asm-util/7.3.1/asm-util-7.3.1.jar
+[00:11:41] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[00:11:44] [Server thread/WARN]: Legacy plugin BCommons v0.3.0 does not specify an api-version.
+[00:11:44] [Server thread/WARN]: Legacy plugin VoidSpawn v1.16.1 does not specify an api-version.
+[00:11:44] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.1.1
+[00:11:44] [Server thread/INFO]: [ViaVersion] ViaVersion 5.1.1 is now loaded. Registering protocol transformers and injecting...
+[00:11:44] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[00:11:45] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[00:11:45] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[00:11:45] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[00:11:45] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[00:11:45] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.98
+[00:11:45] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[00:11:45] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.3
+[00:11:45] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.1.1
+[00:11:45] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1-dev+29-6012959
+[00:11:45] [Server thread/INFO]: [BentoBox] Loading server plugin BentoBox v1.23.1
+[00:11:45] [Server thread/INFO]: [VotingPlugin] Loading server plugin VotingPlugin v6.13.1
+[00:11:45] [Server thread/INFO]: [BCommons] Loading server plugin BCommons v0.3.0
+[00:11:45] [Server thread/INFO]: [AdvancedBan] Loading server plugin AdvancedBan v2.3.0
+[00:11:45] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.3
+[00:11:45] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.8.3
+[00:11:45] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.6.5-SNAPSHOT-521;0a19f64
+[00:11:46] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6604a5e6]
+[00:11:46] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.119
+[00:11:46] [Server thread/INFO]: [Quests] Loading server plugin Quests v3.14.2-3345d07
+[00:11:46] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
+[00:11:46] [Server thread/INFO]: [TimedRewards] Loading server plugin TimedRewards v1.1.20
+[00:11:46] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.20.1-dev+29-6012959
+[00:11:46] [Server thread/INFO]: [DivineDrop] Loading server plugin DivineDrop v2.12
+[00:11:46] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.1-b861
+[00:11:46] [Server thread/INFO]: [PlayerKits] Loading server plugin PlayerKits v2.27.1
+[00:11:46] [Server thread/INFO]: [AuctionMaster] Loading server plugin AuctionMaster v4.1
+[00:11:46] [Server thread/INFO]: [SS] Loading server plugin SmoothSleep v2.11.2
+[00:11:46] [Server thread/INFO]: [DeluxeMenus] Loading server plugin DeluxeMenus v1.14.0-DEV-160
+[00:11:46] [Server thread/WARN]: [DeluxeMenus] Could not setup a NMS hook for your server version!
+[00:11:46] [Server thread/INFO]: [ServerListPlus] Loading server plugin ServerListPlus v3.5.0
+[00:11:46] [Server thread/INFO]: [ItemManager] Loading server plugin ItemManager v1.1.2
+[00:11:46] [Server thread/INFO]: [ServersNPC] Loading server plugin ServersNPC v4.9
+[00:11:46] [Server thread/INFO]: [MineableSpawners] Loading server plugin MineableSpawners v3.1.4
+[00:11:46] [Server thread/INFO]: [VoidSpawn] Loading server plugin VoidSpawn v1.16.1
+[00:11:46] [Server thread/INFO]: [PL-Hide] Loading server plugin PL-Hide v1.5.21
+[00:11:46] [Server thread/INFO]: [ChatManager] Loading server plugin ChatManager v3.7.7
+[00:11:46] [Server thread/INFO]: [TAB] Loading server plugin TAB v4.0.2
+[00:11:46] [Server thread/INFO]: [CrazyCrates] Loading server plugin CrazyCrates v1.11.15.4
+[00:11:46] [Server thread/INFO]: [ChatReaction] Loading server plugin ChatReaction v1.8.0
+[00:11:46] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9-beta1+2249-223b80c
+[00:11:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:11:46] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.98
+[00:11:47] [Server thread/INFO]:         __    
+[00:11:47] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.98
+[00:11:47] [Server thread/INFO]:   |___ |      Running on Bukkit - Purpur
+[00:11:47] [Server thread/INFO]: 
+[00:11:47] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[00:11:47] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[00:11:48] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[00:11:48] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[00:11:48] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1997ms)
+[00:11:48] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[00:11:48] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[00:11:49] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[00:11:49] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[00:11:49] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[00:11:49] [Server thread/INFO]: [BentoBox] Enabling BentoBox v1.23.1
+[00:11:49] [Server thread/WARN]: [BentoBox] ************ Disclaimer **************
+[00:11:49] [Server thread/WARN]: [BentoBox] BentoBox may not be compatible with this server!
+[00:11:49] [Server thread/WARN]: [BentoBox] BentoBox is tested only on the following Spigot versions:
+[00:11:49] [Server thread/WARN]: [BentoBox] 1.19, 1.19.1, 1.19.2, 1.19.3, 1.19.4
+[00:11:49] [Server thread/WARN]: [BentoBox] **************************************
+[00:11:49] [Server thread/INFO]: [BentoBox] Loading Settings from config.yml...
+[00:11:50] [Server thread/INFO]: [BentoBox] Loading addons...
+[00:11:50] [Server thread/INFO]: [BentoBox-Warps] Loading server plugin BentoBox-Warps v1.13.0
+[00:11:50] [Server thread/INFO]: [BentoBox-AOneBlock] Loading server plugin BentoBox-AOneBlock v1.13.0
+[00:11:50] [Server thread/INFO]: [BentoBox-Likes] Loading server plugin BentoBox-Likes v2.3.1
+[00:11:50] [Server thread/INFO]: [BentoBox] Loaded 4 addons.
+[00:11:50] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.3
+[00:11:50] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.6.5-SNAPSHOT-521;0a19f64
+[00:11:51] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[00:11:51] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[00:11:51] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[00:11:51] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[00:11:51] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_20_R1.PaperweightFaweAdapter as the Bukkit adapter
+[00:11:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:11:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:11:51] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[00:11:51] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[00:11:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:11:51] [Server thread/INFO]: Preparing level "Spawn"
+[00:11:52] [ForkJoinPool.commonPool-worker-1/WARN]: [com.fastasyncworldedit.core.util.UpdateNotification] An update for FastAsyncWorldEdit is available. You are 465 build(s) out of date.
 You are running build 521, the latest version is build 986.
 Update at https://www.spigotmc.org/resources/13932/
-[16:19:58] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:19:58] [Server thread/INFO]: Time elapsed: 186 ms
-[16:19:58] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.1.1
-[16:19:58] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
-[16:19:58] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.3
-[16:19:58] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[16:19:58] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.1.1
-[16:19:58] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1-dev+29-6012959
-[16:19:59] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[16:19:59] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[16:19:59] [Server thread/INFO]: [Essentials] Loaded 36926 items from items.json.
-[16:19:59] [Server thread/INFO]: [Essentials] Using locale en
-[16:19:59] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[16:19:59] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[16:19:59] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[16:19:59] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[16:19:59] [Server thread/INFO]: [VotingPlugin] Enabling VotingPlugin v6.13.1
-[16:20:00] [Server thread/WARN]: com.bencodez.votingplugin.advancedcore.api.exceptions.FileDirectoryException: File is not a directory
-[16:20:00] [Server thread/WARN]: 	at VotingPlugin.jar//com.bencodez.votingplugin.advancedcore.api.rewards.RewardHandler.addRewardFolder(RewardHandler.java:202)
-[16:20:00] [Server thread/WARN]: 	at VotingPlugin.jar//com.bencodez.votingplugin.advancedcore.AdvancedCorePlugin.loadHook(AdvancedCorePlugin.java:503)
-[16:20:00] [Server thread/WARN]: 	at VotingPlugin.jar//com.bencodez.votingplugin.advancedcore.AdvancedCorePlugin.onEnable(AdvancedCorePlugin.java:921)
-[16:20:00] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281)
-[16:20:00] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189)
-[16:20:00] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
-[16:20:00] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
-[16:20:00] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:653)
-[16:20:00] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:564)
-[16:20:00] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:641)
-[16:20:00] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:440)
-[16:20:00] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:345)
-[16:20:00] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1117)
-[16:20:00] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323)
-[16:20:00] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[16:20:00] [Server thread/INFO]: [VotingPlugin] Giving VotingPlugin.Player permission by default, can be disabled in the config
-[16:20:00] [Server thread/WARN]: [VotingPlugin] No VotifierEvent found, install Votifier, NuVotifier, or another Votifier plugin
-[16:20:00] [Server thread/INFO]: [VotingPlugin] Enabled VotingPlugin 6.13.1
-[16:20:00] [Server thread/WARN]: [VotingPlugin] No vote has been recieved from Minecraft-server.net, may be an invalid service site. Please read: https://github.com/BenCodez/VotingPlugin/wiki/Votifier-Troubleshooting
-[16:20:00] [Server thread/WARN]: [VotingPlugin] No vote has been recieved from TopG.org, may be an invalid service site. Please read: https://github.com/BenCodez/VotingPlugin/wiki/Votifier-Troubleshooting
-[16:20:00] [Server thread/WARN]: [VotingPlugin] No vote has been recieved from Minecraft-MP.com, may be an invalid service site. Please read: https://github.com/BenCodez/VotingPlugin/wiki/Votifier-Troubleshooting
-[16:20:00] [Server thread/WARN]: [VotingPlugin] No vote has been recieved from PlanetMinecraft.com, may be an invalid service site. Please read: https://github.com/BenCodez/VotingPlugin/wiki/Votifier-Troubleshooting
-[16:20:00] [Server thread/WARN]: [VotingPlugin] No vote has been recieved from Minecraftservers.org, may be an invalid service site. Please read: https://github.com/BenCodez/VotingPlugin/wiki/Votifier-Troubleshooting
-[16:20:00] [Server thread/WARN]: [VotingPlugin] No vote has been recieved from MC-Lists, may be an invalid service site. Please read: https://github.com/BenCodez/VotingPlugin/wiki/Votifier-Troubleshooting
-[16:20:00] [Server thread/WARN]: [VotingPlugin] No vote has been recieved from MCSL, may be an invalid service site. Please read: https://github.com/BenCodez/VotingPlugin/wiki/Votifier-Troubleshooting
-[16:20:00] [Server thread/INFO]: [BCommons] Enabling BCommons v0.3.0*
-[16:20:00] [Server thread/INFO]: [BCommons] [Info]: Server version: 1.2 (v1_20_R1, legacy: false).
-[16:20:00] [Server thread/INFO]: [BCommons] [Info]: Registered worker: WorkerBInventory.
-[16:20:00] [Server thread/INFO]: [AdvancedBan] Enabling AdvancedBan v2.3.0
-[16:20:00] [Server thread/INFO]: [me.leoko.advancedban.shaded.com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
-[16:20:00] [Server thread/INFO]: [me.leoko.advancedban.shaded.com.zaxxer.hikari.pool.PoolBase] HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
-[16:20:00] [Server thread/INFO]: [me.leoko.advancedban.shaded.com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
-[16:20:01] [Server thread/INFO]: Enabling AdvancedBan on Version 2.3.0
-[16:20:01] [Server thread/INFO]: Coded by Leoko | Twitter: @LeokoGar
-[16:20:01] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.3
-[16:20:01] [Server thread/INFO]: [spark] Enabling spark v1.10.119
-[16:20:01] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
-[16:20:01] [Server thread/INFO]: [spark] Starting background profiler...
-[16:20:01] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: spark [1.10.119]
-[16:20:01] [Server thread/INFO]: [spark] Registered PlaceholderAPI placeholders
-[16:20:01] [Server thread/INFO]: [Quests] Enabling Quests v3.14.2-3345d07
-[16:20:01] [Server thread/INFO]: [Quests] Initialising storage provider 'yaml'
-[16:20:01] [Server thread/INFO]: [Quests] Your server is running version 1.20
-[16:20:01] [Server thread/INFO]: [Quests] Metrics started. This can be disabled at /plugins/bStats/config.yml.
-[16:20:01] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[16:20:01] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[16:20:01] [Server thread/INFO]: [ClearLag] Loading modules...
-[16:20:01] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R1.MinecraftServer)
-[16:20:01] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[16:20:01] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[16:20:01] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[16:20:01] [Server thread/INFO]: [TimedRewards] Enabling TimedRewards v1.1.20
-[16:20:02] [Server thread/INFO]: [TimedRewards] [Info]: TimedRewards (free) enable start.
-[16:20:02] [Server thread/INFO]: [TimedRewards] [Info]: Purchase the premium version for multiple menus, unclaimed an claimed items, vote rewards,
-[16:20:02] [Server thread/INFO]: [TimedRewards] [Info]: in-game management and more. https://www.spigotmc.org/resources/46501/
-[16:20:02] [Server thread/INFO]: [TimedRewards] [Info]: Registered worker: WorkerPlaceholder.
-[16:20:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: trs [1.1.20]
-[16:20:02] [Server thread/INFO]: [TimedRewards] [Info]: Registered worker: WorkerRewardMenu.
-[16:20:02] [Server thread/INFO]: [TimedRewards] [Info]: Loaded 4 reward items (time taken: 8ms).
-[16:20:02] [Server thread/INFO]: [TimedRewards] [Info]: Registered command: rewards with 0 children.
-[16:20:02] [Server thread/INFO]: [TimedRewards] [Info]: Registered command: timedrewards with 3 children.
-[16:20:02] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.20.1-dev+29-6012959
-[16:20:02] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[16:20:02] [Server thread/INFO]: [DivineDrop] Enabling DivineDrop v2.12
-[16:20:02] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
-[16:20:02] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[16:20:02] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[16:20:02] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: oneblock_world_the_end
-[16:20:02] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
-[16:20:02] [Server thread/INFO]: Preparing start region for dimension minecraft:oneblock_world
-[16:20:02] [Server thread/INFO]: Time elapsed: 375 ms
-[16:20:02] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: oneblock_world_nether
-[16:20:02] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
-[16:20:02] [Server thread/INFO]: Could not set generator for world 'Spawn': Plugin 'VoidGen' does not exist
-[16:20:02] [Server thread/INFO]: [Multiverse-Core] 2 - World(s) loaded.
-[16:20:02] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[16:20:02] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[16:20:02] [Server thread/INFO]: [PlayerKits] Enabling PlayerKits v2.27.1
-[16:20:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: playerkits [2.27.1]
-[16:20:02] [Server thread/INFO]: [PlayerKits] Has been enabled! Version: 2.27.1
-[16:20:02] [Server thread/INFO]: [PlayerKits] Thanks for using my plugin!  ~Ajneb97
-[16:20:02] [Server thread/INFO]: [AuctionMaster] Enabling AuctionMaster v4.1
-[16:20:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: auctionmaster [1.0.0]
-[16:20:02] [Server thread/INFO]: [AuctionMaster] Succesfully connected to the Deliveries SQL.
-[16:20:02] [Server thread/WARN]: [AuctionMaster] Auctions database is ready!
-[16:20:02] [Server thread/WARN]: [AuctionMaster] AuctionLists database is ready!
-[16:20:02] [Server thread/WARN]: [AuctionMaster] PreviewData database is ready!
-[16:20:02] [Server thread/INFO]: [SS] Enabling SmoothSleep v2.11.2
-[16:20:02] [Server thread/INFO]: [SmoothSleep : INFO] Hooked to Essentials v2.20.1-dev+29-6012959
-[16:20:02] [Server thread/INFO]: [SmoothSleep : INFO] Hooked to PlaceholderAPI v2.11.3
-[16:20:03] [Server thread/INFO]: [SmoothSleep : WARN] Note: NMS modification is disabled until it can be fixed. This means vanilla sleep mechanics may interfere with SmoothSleep. (Just a temporary measure to prevent console spam.)
-[16:20:03] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.14.0-DEV-160
-[16:20:03] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into PlaceholderAPI!
-[16:20:03] [Server thread/INFO]: [DeluxeMenus] 13 GUI menus loaded!
-[16:20:03] [Server thread/INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
-[16:20:03] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into Vault!
-[16:20:03] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: deluxemenus [1.14.0-DEV-160]
-[16:20:03] [Server thread/INFO]: [ServerListPlus] Enabling ServerListPlus v3.5.0
-[16:20:03] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
-[16:20:03] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
-[16:20:03] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
-[16:20:03] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: BukkitConf
-[16:20:03] [Server thread/INFO]: [ServerListPlus] [Core] Reloading saved player identities...
-[16:20:03] [Server thread/INFO]: [ServerListPlus] Successfully loaded!
-[16:20:03] [Server thread/INFO]: [ServerListPlus] ServerListPlus v3.5.0 enabled.
-[16:20:03] [Server thread/INFO]: [ItemManager] Enabling ItemManager v1.1.2
-[16:20:03] [Server thread/INFO]: [ItemManager]  
-[16:20:03] [Server thread/INFO]: [ItemManager] You're using the latest version!
-[16:20:03] [Server thread/INFO]: [ItemManager]  
-[16:20:03] [Server thread/INFO]: [ItemManager] Glow effect has been registered successfully.
-[16:20:03] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Commands' - this is deprecated behavior, please report it to the authors: aBooDyy
-[16:20:03] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
-[16:20:03] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
-[16:20:03] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager help' - this is deprecated behavior, please report it to the authors: aBooDyy
-[16:20:03] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager rename' - this is deprecated behavior, please report it to the authors: aBooDyy
-[16:20:03] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
-[16:20:03] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
-[16:20:03] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager reload' - this is deprecated behavior, please report it to the authors: aBooDyy
-[16:20:03] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
-[16:20:03] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
-[16:20:03] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager lore set' - this is deprecated behavior, please report it to the authors: aBooDyy
-[16:20:03] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
-[16:20:03] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
-[16:20:03] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager lore add' - this is deprecated behavior, please report it to the authors: aBooDyy
-[16:20:03] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
-[16:20:03] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
-[16:20:03] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager lore remove' - this is deprecated behavior, please report it to the authors: aBooDyy
-[16:20:03] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
-[16:20:03] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
-[16:20:03] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager glow' - this is deprecated behavior, please report it to the authors: aBooDyy
-[16:20:03] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
-[16:20:03] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
-[16:20:03] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager glow remove' - this is deprecated behavior, please report it to the authors: aBooDyy
-[16:20:03] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
-[16:20:03] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
-[16:20:03] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager enchant' - this is deprecated behavior, please report it to the authors: aBooDyy
-[16:20:03] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
-[16:20:03] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
-[16:20:03] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager enchant remove' - this is deprecated behavior, please report it to the authors: aBooDyy
-[16:20:03] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
-[16:20:03] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
-[16:20:03] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager check' - this is deprecated behavior, please report it to the authors: aBooDyy
-[16:20:03] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
-[16:20:03] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
-[16:20:03] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager remove' - this is deprecated behavior, please report it to the authors: aBooDyy
-[16:20:03] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
-[16:20:03] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
-[16:20:03] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager give' - this is deprecated behavior, please report it to the authors: aBooDyy
-[16:20:03] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
-[16:20:03] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
-[16:20:03] [Server thread/INFO]: [ServersNPC] Enabling ServersNPC v4.9
-[16:20:03] [Server thread/INFO]: [MineableSpawners] Enabling MineableSpawners v3.1.4
-[16:20:04] [Server thread/INFO]: [VoidSpawn] Enabling VoidSpawn v1.16.1*
-[16:20:04] [Server thread/INFO]: [VoidSpawn] No SkyBlock plugins found, disabling island mode support.
-[16:20:04] [Server thread/INFO]: [VoidSpawn] v1.16.1 by EnderCrest enabled
-[16:20:04] [Server thread/INFO]: [PL-Hide] Enabling PL-Hide v1.5.21
-[16:20:04] [Server thread/INFO]: [ChatManager] Enabling ChatManager v3.7.7
-[16:20:04] [Server thread/INFO]: [ChatManager] Hooked into: PlaceholderAPI v2.11.3
-[16:20:04] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: chatmanager [3.7.7]
-[16:20:04] [Server thread/INFO]: [ChatManager] Hooked into: Essentials v2.20.1-dev+29-6012959
-[16:20:04] [Server thread/INFO]: [ChatManager] Hooked into: Vault v1.7.3-b131
-[16:20:04] [Server thread/INFO]: [ChatManager] Hooked into: LuckPerms v5.4.98
-[16:20:04] [Server thread/INFO]: [ChatManager] Plugin is up to date - v3.7.7
-[16:20:04] [Server thread/INFO]: [ChatManager] Starting Metrics.
-[16:20:04] [Server thread/INFO]: =========================
-[16:20:04] [Server thread/INFO]: Chat Manager
-[16:20:04] [Server thread/INFO]: Version 3.7.7
-[16:20:04] [Server thread/INFO]: Author: H1DD3NxN1NJA
-[16:20:04] [Server thread/INFO]: =========================
-[16:20:04] [Server thread/INFO]: [TAB] Enabling TAB v4.0.2
-[16:20:04] [Server thread/INFO]: [TAB] Server version: 1.20.1 (v1_20_R1)
-[16:20:04] [Server thread/INFO]: [TAB] Loaded NMS hook in 58ms
-[16:20:04] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: tab [4.0.2]
-[16:20:04] [Server thread/INFO]: [TAB] Enabled in 142ms
-[16:20:04] [Server thread/INFO]: [CrazyCrates] Enabling CrazyCrates v1.11.15.4
-[16:20:04] [Server thread/INFO]: [CrazyCrates] Loading the config.yml
-[16:20:04] [Server thread/INFO]: [CrazyCrates] Successfully loaded config.yml
-[16:20:04] [Server thread/INFO]: [CrazyCrates] Loading the events.log
-[16:20:04] [Server thread/INFO]: [CrazyCrates] Successfully loaded events.log
-[16:20:04] [Server thread/INFO]: [CrazyCrates] Loading the messages.yml
-[16:20:04] [Server thread/INFO]: [CrazyCrates] Successfully loaded messages.yml
-[16:20:04] [Server thread/INFO]: [CrazyCrates] Loading the locations.yml
-[16:20:04] [Server thread/INFO]: [CrazyCrates] Successfully loaded locations.yml
-[16:20:04] [Server thread/INFO]: [CrazyCrates] Loading the data.yml
-[16:20:04] [Server thread/INFO]: [CrazyCrates] Successfully loaded data.yml
-[16:20:04] [Server thread/INFO]: [CrazyCrates] Loading custom files.
-[16:20:04] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /crates/Vote.yml.
-[16:20:04] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /crates/Epic.yml.
-[16:20:04] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /crates/Legendary.yml.
-[16:20:04] [Server thread/INFO]: [CrazyCrates] Finished loading custom files.
-[16:20:04] [Server thread/INFO]: [CrazyCrates] DecentHolograms support has been enabled.
-[16:20:04] [Server thread/INFO]: [CrazyCrates] Loading all crate information...
-[16:20:04] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_20_R1! Trying to find NMS support
-[16:20:04] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R1' loaded!
-[16:20:04] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Gson: class com.google.gson.Gson
-[16:20:04] [Server thread/INFO]: [CrazyCrates] All crate information has been loaded.
-[16:20:04] [Server thread/INFO]: [CrazyCrates] Loading all the physical crate locations.
-[16:20:04] [Server thread/INFO]: [CrazyCrates] Searching for schematics to load.
-[16:20:04] [Server thread/INFO]: [CrazyCrates] soul.nbt was successfully found and loaded.
-[16:20:04] [Server thread/INFO]: [CrazyCrates] outdoors.nbt was successfully found and loaded.
-[16:20:04] [Server thread/INFO]: [CrazyCrates] nether.nbt was successfully found and loaded.
-[16:20:04] [Server thread/INFO]: [CrazyCrates] sea.nbt was successfully found and loaded.
-[16:20:04] [Server thread/INFO]: [CrazyCrates] wooden.nbt was successfully found and loaded.
-[16:20:04] [Server thread/INFO]: [CrazyCrates] classic.nbt was successfully found and loaded.
-[16:20:04] [Server thread/INFO]: [CrazyCrates] All schematics were found and loaded.
-[16:20:04] [Server thread/INFO]: [CrazyCrates] Cleaning up the data.yml file.
-[16:20:04] [Server thread/INFO]: [CrazyCrates] The data.yml file has been cleaned.
-[16:20:04] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: crazycrates [1.11.15.4]
-[16:20:04] [Server thread/INFO]: [CrazyCrates] §6§lHOLOGRAPHIC_DISPLAYS §c§lNOT FOUND
-[16:20:04] [Server thread/INFO]: [CrazyCrates] §6§lFANCY_HOLOGRAMS §c§lNOT FOUND
-[16:20:04] [Server thread/INFO]: [CrazyCrates] §6§lDECENT_HOLOGRAMS §a§lFOUND
-[16:20:04] [Server thread/INFO]: [CrazyCrates] §6§lCMI §c§lNOT FOUND
-[16:20:04] [Server thread/INFO]: [CrazyCrates] §6§lPLACEHOLDERAPI §a§lFOUND
-[16:20:04] [Server thread/INFO]: [CrazyCrates] §6§lITEMS_ADDER §c§lNOT FOUND
-[16:20:04] [Server thread/INFO]: [ChatReaction] Enabling ChatReaction v1.8.0
-[16:20:04] [Server thread/INFO]: [ChatReaction] You are using Spigot! Tooltips in reaction start messages are enabled!
-[16:20:04] [Server thread/INFO]: [ChatReaction] 313 words loaded!
-[16:20:04] [Server thread/INFO]: [ChatReaction] Reaction stats are disabled!!
-[16:20:04] [Server thread/INFO]: [ChatReaction] ---------------------------
-[16:20:04] [Server thread/INFO]: [ChatReaction]      ChatReaction Updater
-[16:20:04] [Server thread/INFO]: [ChatReaction]  
-[16:20:04] [Server thread/INFO]: [ChatReaction] Could not connect to spigotmc.org
-[16:20:04] [Server thread/INFO]: [ChatReaction] to check for updates! 
-[16:20:04] [Server thread/INFO]: [ChatReaction]  
-[16:20:04] [Server thread/INFO]: [ChatReaction] ---------------------------
-[16:20:04] [Server thread/INFO]: [ChatReaction] ---------------------------
-[16:20:04] [Server thread/INFO]: [ChatReaction]      ChatReaction Updater
-[16:20:04] [Server thread/INFO]: [ChatReaction]  
-[16:20:04] [Server thread/INFO]: [ChatReaction] You are running 1.8.0
-[16:20:04] [Server thread/INFO]: [ChatReaction] The latest version
-[16:20:04] [Server thread/INFO]: [ChatReaction] of ChatReaction!
-[16:20:04] [Server thread/INFO]: [ChatReaction]  
-[16:20:04] [Server thread/INFO]: [ChatReaction] ---------------------------
-[16:20:04] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9-beta1+2249-223b80c
-[16:20:04] [Server thread/INFO]: [WorldGuard] (Spawn) TNT ignition is PERMITTED.
-[16:20:04] [Server thread/INFO]: [WorldGuard] (Spawn) Lighters are PERMITTED.
-[16:20:04] [Server thread/INFO]: [WorldGuard] (Spawn) Lava fire is PERMITTED.
-[16:20:04] [Server thread/INFO]: [WorldGuard] (Spawn) Fire spread is UNRESTRICTED.
-[16:20:04] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Spawn'
-[16:20:04] [Server thread/INFO]: [WorldGuard] (oneblock_world) TNT ignition is PERMITTED.
-[16:20:04] [Server thread/INFO]: [WorldGuard] (oneblock_world) Lighters are PERMITTED.
-[16:20:04] [Server thread/INFO]: [WorldGuard] (oneblock_world) Lava fire is PERMITTED.
-[16:20:04] [Server thread/INFO]: [WorldGuard] (oneblock_world) Fire spread is UNRESTRICTED.
-[16:20:04] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'oneblock_world'
-[16:20:04] [Server thread/INFO]: [WorldGuard] Loading region data...
-[16:20:05] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[16:20:05] [Server thread/INFO]: Starting GS4 status listener
-[16:20:05] [Server thread/INFO]: Thread Query Listener started
-[16:20:05] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[16:20:05] [Server thread/INFO]: Running delayed init tasks
-[16:20:05] [Server thread/INFO]: [BentoBox] Hooking with Vault...
-[16:20:05] [Server thread/INFO]: [BentoBox] Hooking with PlaceholderAPI...
-[16:20:05] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bentobox [1.23.1]
-[16:20:05] [Server thread/INFO]: [BentoBox] Enabling game mode addons...
-[16:20:05] [Server thread/INFO]: [BentoBox] Enabling AOneBlock (1.13.0)...
-[16:20:05] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 8500_plenty_chests.yml
-[16:20:05] [Craft Scheduler Thread - 4 - Essentials/INFO]: [Essentials] Fetching version information...
-[16:20:05] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[16:20:05] [Craft Scheduler Thread - 8 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
-[16:20:05] [Craft Scheduler Thread - 0 - ClearLag/INFO]: [ClearLag] 0 Logs have been removed!
-[16:20:05] [Craft Scheduler Thread - 9 - Quests/INFO]: [Quests] A new version 3.15.2 was found on Spigot (your version: 3.14.2-3345d07). Please update me! <3 - Link: https://get.leonardobishop.com/quests
-[16:20:05] [Craft Scheduler Thread - 5 - DecentHolograms/INFO]: 
-[16:20:05] [Craft Scheduler Thread - 5 - DecentHolograms/INFO]: A newer version of DecentHolograms is available. Download it from: https://www.spigotmc.org/resources/96927/
-[16:20:05] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] Checking for Updates ... 
-[16:20:05] [Craft Scheduler Thread - 8 - DecentHolograms/INFO]: [DecentHolograms] Loaded 5 holograms!
-[16:20:05] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 11000_goto_0.yml
-[16:20:05] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 0_plains_chests.yml
-[16:20:05] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 3000_ocean_chests.yml
-[16:20:05] [Craft Scheduler Thread - 7 - BentoBox/INFO]: [BentoBox] Loaded Blueprint Bundle 'default' for AOneBlock.
-[16:20:05] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 700_underground.yml
-[16:20:05] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 9500_desolation_chests.yml
-[16:20:05] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 10500_the end.yml
-[16:20:05] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 0_plains.yml
-[16:20:05] [Craft Scheduler Thread - 7 - BentoBox/INFO]: [BentoBox] Loaded blueprint 'bedrock' for AOneBlock
-[16:20:05] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 5000_swamp.yml
-[16:20:05] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 6000_dungeon.yml
-[16:20:05] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 5000_swamp_chests.yml
-[16:20:05] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] No new version available
-[16:20:05] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 2000_winter_chests.yml
-[16:20:05] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 700_underground_chests.yml
-[16:20:05] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 9500_desolation.yml
-[16:20:05] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 2000_winter.yml
-[16:20:05] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 7500_the nether.yml
-[16:20:05] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 7500_the nether_chests.yml
-[16:20:05] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 10500_the end_chests.yml
-[16:20:05] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 3000_ocean.yml
-[16:20:05] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 7000_desert.yml
-[16:20:05] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 6000_dungeon_chests.yml
-[16:20:05] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 7000_desert_chests.yml
-[16:20:05] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 4000_jungle_chests.yml
-[16:20:05] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 8500_plenty.yml
-[16:20:05] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 4000_jungle.yml
-[16:20:05] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: aoneblock [1.13.0]
-[16:20:05] [Server thread/INFO]: [BentoBox] Enabling other addons...
-[16:20:05] [Server thread/INFO]: [BentoBox] Enabling Warps (1.13.0)...
-[16:20:05] [Server thread/INFO]: [BentoBox] [Warps] Loading warps...
-[16:20:05] [Server thread/INFO]: [BentoBox] Enabling Likes (2.3.1)...
-[16:20:05] [Server thread/INFO]: [BentoBox] Loading likes...
-[16:20:05] [Craft Scheduler Thread - 4 - Essentials/WARN]: [Essentials] You're 158 EssentialsX dev build(s) out of date!
-[16:20:05] [Craft Scheduler Thread - 4 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
-[16:20:05] [Server thread/INFO]: [BentoBox] Enabling Chat (1.1.4)...
-[16:20:05] [Craft Scheduler Thread - 0 - CrazyCrates/INFO]: [CrazyCrates] Plugin is up to date! - v3.4.9
-[16:20:05] [Server thread/INFO]: [BentoBox] Addons successfully enabled.
-[16:20:05] [Server thread/INFO]: [BentoBox] Hooking with Multiverse-Core...
-[16:20:05] [Server thread/INFO]: Multiverse already knows about 'oneblock_world'!
-[16:20:05] [Server thread/INFO]: Success! Property generator was set to BentoBox
-[16:20:05] [Server thread/INFO]: 
-[16:20:05] [Server thread/INFO]:   ____             _        ____
-[16:20:05] [Server thread/INFO]:  |  _ \           | |      |  _ \             by tastybento and Poslovitch
-[16:20:05] [Server thread/INFO]:  | |_) | ___ _ __ | |_ ___ | |_) | _____  __  2017 - 2020
-[16:20:05] [Server thread/INFO]:  |  _ < / _ \ '_ \| __/ _ \|  _ < / _ \ \/ /
-[16:20:05] [Server thread/INFO]:  | |_) |  __/ | | | || (_) | |_) | (_) >  <   v1.23.1
-[16:20:05] [Server thread/INFO]:  |____/ \___|_| |_|\__\___/|____/ \___/_/\_\  Loaded in 2375ms.
-[16:20:05] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
-[16:20:05] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
-[16:20:05] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[16:20:05] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: quests [3.14.2-3345d07]
-[16:20:05] [Server thread/INFO]: [Quests] 34 task types have been registered.
-[16:20:05] [Server thread/INFO]: [Quests] 0 quest items have been registered.
-[16:20:06] [Server thread/INFO]: [Quests] 594 quests have been registered.
-[16:20:06] [Server thread/WARN]: [Quests] You have configuration issues preventing some quests from loading.
-[16:20:06] [Server thread/WARN]: [Quests] You can view these issues with the command: /q a config.
-[16:20:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: server [2.6.0]
-[16:20:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: statistic [2.0.1]
-[16:20:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bungee [1.0.1]
-[16:20:06] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion deluxetags due to a missing plugin: DeluxeTags
-[16:20:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: luckperms [5.1-R2]
-[16:20:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player [2.0.2]
-[16:20:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault [1.7.0]
-[16:20:06] [Server thread/INFO]: 6 placeholder hook(s) registered! 5 placeholder hook(s) have an update available.
-[16:20:06] [Server thread/INFO]: [BentoBox] Added world OneBlock (NORMAL)
-[16:20:06] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.11.6) is available at:
-[16:20:06] [Server thread/INFO]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
-[16:20:06] [Server thread/INFO]: ---------------------------------------------------------------------
-[16:20:06] [Server thread/INFO]:  
-[16:20:06] [Server thread/INFO]: Pl-Hide ▎ Update available: 1.5.22. You are on 1.5.21!
-[16:20:06] [Server thread/INFO]:  
-[16:20:06] [Server thread/INFO]: ---------------------------------------------------------------------
-[16:20:06] [Server thread/INFO]: [BentoBox] [Likes] Likes Addon hooked into Warps addon.
-[16:20:06] [Server thread/INFO]: [BentoBox] [Likes] Likes Addon hooked into Economy.
-[16:20:06] [Server thread/WARN]: [BentoBox] No Regenerator found for v1_20_R1, falling back to Bukkit API.
-[16:20:06] [Server thread/INFO]: [BentoBox] All blueprints loaded.
-[16:20:06] [Server thread/INFO]: Done (21.386s)! For help, type "help"
-[16:20:06] [Server thread/INFO]: [VotingPlugin] Successfully hooked into vault economy!
-[16:20:06] [Server thread/INFO]: [VotingPlugin] Hooked into vault permissions
-[16:20:06] [Craft Scheduler Thread - 2 - BentoBox/INFO]: [BentoBox] Downloading data from GitHub...
-[16:20:06] [Craft Scheduler Thread - 2 - BentoBox/INFO]: [BentoBox] Updating the Catalog...
-[16:20:06] [Craft Scheduler Thread - 12 - VotingPlugin/INFO]: [VotingPlugin] VotingPlugin has an update available! Your Version: 6.13.1 New Version: 6.17.3
-[16:20:06] [Craft Scheduler Thread - 14 - VotingPlugin/WARN]: [VotingPlugin] Detected an issue with voting sites, check the server startup log for more details: https://github.com/BenCodez/VotingPlugin/wiki/Votifier-Troubleshooting
-[16:20:07] [Craft Scheduler Thread - 2 - BentoBox/INFO]: [BentoBox] Updating Contributors information...
-[16:20:07] [Craft Scheduler Thread - 2 - BentoBox/INFO]: [BentoBox] Gathering contribution data for: BentoBoxWorld/BentoBox, BentoBoxWorld/AOneBlock, BentoBoxWorld/Likes
-[16:20:08] [Craft Scheduler Thread - 2 - BentoBox/INFO]: [BentoBox] Successfully downloaded data from GitHub.
-[16:21:12] [Server thread/INFO]: Bukkit Plugins: (38):
-[16:21:12] [Server thread/INFO]:  - AdvancedBan, AuctionMaster, *BCommons, BentoBox, BentoBox-AOneBlock, BentoBox-Likes, BentoBox-Warps, ChatManager, ChatReaction, ClearLag
-[16:21:12] [Server thread/INFO]:  CrazyCrates, DecentHolograms, DeluxeMenus, DivineDrop, Essentials, EssentialsSpawn, FastAsyncWorldEdit, ItemManager, LuckPerms, MineableSpawners
-[16:21:12] [Server thread/INFO]:  Multiverse-Core, PL-Hide, PlaceholderAPI, PlayerKits, Quests, ServerListPlus, ServersNPC, SmoothSleep, spark, TAB
-[16:21:12] [Server thread/INFO]:  TimedRewards, Vault, ViaBackwards, ViaRewind, ViaVersion, *VoidSpawn, VotingPlugin, WorldGuard
-[16:47:15] [Server thread/INFO]: Bukkit Plugins: (38):
-[16:47:15] [Server thread/INFO]:  - AdvancedBan, AuctionMaster, *BCommons, BentoBox, BentoBox-AOneBlock, BentoBox-Likes, BentoBox-Warps, ChatManager, ChatReaction, ClearLag
-[16:47:15] [Server thread/INFO]:  CrazyCrates, DecentHolograms, DeluxeMenus, DivineDrop, Essentials, EssentialsSpawn, FastAsyncWorldEdit, ItemManager, LuckPerms, MineableSpawners
-[16:47:15] [Server thread/INFO]:  Multiverse-Core, PL-Hide, PlaceholderAPI, PlayerKits, Quests, ServerListPlus, ServersNPC, SmoothSleep, spark, TAB
-[16:47:15] [Server thread/INFO]:  TimedRewards, Vault, ViaBackwards, ViaRewind, ViaVersion, *VoidSpawn, VotingPlugin, WorldGuard
-[18:20:06] [Craft Scheduler Thread - 82 - BentoBox/INFO]: [BentoBox] Downloading data from GitHub...
-[18:20:06] [Craft Scheduler Thread - 82 - BentoBox/INFO]: [BentoBox] Updating the Catalog...
-[18:20:06] [Craft Scheduler Thread - 82 - BentoBox/INFO]: [BentoBox] Updating Contributors information...
-[18:20:06] [Craft Scheduler Thread - 82 - BentoBox/INFO]: [BentoBox] Gathering contribution data for: BentoBoxWorld/BentoBox, BentoBoxWorld/AOneBlock, BentoBoxWorld/Likes
-[18:20:06] [Craft Scheduler Thread - 82 - BentoBox/INFO]: [BentoBox] Successfully downloaded data from GitHub.
-[19:45:51] [Server thread/INFO]: Bukkit Plugins: (38):
-[19:45:51] [Server thread/INFO]:  - AdvancedBan, AuctionMaster, *BCommons, BentoBox, BentoBox-AOneBlock, BentoBox-Likes, BentoBox-Warps, ChatManager, ChatReaction, ClearLag
-[19:45:51] [Server thread/INFO]:  CrazyCrates, DecentHolograms, DeluxeMenus, DivineDrop, Essentials, EssentialsSpawn, FastAsyncWorldEdit, ItemManager, LuckPerms, MineableSpawners
-[19:45:51] [Server thread/INFO]:  Multiverse-Core, PL-Hide, PlaceholderAPI, PlayerKits, Quests, ServerListPlus, ServersNPC, SmoothSleep, spark, TAB
-[19:45:51] [Server thread/INFO]:  TimedRewards, Vault, ViaBackwards, ViaRewind, ViaVersion, *VoidSpawn, VotingPlugin, WorldGuard
-[20:20:06] [Craft Scheduler Thread - 187 - BentoBox/INFO]: [BentoBox] Downloading data from GitHub...
-[20:20:06] [Craft Scheduler Thread - 187 - BentoBox/INFO]: [BentoBox] Updating the Catalog...
-[20:20:06] [Craft Scheduler Thread - 187 - BentoBox/INFO]: [BentoBox] Updating Contributors information...
-[20:20:06] [Craft Scheduler Thread - 187 - BentoBox/INFO]: [BentoBox] Gathering contribution data for: BentoBoxWorld/BentoBox, BentoBoxWorld/AOneBlock, BentoBoxWorld/Likes
-[20:20:06] [Craft Scheduler Thread - 187 - BentoBox/INFO]: [BentoBox] Successfully downloaded data from GitHub.
-[20:24:46] [Server thread/INFO]: Bukkit Plugins: (38):
-[20:24:46] [Server thread/INFO]:  - AdvancedBan, AuctionMaster, *BCommons, BentoBox, BentoBox-AOneBlock, BentoBox-Likes, BentoBox-Warps, ChatManager, ChatReaction, ClearLag
-[20:24:46] [Server thread/INFO]:  CrazyCrates, DecentHolograms, DeluxeMenus, DivineDrop, Essentials, EssentialsSpawn, FastAsyncWorldEdit, ItemManager, LuckPerms, MineableSpawners
-[20:24:46] [Server thread/INFO]:  Multiverse-Core, PL-Hide, PlaceholderAPI, PlayerKits, Quests, ServerListPlus, ServersNPC, SmoothSleep, spark, TAB
-[20:24:46] [Server thread/INFO]:  TimedRewards, Vault, ViaBackwards, ViaRewind, ViaVersion, *VoidSpawn, VotingPlugin, WorldGuard
-[22:20:05] [Craft Scheduler Thread - 264 - Vault/INFO]: [Vault] Checking for Updates ... 
-[22:20:05] [Craft Scheduler Thread - 264 - Vault/INFO]: [Vault] No new version available
-[22:20:06] [Craft Scheduler Thread - 266 - BentoBox/INFO]: [BentoBox] Downloading data from GitHub...
-[22:20:06] [Craft Scheduler Thread - 266 - BentoBox/INFO]: [BentoBox] Updating the Catalog...
-[22:20:06] [Craft Scheduler Thread - 266 - BentoBox/INFO]: [BentoBox] Updating Contributors information...
-[22:20:06] [Craft Scheduler Thread - 266 - BentoBox/INFO]: [BentoBox] Gathering contribution data for: BentoBoxWorld/BentoBox, BentoBoxWorld/AOneBlock, BentoBoxWorld/Likes
-[22:20:06] [Craft Scheduler Thread - 266 - BentoBox/INFO]: [BentoBox] Successfully downloaded data from GitHub.
+[00:11:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:11:52] [Server thread/INFO]: Time elapsed: 177 ms
+[00:11:52] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.1.1
+[00:11:52] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
+[00:11:52] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.3
+[00:11:52] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[00:11:52] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.1.1
+[00:11:52] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1-dev+29-6012959
+[00:11:53] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[00:11:53] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[00:11:53] [Server thread/INFO]: [Essentials] Loaded 36926 items from items.json.
+[00:11:53] [Server thread/INFO]: [Essentials] Using locale en
+[00:11:53] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[00:11:53] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[00:11:53] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[00:11:53] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[00:11:53] [Server thread/INFO]: [VotingPlugin] Enabling VotingPlugin v6.13.1
+[00:11:53] [Server thread/WARN]: com.bencodez.votingplugin.advancedcore.api.exceptions.FileDirectoryException: File is not a directory
+[00:11:53] [Server thread/WARN]: 	at VotingPlugin.jar//com.bencodez.votingplugin.advancedcore.api.rewards.RewardHandler.addRewardFolder(RewardHandler.java:202)
+[00:11:53] [Server thread/WARN]: 	at VotingPlugin.jar//com.bencodez.votingplugin.advancedcore.AdvancedCorePlugin.loadHook(AdvancedCorePlugin.java:503)
+[00:11:53] [Server thread/WARN]: 	at VotingPlugin.jar//com.bencodez.votingplugin.advancedcore.AdvancedCorePlugin.onEnable(AdvancedCorePlugin.java:921)
+[00:11:53] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281)
+[00:11:53] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189)
+[00:11:53] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+[00:11:53] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+[00:11:53] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:653)
+[00:11:53] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:564)
+[00:11:53] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:641)
+[00:11:53] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:440)
+[00:11:53] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:345)
+[00:11:53] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1117)
+[00:11:53] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323)
+[00:11:53] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[00:11:54] [Server thread/INFO]: [VotingPlugin] Giving VotingPlugin.Player permission by default, can be disabled in the config
+[00:11:54] [Server thread/WARN]: [VotingPlugin] No VotifierEvent found, install Votifier, NuVotifier, or another Votifier plugin
+[00:11:54] [Server thread/INFO]: [VotingPlugin] Enabled VotingPlugin 6.13.1
+[00:11:54] [Server thread/WARN]: [VotingPlugin] No vote has been recieved from Minecraft-server.net, may be an invalid service site. Please read: https://github.com/BenCodez/VotingPlugin/wiki/Votifier-Troubleshooting
+[00:11:54] [Server thread/WARN]: [VotingPlugin] No vote has been recieved from TopG.org, may be an invalid service site. Please read: https://github.com/BenCodez/VotingPlugin/wiki/Votifier-Troubleshooting
+[00:11:54] [Server thread/WARN]: [VotingPlugin] No vote has been recieved from Minecraft-MP.com, may be an invalid service site. Please read: https://github.com/BenCodez/VotingPlugin/wiki/Votifier-Troubleshooting
+[00:11:54] [Server thread/WARN]: [VotingPlugin] No vote has been recieved from PlanetMinecraft.com, may be an invalid service site. Please read: https://github.com/BenCodez/VotingPlugin/wiki/Votifier-Troubleshooting
+[00:11:54] [Server thread/WARN]: [VotingPlugin] No vote has been recieved from Minecraftservers.org, may be an invalid service site. Please read: https://github.com/BenCodez/VotingPlugin/wiki/Votifier-Troubleshooting
+[00:11:54] [Server thread/WARN]: [VotingPlugin] No vote has been recieved from MC-Lists, may be an invalid service site. Please read: https://github.com/BenCodez/VotingPlugin/wiki/Votifier-Troubleshooting
+[00:11:54] [Server thread/WARN]: [VotingPlugin] No vote has been recieved from MCSL, may be an invalid service site. Please read: https://github.com/BenCodez/VotingPlugin/wiki/Votifier-Troubleshooting
+[00:11:54] [Server thread/INFO]: [BCommons] Enabling BCommons v0.3.0*
+[00:11:54] [Server thread/INFO]: [BCommons] [Info]: Server version: 1.2 (v1_20_R1, legacy: false).
+[00:11:54] [Server thread/INFO]: [BCommons] [Info]: Registered worker: WorkerBInventory.
+[00:11:54] [Server thread/INFO]: [AdvancedBan] Enabling AdvancedBan v2.3.0
+[00:11:54] [Server thread/INFO]: [me.leoko.advancedban.shaded.com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[00:11:54] [Server thread/INFO]: [me.leoko.advancedban.shaded.com.zaxxer.hikari.pool.PoolBase] HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+[00:11:54] [Server thread/INFO]: [me.leoko.advancedban.shaded.com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[00:11:54] [Server thread/INFO]: Enabling AdvancedBan on Version 2.3.0
+[00:11:54] [Server thread/INFO]: Coded by Leoko | Twitter: @LeokoGar
+[00:11:54] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.3
+[00:11:54] [Server thread/INFO]: [spark] Enabling spark v1.10.119
+[00:11:55] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
+[00:11:55] [Server thread/INFO]: [spark] Starting background profiler...
+[00:11:55] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: spark [1.10.119]
+[00:11:55] [Server thread/INFO]: [spark] Registered PlaceholderAPI placeholders
+[00:11:55] [Server thread/INFO]: [Quests] Enabling Quests v3.14.2-3345d07
+[00:11:55] [Server thread/INFO]: [Quests] Initialising storage provider 'yaml'
+[00:11:55] [Server thread/INFO]: [Quests] Your server is running version 1.20
+[00:11:55] [Server thread/INFO]: [Quests] Metrics started. This can be disabled at /plugins/bStats/config.yml.
+[00:11:55] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[00:11:55] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[00:11:55] [Server thread/INFO]: [ClearLag] Loading modules...
+[00:11:55] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R1.MinecraftServer)
+[00:11:55] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[00:11:55] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[00:11:55] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[00:11:55] [Server thread/INFO]: [TimedRewards] Enabling TimedRewards v1.1.20
+[00:11:55] [Server thread/INFO]: [TimedRewards] [Info]: TimedRewards (free) enable start.
+[00:11:55] [Server thread/INFO]: [TimedRewards] [Info]: Purchase the premium version for multiple menus, unclaimed an claimed items, vote rewards,
+[00:11:55] [Server thread/INFO]: [TimedRewards] [Info]: in-game management and more. https://www.spigotmc.org/resources/46501/
+[00:11:55] [Server thread/INFO]: [TimedRewards] [Info]: Registered worker: WorkerPlaceholder.
+[00:11:55] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: trs [1.1.20]
+[00:11:55] [Server thread/INFO]: [TimedRewards] [Info]: Registered worker: WorkerRewardMenu.
+[00:11:55] [Server thread/INFO]: [TimedRewards] [Info]: Loaded 4 reward items (time taken: 9ms).
+[00:11:55] [Server thread/INFO]: [TimedRewards] [Info]: Registered command: rewards with 0 children.
+[00:11:55] [Server thread/INFO]: [TimedRewards] [Info]: Registered command: timedrewards with 3 children.
+[00:11:55] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.20.1-dev+29-6012959
+[00:11:55] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[00:11:55] [Server thread/INFO]: [DivineDrop] Enabling DivineDrop v2.12
+[00:11:55] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[00:11:55] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[00:11:55] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[00:11:55] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: oneblock_world_the_end
+[00:11:55] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[00:11:55] [Server thread/INFO]: Preparing start region for dimension minecraft:oneblock_world
+[00:11:56] [Server thread/INFO]: Time elapsed: 342 ms
+[00:11:56] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: oneblock_world_nether
+[00:11:56] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[00:11:56] [Server thread/INFO]: Could not set generator for world 'Spawn': Plugin 'VoidGen' does not exist
+[00:11:56] [Server thread/INFO]: [Multiverse-Core] 2 - World(s) loaded.
+[00:11:56] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[00:11:56] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[00:11:56] [Server thread/INFO]: [PlayerKits] Enabling PlayerKits v2.27.1
+[00:11:56] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: playerkits [2.27.1]
+[00:11:56] [Server thread/INFO]: [PlayerKits] Has been enabled! Version: 2.27.1
+[00:11:56] [Server thread/INFO]: [PlayerKits] Thanks for using my plugin!  ~Ajneb97
+[00:11:56] [Server thread/INFO]: [AuctionMaster] Enabling AuctionMaster v4.1
+[00:11:56] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: auctionmaster [1.0.0]
+[00:11:56] [Server thread/INFO]: [AuctionMaster] Succesfully connected to the Deliveries SQL.
+[00:11:56] [Server thread/WARN]: [AuctionMaster] Auctions database is ready!
+[00:11:56] [Server thread/WARN]: [AuctionMaster] AuctionLists database is ready!
+[00:11:56] [Server thread/WARN]: [AuctionMaster] PreviewData database is ready!
+[00:11:56] [Server thread/INFO]: [SS] Enabling SmoothSleep v2.11.2
+[00:11:56] [Server thread/INFO]: [SmoothSleep : INFO] Hooked to Essentials v2.20.1-dev+29-6012959
+[00:11:56] [Server thread/INFO]: [SmoothSleep : INFO] Hooked to PlaceholderAPI v2.11.3
+[00:11:56] [Server thread/INFO]: [SmoothSleep : WARN] Note: NMS modification is disabled until it can be fixed. This means vanilla sleep mechanics may interfere with SmoothSleep. (Just a temporary measure to prevent console spam.)
+[00:11:56] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.14.0-DEV-160
+[00:11:56] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into PlaceholderAPI!
+[00:11:56] [Server thread/INFO]: [DeluxeMenus] 13 GUI menus loaded!
+[00:11:56] [Server thread/INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
+[00:11:56] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into Vault!
+[00:11:56] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: deluxemenus [1.14.0-DEV-160]
+[00:11:56] [Server thread/INFO]: [ServerListPlus] Enabling ServerListPlus v3.5.0
+[00:11:56] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[00:11:56] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[00:11:56] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[00:11:56] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: BukkitConf
+[00:11:56] [Server thread/INFO]: [ServerListPlus] [Core] Reloading saved player identities...
+[00:11:56] [Server thread/INFO]: [ServerListPlus] Successfully loaded!
+[00:11:56] [Server thread/INFO]: [ServerListPlus] ServerListPlus v3.5.0 enabled.
+[00:11:56] [Server thread/INFO]: [ItemManager] Enabling ItemManager v1.1.2
+[00:11:56] [Server thread/INFO]: [ItemManager]  
+[00:11:56] [Server thread/INFO]: [ItemManager] You're using the latest version!
+[00:11:56] [Server thread/INFO]: [ItemManager]  
+[00:11:56] [Server thread/INFO]: [ItemManager] Glow effect has been registered successfully.
+[00:11:56] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Commands' - this is deprecated behavior, please report it to the authors: aBooDyy
+[00:11:56] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
+[00:11:56] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
+[00:11:56] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager help' - this is deprecated behavior, please report it to the authors: aBooDyy
+[00:11:56] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager rename' - this is deprecated behavior, please report it to the authors: aBooDyy
+[00:11:56] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
+[00:11:56] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
+[00:11:56] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager reload' - this is deprecated behavior, please report it to the authors: aBooDyy
+[00:11:56] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
+[00:11:56] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
+[00:11:56] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager lore set' - this is deprecated behavior, please report it to the authors: aBooDyy
+[00:11:56] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
+[00:11:56] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
+[00:11:56] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager lore add' - this is deprecated behavior, please report it to the authors: aBooDyy
+[00:11:56] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
+[00:11:56] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
+[00:11:56] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager lore remove' - this is deprecated behavior, please report it to the authors: aBooDyy
+[00:11:56] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
+[00:11:56] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
+[00:11:56] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager glow' - this is deprecated behavior, please report it to the authors: aBooDyy
+[00:11:56] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
+[00:11:56] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
+[00:11:56] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager glow remove' - this is deprecated behavior, please report it to the authors: aBooDyy
+[00:11:56] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
+[00:11:56] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
+[00:11:56] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager enchant' - this is deprecated behavior, please report it to the authors: aBooDyy
+[00:11:56] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
+[00:11:56] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
+[00:11:56] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager enchant remove' - this is deprecated behavior, please report it to the authors: aBooDyy
+[00:11:56] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
+[00:11:56] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
+[00:11:56] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager check' - this is deprecated behavior, please report it to the authors: aBooDyy
+[00:11:56] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
+[00:11:56] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
+[00:11:56] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager remove' - this is deprecated behavior, please report it to the authors: aBooDyy
+[00:11:56] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
+[00:11:56] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
+[00:11:56] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager give' - this is deprecated behavior, please report it to the authors: aBooDyy
+[00:11:56] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
+[00:11:56] [Server thread/WARN]: Plugin 'ItemManager' is creating timing 'Command: itemmanager' - this is deprecated behavior, please report it to the authors: aBooDyy
+[00:11:56] [Server thread/INFO]: [ServersNPC] Enabling ServersNPC v4.9
+[00:11:57] [Server thread/INFO]: [MineableSpawners] Enabling MineableSpawners v3.1.4
+[00:11:57] [Server thread/INFO]: [VoidSpawn] Enabling VoidSpawn v1.16.1*
+[00:11:57] [Server thread/INFO]: [VoidSpawn] No SkyBlock plugins found, disabling island mode support.
+[00:11:57] [Server thread/INFO]: [VoidSpawn] v1.16.1 by EnderCrest enabled
+[00:11:57] [Server thread/INFO]: [PL-Hide] Enabling PL-Hide v1.5.21
+[00:11:57] [Server thread/INFO]: [ChatManager] Enabling ChatManager v3.7.7
+[00:11:57] [Server thread/INFO]: [ChatManager] Hooked into: PlaceholderAPI v2.11.3
+[00:11:57] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: chatmanager [3.7.7]
+[00:11:57] [Server thread/INFO]: [ChatManager] Hooked into: Essentials v2.20.1-dev+29-6012959
+[00:11:57] [Server thread/INFO]: [ChatManager] Hooked into: Vault v1.7.3-b131
+[00:11:57] [Server thread/INFO]: [ChatManager] Hooked into: LuckPerms v5.4.98
+[00:11:57] [Server thread/INFO]: [ChatManager] Plugin is up to date - v3.7.7
+[00:11:57] [Server thread/INFO]: [ChatManager] Starting Metrics.
+[00:11:57] [Server thread/INFO]: =========================
+[00:11:57] [Server thread/INFO]: Chat Manager
+[00:11:57] [Server thread/INFO]: Version 3.7.7
+[00:11:57] [Server thread/INFO]: Author: H1DD3NxN1NJA
+[00:11:57] [Server thread/INFO]: =========================
+[00:11:57] [Server thread/INFO]: [TAB] Enabling TAB v4.0.2
+[00:11:57] [Server thread/INFO]: [TAB] Server version: 1.20.1 (v1_20_R1)
+[00:11:57] [Server thread/INFO]: [TAB] Loaded NMS hook in 73ms
+[00:11:57] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: tab [4.0.2]
+[00:11:57] [Server thread/INFO]: [TAB] Enabled in 149ms
+[00:11:57] [Server thread/INFO]: [CrazyCrates] Enabling CrazyCrates v1.11.15.4
+[00:11:57] [Server thread/INFO]: [CrazyCrates] Loading the config.yml
+[00:11:57] [Server thread/INFO]: [CrazyCrates] Successfully loaded config.yml
+[00:11:57] [Server thread/INFO]: [CrazyCrates] Loading the events.log
+[00:11:57] [Server thread/INFO]: [CrazyCrates] Successfully loaded events.log
+[00:11:57] [Server thread/INFO]: [CrazyCrates] Loading the messages.yml
+[00:11:57] [Server thread/INFO]: [CrazyCrates] Successfully loaded messages.yml
+[00:11:57] [Server thread/INFO]: [CrazyCrates] Loading the locations.yml
+[00:11:57] [Server thread/INFO]: [CrazyCrates] Successfully loaded locations.yml
+[00:11:57] [Server thread/INFO]: [CrazyCrates] Loading the data.yml
+[00:11:57] [Server thread/INFO]: [CrazyCrates] Successfully loaded data.yml
+[00:11:57] [Server thread/INFO]: [CrazyCrates] Loading custom files.
+[00:11:57] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /crates/Vote.yml.
+[00:11:57] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /crates/Epic.yml.
+[00:11:57] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /crates/Legendary.yml.
+[00:11:57] [Server thread/INFO]: [CrazyCrates] Finished loading custom files.
+[00:11:57] [Server thread/INFO]: [CrazyCrates] DecentHolograms support has been enabled.
+[00:11:57] [Server thread/INFO]: [CrazyCrates] Loading all crate information...
+[00:11:57] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_20_R1! Trying to find NMS support
+[00:11:57] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R1' loaded!
+[00:11:57] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Gson: class com.google.gson.Gson
+[00:11:57] [Server thread/INFO]: [CrazyCrates] All crate information has been loaded.
+[00:11:57] [Server thread/INFO]: [CrazyCrates] Loading all the physical crate locations.
+[00:11:57] [Server thread/INFO]: [CrazyCrates] Searching for schematics to load.
+[00:11:57] [Server thread/INFO]: [CrazyCrates] soul.nbt was successfully found and loaded.
+[00:11:57] [Server thread/INFO]: [CrazyCrates] outdoors.nbt was successfully found and loaded.
+[00:11:57] [Server thread/INFO]: [CrazyCrates] nether.nbt was successfully found and loaded.
+[00:11:57] [Server thread/INFO]: [CrazyCrates] sea.nbt was successfully found and loaded.
+[00:11:57] [Server thread/INFO]: [CrazyCrates] wooden.nbt was successfully found and loaded.
+[00:11:57] [Server thread/INFO]: [CrazyCrates] classic.nbt was successfully found and loaded.
+[00:11:57] [Server thread/INFO]: [CrazyCrates] All schematics were found and loaded.
+[00:11:57] [Server thread/INFO]: [CrazyCrates] Cleaning up the data.yml file.
+[00:11:57] [Server thread/INFO]: [CrazyCrates] The data.yml file has been cleaned.
+[00:11:57] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: crazycrates [1.11.15.4]
+[00:11:57] [Server thread/INFO]: [CrazyCrates] §6§lHOLOGRAPHIC_DISPLAYS §c§lNOT FOUND
+[00:11:57] [Server thread/INFO]: [CrazyCrates] §6§lFANCY_HOLOGRAMS §c§lNOT FOUND
+[00:11:57] [Server thread/INFO]: [CrazyCrates] §6§lDECENT_HOLOGRAMS §a§lFOUND
+[00:11:57] [Server thread/INFO]: [CrazyCrates] §6§lCMI §c§lNOT FOUND
+[00:11:57] [Server thread/INFO]: [CrazyCrates] §6§lPLACEHOLDERAPI §a§lFOUND
+[00:11:57] [Server thread/INFO]: [CrazyCrates] §6§lITEMS_ADDER §c§lNOT FOUND
+[00:11:57] [Server thread/INFO]: [ChatReaction] Enabling ChatReaction v1.8.0
+[00:11:57] [Server thread/INFO]: [ChatReaction] You are using Spigot! Tooltips in reaction start messages are enabled!
+[00:11:57] [Server thread/INFO]: [ChatReaction] 313 words loaded!
+[00:11:57] [Server thread/INFO]: [ChatReaction] Reaction stats are disabled!!
+[00:11:58] [Server thread/INFO]: [ChatReaction] ---------------------------
+[00:11:58] [Server thread/INFO]: [ChatReaction]      ChatReaction Updater
+[00:11:58] [Server thread/INFO]: [ChatReaction]  
+[00:11:58] [Server thread/INFO]: [ChatReaction] Could not connect to spigotmc.org
+[00:11:58] [Server thread/INFO]: [ChatReaction] to check for updates! 
+[00:11:58] [Server thread/INFO]: [ChatReaction]  
+[00:11:58] [Server thread/INFO]: [ChatReaction] ---------------------------
+[00:11:58] [Server thread/INFO]: [ChatReaction] ---------------------------
+[00:11:58] [Server thread/INFO]: [ChatReaction]      ChatReaction Updater
+[00:11:58] [Server thread/INFO]: [ChatReaction]  
+[00:11:58] [Server thread/INFO]: [ChatReaction] You are running 1.8.0
+[00:11:58] [Server thread/INFO]: [ChatReaction] The latest version
+[00:11:58] [Server thread/INFO]: [ChatReaction] of ChatReaction!
+[00:11:58] [Server thread/INFO]: [ChatReaction]  
+[00:11:58] [Server thread/INFO]: [ChatReaction] ---------------------------
+[00:11:58] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9-beta1+2249-223b80c
+[00:11:58] [Server thread/INFO]: [WorldGuard] (Spawn) TNT ignition is PERMITTED.
+[00:11:58] [Server thread/INFO]: [WorldGuard] (Spawn) Lighters are PERMITTED.
+[00:11:58] [Server thread/INFO]: [WorldGuard] (Spawn) Lava fire is PERMITTED.
+[00:11:58] [Server thread/INFO]: [WorldGuard] (Spawn) Fire spread is UNRESTRICTED.
+[00:11:58] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Spawn'
+[00:11:58] [Server thread/INFO]: [WorldGuard] (oneblock_world) TNT ignition is PERMITTED.
+[00:11:58] [Server thread/INFO]: [WorldGuard] (oneblock_world) Lighters are PERMITTED.
+[00:11:58] [Server thread/INFO]: [WorldGuard] (oneblock_world) Lava fire is PERMITTED.
+[00:11:58] [Server thread/INFO]: [WorldGuard] (oneblock_world) Fire spread is UNRESTRICTED.
+[00:11:58] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'oneblock_world'
+[00:11:58] [Server thread/INFO]: [WorldGuard] Loading region data...
+[00:11:58] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[00:11:58] [Server thread/INFO]: Starting GS4 status listener
+[00:11:58] [Server thread/INFO]: Thread Query Listener started
+[00:11:58] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[00:11:58] [Server thread/INFO]: Running delayed init tasks
+[00:11:58] [Server thread/INFO]: [BentoBox] Hooking with Vault...
+[00:11:58] [Server thread/INFO]: [BentoBox] Hooking with PlaceholderAPI...
+[00:11:58] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bentobox [1.23.1]
+[00:11:58] [Server thread/INFO]: [BentoBox] Enabling game mode addons...
+[00:11:58] [Server thread/INFO]: [BentoBox] Enabling AOneBlock (1.13.0)...
+[00:11:58] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 8500_plenty_chests.yml
+[00:11:58] [Craft Scheduler Thread - 4 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[00:11:58] [Craft Scheduler Thread - 6 - Essentials/INFO]: [Essentials] Fetching version information...
+[00:11:58] [Craft Scheduler Thread - 2 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
+[00:11:58] [Craft Scheduler Thread - 4 - ClearLag/INFO]: [ClearLag] 0 Logs have been removed!
+[00:11:58] [Craft Scheduler Thread - 0 - Quests/INFO]: [Quests] A new version 3.15.2 was found on Spigot (your version: 3.14.2-3345d07). Please update me! <3 - Link: https://get.leonardobishop.com/quests
+[00:11:58] [Craft Scheduler Thread - 2 - DecentHolograms/INFO]: [DecentHolograms] Loaded 5 holograms!
+[00:11:58] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 11000_goto_0.yml
+[00:11:58] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 0_plains_chests.yml
+[00:11:58] [Craft Scheduler Thread - 13 - Vault/INFO]: [Vault] Checking for Updates ... 
+[00:11:58] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 3000_ocean_chests.yml
+[00:11:58] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 700_underground.yml
+[00:11:58] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 9500_desolation_chests.yml
+[00:11:58] [Craft Scheduler Thread - 8 - DecentHolograms/INFO]: 
+[00:11:58] [Craft Scheduler Thread - 8 - DecentHolograms/INFO]: A newer version of DecentHolograms is available. Download it from: https://www.spigotmc.org/resources/96927/
+[00:11:58] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 10500_the end.yml
+[00:11:58] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 0_plains.yml
+[00:11:58] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 5000_swamp.yml
+[00:11:58] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 6000_dungeon.yml
+[00:11:58] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 5000_swamp_chests.yml
+[00:11:58] [Craft Scheduler Thread - 12 - BentoBox/INFO]: [BentoBox] Loaded Blueprint Bundle 'default' for AOneBlock.
+[00:11:58] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 2000_winter_chests.yml
+[00:11:58] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 700_underground_chests.yml
+[00:11:58] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 9500_desolation.yml
+[00:11:58] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 2000_winter.yml
+[00:11:58] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 7500_the nether.yml
+[00:11:58] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 7500_the nether_chests.yml
+[00:11:59] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 10500_the end_chests.yml
+[00:11:59] [Craft Scheduler Thread - 13 - Vault/INFO]: [Vault] No new version available
+[00:11:59] [Craft Scheduler Thread - 12 - BentoBox/INFO]: [BentoBox] Loaded blueprint 'bedrock' for AOneBlock
+[00:11:59] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 3000_ocean.yml
+[00:11:59] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 7000_desert.yml
+[00:11:59] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 6000_dungeon_chests.yml
+[00:11:59] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 7000_desert_chests.yml
+[00:11:59] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 4000_jungle_chests.yml
+[00:11:59] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 8500_plenty.yml
+[00:11:59] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 4000_jungle.yml
+[00:11:59] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: aoneblock [1.13.0]
+[00:11:59] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] You're 159 EssentialsX dev build(s) out of date!
+[00:11:59] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[00:11:59] [Server thread/INFO]: [BentoBox] Enabling other addons...
+[00:11:59] [Server thread/INFO]: [BentoBox] Enabling Warps (1.13.0)...
+[00:11:59] [Server thread/INFO]: [BentoBox] [Warps] Loading warps...
+[00:11:59] [Server thread/INFO]: [BentoBox] Enabling Likes (2.3.1)...
+[00:11:59] [Server thread/INFO]: [BentoBox] Loading likes...
+[00:11:59] [Server thread/INFO]: [BentoBox] Enabling Chat (1.1.4)...
+[00:11:59] [Craft Scheduler Thread - 10 - CrazyCrates/INFO]: [CrazyCrates] Plugin is up to date! - v3.4.9
+[00:11:59] [User Authenticator #0/INFO]: UUID of player kaled65 is b525c17f-28ca-3932-8775-659775771d6b
+[00:11:59] [Server thread/INFO]: [BentoBox] Addons successfully enabled.
+[00:11:59] [Server thread/INFO]: [BentoBox] Hooking with Multiverse-Core...
+[00:11:59] [Server thread/INFO]: Multiverse already knows about 'oneblock_world'!
+[00:11:59] [Server thread/INFO]: Success! Property generator was set to BentoBox
+[00:11:59] [Server thread/INFO]: 
+[00:11:59] [Server thread/INFO]:   ____             _        ____
+[00:11:59] [Server thread/INFO]:  |  _ \           | |      |  _ \             by tastybento and Poslovitch
+[00:11:59] [Server thread/INFO]:  | |_) | ___ _ __ | |_ ___ | |_) | _____  __  2017 - 2020
+[00:11:59] [Server thread/INFO]:  |  _ < / _ \ '_ \| __/ _ \|  _ < / _ \ \/ /
+[00:11:59] [Server thread/INFO]:  | |_) |  __/ | | | || (_) | |_) | (_) >  <   v1.23.1
+[00:11:59] [Server thread/INFO]:  |____/ \___|_| |_|\__\___/|____/ \___/_/\_\  Loaded in 2409ms.
+[00:11:59] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
+[00:11:59] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
+[00:11:59] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[00:11:59] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: quests [3.14.2-3345d07]
+[00:11:59] [Server thread/INFO]: [Quests] 34 task types have been registered.
+[00:11:59] [Server thread/INFO]: [Quests] 0 quest items have been registered.
+[00:11:59] [Server thread/INFO]: [Quests] 594 quests have been registered.
+[00:11:59] [Server thread/WARN]: [Quests] You have configuration issues preventing some quests from loading.
+[00:11:59] [Server thread/WARN]: [Quests] You can view these issues with the command: /q a config.
+[00:11:59] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: server [2.6.0]
+[00:11:59] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: statistic [2.0.1]
+[00:11:59] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bungee [1.0.1]
+[00:11:59] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion deluxetags due to a missing plugin: DeluxeTags
+[00:11:59] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: luckperms [5.1-R2]
+[00:11:59] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player [2.0.2]
+[00:11:59] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault [1.7.0]
+[00:11:59] [Server thread/INFO]: 6 placeholder hook(s) registered! 5 placeholder hook(s) have an update available.
+[00:11:59] [Server thread/INFO]: [BentoBox] Added world OneBlock (NORMAL)
+[00:11:59] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.11.6) is available at:
+[00:11:59] [Server thread/INFO]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
+[00:11:59] [Server thread/INFO]: ---------------------------------------------------------------------
+[00:11:59] [Server thread/INFO]:  
+[00:11:59] [Server thread/INFO]: Pl-Hide ▎ Update available: 1.5.22. You are on 1.5.21!
+[00:11:59] [Server thread/INFO]:  
+[00:11:59] [Server thread/INFO]: ---------------------------------------------------------------------
+[00:11:59] [Server thread/INFO]: [BentoBox] [Likes] Likes Addon hooked into Warps addon.
+[00:11:59] [Server thread/INFO]: [BentoBox] [Likes] Likes Addon hooked into Economy.
+[00:11:59] [Server thread/WARN]: [BentoBox] No Regenerator found for v1_20_R1, falling back to Bukkit API.
+[00:11:59] [Server thread/INFO]: [BentoBox] All blueprints loaded.
+[00:11:59] [Server thread/INFO]: Done (20.817s)! For help, type "help"
+[00:11:59] [Server thread/INFO]: [TAB] ViaVersion returned unknown protocol version 768 for player kaled65. This may result in plugin not working correctly for them.
+[00:12:00] [Server thread/INFO]: kaled65 joined the game
+[00:12:00] [Server thread/INFO]: kaled65[/190.43.154.210:42263] logged in with entity id 55 at ([Spawn]95.5, 241.0, 94.5)
+[00:12:00] [Server thread/INFO]: [VotingPlugin] Successfully hooked into vault economy!
+[00:12:00] [Server thread/INFO]: [VotingPlugin] Hooked into vault permissions
+[00:12:00] [Server thread/WARN]: [EssentialsSpawn] KITS » That kit does not exist.
+[00:12:00] [Craft Scheduler Thread - 16 - VotingPlugin/INFO]: [VotingPlugin] VotingPlugin has an update available! Your Version: 6.13.1 New Version: 6.17.3
+[00:12:00] [Craft Scheduler Thread - 9 - BentoBox/INFO]: [BentoBox] Downloading data from GitHub...
+[00:12:00] [Craft Scheduler Thread - 9 - BentoBox/INFO]: [BentoBox] Updating the Catalog...
+[00:12:00] [Craft Scheduler Thread - 18 - VotingPlugin/WARN]: [VotingPlugin] Detected an issue with voting sites, check the server startup log for more details: https://github.com/BenCodez/VotingPlugin/wiki/Votifier-Troubleshooting
+[00:12:01] [Craft Scheduler Thread - 9 - BentoBox/INFO]: [BentoBox] Updating Contributors information...
+[00:12:01] [Craft Scheduler Thread - 9 - BentoBox/INFO]: [BentoBox] Gathering contribution data for: BentoBoxWorld/BentoBox, BentoBoxWorld/AOneBlock, BentoBoxWorld/Likes
+[00:12:02] [Craft Scheduler Thread - 9 - BentoBox/INFO]: [BentoBox] Successfully downloaded data from GitHub.
+[00:12:04] [User Authenticator #0/INFO]: UUID of player uvMario is b9c6880a-51c4-3ffb-a4e0-5565b2e5f366
+[00:12:05] [Server thread/INFO]: [TAB] ViaVersion returned unknown protocol version 767 for player uvMario. This may result in plugin not working correctly for them.
+[00:12:05] [Server thread/INFO]: uvMario joined the game
+[00:12:05] [Server thread/INFO]: uvMario[/191.115.208.253:44309] logged in with entity id 56 at ([oneblock_world]0.7151010840791979, 81.0, 0.41255546658436526)
+[00:12:11] [Server thread/INFO]: uvMario issued server command: /tpa kaled65
+[00:12:15] [Server thread/INFO]: Made uvMario a server operator
+[00:12:18] [Server thread/INFO]: uvMario issued server command: /tp kaled65
+[00:12:21] [Netty Epoll Server IO #2/WARN]: uvMario sent out-of-order chat: 'ola': 1733011938 > 1733011936
+[00:12:21] [Server thread/INFO]: uvMario lost connection: Out-of-order chat packet received. Did your system time change?
+[00:12:21] [Server thread/INFO]: uvMario left the game
+[00:12:28] [User Authenticator #0/INFO]: UUID of player uvMario is b9c6880a-51c4-3ffb-a4e0-5565b2e5f366
+[00:12:28] [Server thread/INFO]: [TAB] ViaVersion returned unknown protocol version 767 for player uvMario. This may result in plugin not working correctly for them.
+[00:12:28] [Server thread/INFO]: uvMario joined the game
+[00:12:28] [Server thread/INFO]: uvMario[/191.115.208.253:57945] logged in with entity id 57 at ([Spawn]102.24394751379047, 239.0, 96.62971331705296)
+[00:12:37] [Async Chat Thread - #1/INFO]: [Not Secure] [Plains] [Member]  uvMario » ola usa /ob create
+[00:12:50] [Server thread/INFO]: kaled65 issued server command: /ob create
+[00:12:50] [Server thread/WARN]: [BentoBox] No PasteHandler found for v1_20_R1, falling back to Bukkit API.
+[00:12:53] [pool-30-thread-1/INFO]: [VotingPlugin] Detected month changed, processing...
+[00:12:53] [pool-30-thread-1/INFO]: [VotingPlugin] Time change event: MONTH, Fake: false
+[00:12:53] [pool-30-thread-1/INFO]: [VotingPlugin] Saving TopVoters Monthly
+[00:13:03] [pool-30-thread-1/INFO]: [VotingPlugin] Finished processing day change, took 10 seconds
+[00:13:03] [pool-30-thread-1/INFO]: [VotingPlugin] Finished processing month changes
+[00:13:08] [pool-30-thread-1/INFO]: [VotingPlugin] Detected week changed, processing...
+[00:13:08] [pool-30-thread-1/INFO]: [VotingPlugin] Time change event: WEEK, Fake: false
+[00:13:08] [Server thread/INFO]: uvMario issued server command: /gm 1
+[00:13:11] [Server thread/INFO]: uvMario issued server command: /tp kaled65
+[00:13:15] [Server thread/INFO]: uvMario issued server command: /gm 1
+[00:13:18] [pool-30-thread-1/INFO]: [VotingPlugin] Finished processing day change, took 10 seconds
+[00:13:18] [pool-30-thread-1/INFO]: [VotingPlugin] Finished processing week changes
+[00:13:20] [Async Chat Thread - #0/INFO]: [Not Secure] [] [Member]  kaled65 » BRO LLEGUE A MÁS DE 100 FPS!!
+[00:13:20] [Netty Epoll Server IO #3/WARN]: uvMario sent out-of-order chat: 'xdx': 1733011995 > 1733011995
+[00:13:20] [Server thread/INFO]: uvMario lost connection: Out-of-order chat packet received. Did your system time change?
+[00:13:20] [Server thread/INFO]: uvMario left the game
+[00:13:23] [pool-30-thread-1/INFO]: [VotingPlugin] Detected day changed, processing...
+[00:13:23] [pool-30-thread-1/INFO]: [VotingPlugin] Time change event: DAY, Fake: false
+[00:13:33] [pool-30-thread-1/INFO]: [VotingPlugin] Finished processing day change, took 10 seconds
+[00:13:33] [pool-30-thread-1/INFO]: [VotingPlugin] Created zip file at /workspaces/MSP2.5/servidor_minecraft/plugins/VotingPlugin/Backups/Backup-2024_DECEMBER_1.zip
+[00:13:33] [pool-30-thread-1/INFO]: [VotingPlugin] Finished processing day changes
+[00:13:36] [User Authenticator #1/INFO]: UUID of player uvMario is b9c6880a-51c4-3ffb-a4e0-5565b2e5f366
+[00:13:36] [Server thread/INFO]: [TAB] ViaVersion returned unknown protocol version 767 for player uvMario. This may result in plugin not working correctly for them.
+[00:13:36] [Server thread/INFO]: uvMario joined the game
+[00:13:36] [Server thread/INFO]: uvMario[/191.115.208.253:36501] logged in with entity id 59 at ([oneblock_world]1.8741631849538136, 81.28800447308453, 800.9802777151888)
+[00:13:45] [Async Chat Thread - #0/INFO]: [Not Secure] [] [Member]  kaled65 » BRO LLEGUE A MÁS DE 100 FPS!!!!!! :O
+[00:14:07] [Async Chat Thread - #1/INFO]: [Not Secure] [Plains] [Member]  uvMario » a
+[00:14:23] [Server thread/INFO]: uvMario issued server command: /day
+[00:14:24] [Netty Epoll Server IO #0/WARN]: uvMario sent out-of-order chat: 'XD': 1733012063 > 1733012059
+[00:14:24] [Server thread/INFO]: uvMario lost connection: Out-of-order chat packet received. Did your system time change?
+[00:14:24] [Server thread/INFO]: uvMario left the game
+[00:14:29] [User Authenticator #1/INFO]: UUID of player uvMario is b9c6880a-51c4-3ffb-a4e0-5565b2e5f366
+[00:14:29] [Server thread/INFO]: [TAB] ViaVersion returned unknown protocol version 767 for player uvMario. This may result in plugin not working correctly for them.
+[00:14:29] [Server thread/INFO]: uvMario joined the game
+[00:14:29] [Server thread/INFO]: uvMario[/191.115.208.253:34463] logged in with entity id 75 at ([oneblock_world]2.918725538437914, 81.28800447308453, 802.4916232015694)
+[00:14:33] [Async Chat Thread - #0/INFO]: [Not Secure] [Plains] [Member]  kaled65 » era Porquy de adric xd
+[00:15:13] [Server thread/INFO]: kaled65 has made the advancement [Stone Age]
+[00:15:27] [Server thread/INFO]: uvMario issued server command: /me &c&lSe ha recibido un paquete del chat incongruente. ¿Ha habido algún cambio en la hora de tu dispositivo?
+[00:17:35] [Server thread/INFO]: uvMario issued server command: /summon minecraft:villager
+[00:17:35] [Server thread/INFO]: [uvMario: Summoned new Villager]
+[00:17:40] [Async Chat Thread - #2/INFO]: [Not Secure] [Plains] [Member]  uvMario » un aldeano
+[00:17:43] [Server thread/INFO]: uvMario issued server command: /gm 1
+[00:17:46] [Async Chat Thread - #3/INFO]: [Not Secure] [Plains] [Member]  kaled65 » y te caes xd
+[00:17:49] [Server thread/INFO]: uvMario issued server command: /tp kaled65
+[00:17:51] [Netty Epoll Server IO #1/WARN]: uvMario sent out-of-order chat: 'XD': 1733012269 > 1733012266
+[00:17:51] [Server thread/INFO]: uvMario lost connection: Out-of-order chat packet received. Did your system time change?
+[00:17:51] [Server thread/INFO]: uvMario left the game
+[00:17:56] [User Authenticator #2/INFO]: UUID of player uvMario is b9c6880a-51c4-3ffb-a4e0-5565b2e5f366
+[00:17:56] [Server thread/INFO]: [TAB] ViaVersion returned unknown protocol version 767 for player uvMario. This may result in plugin not working correctly for them.
+[00:17:56] [Server thread/INFO]: uvMario joined the game
+[00:17:56] [Server thread/INFO]: uvMario[/191.115.208.253:50029] logged in with entity id 124 at ([oneblock_world]3.207651759191385, 83.61943778270853, 807.1617419632476)
+[00:18:00] [Async Chat Thread - #3/INFO]: [Not Secure] [Plains] [Member]  uvMario » X
+[00:18:04] [Async Chat Thread - #2/INFO]: [Not Secure] [Plains] [Member]  kaled65 » te sales por el proxy?
+[00:18:09] [Async Chat Thread - #3/INFO]: [Not Secure] [Plains] [Member]  uvMario » sip
+[00:18:15] [Async Chat Thread - #2/INFO]: [Not Secure] [Plains] [Member]  uvMario » me tira cada 5 minutos
+[00:19:27] [Async Chat Thread - #4/INFO]: [Not Secure] [Plains] [Member]  kaled65 » wow q lag
+[00:20:43] [Server thread/INFO]: uvMario issued server command: /tps
+[00:21:26] [Async Chat Thread - #6/INFO]: [Not Secure] [Plains] [Member]  uvMario » qfedg5vtrf

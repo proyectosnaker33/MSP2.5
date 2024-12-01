@@ -74,7 +74,7 @@ aoneblock:
           [economy]
           [level]
           [permission]
-        # Replaces text with [starting-block]
+# Replaces text with [starting-block]
         starting-block: '&7 Starts after breaking &e [number] blocks.'
         # Replaces text with [biome]
         biome: '&7 Biome: &e [biome]'

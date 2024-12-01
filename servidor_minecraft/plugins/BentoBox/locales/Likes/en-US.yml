@@ -115,7 +115,7 @@ likes:
         description: |-
           &7 Return to previous menu
           &7 or exit GUI
-      # Button that is used in multi-page GUIs which allows to return to previous page.
+# Button that is used in multi-page GUIs which allows to return to previous page.
       previous:
         name: '&f&l Previous Page'
         description: '&7 Switch to [number] page' # Button that is used in multi-page GUIs which allows to go to next page.
@@ -140,7 +140,7 @@ likes:
           [members]
           [place]
           [numbers]
-        # Text that is replacing [name] if island do not have a name
+# Text that is replacing [name] if island do not have a name
         owners-island: '[player]''s Island'
         # Text for [owner] in description.
         owner: '&7&l Owner: &r&b [player]'
@@ -162,7 +162,7 @@ likes:
           &7&l [likes] players &r&7 liked this island
           &7&l [dislikes] players &r&7 disliked this island
           &7 Island rank: &l [rank]
-      # Buttons in Main Admin GUI.
+# Buttons in Main Admin GUI.
       manage_likes:
         name: '&f&l Manage Island Data'
         description: |-
@@ -184,7 +184,7 @@ likes:
         description: |-
           &7 Manage addon
           &7 settings via GUI.
-      # Buttons in Admin View Island GUI
+# Buttons in Admin View Island GUI
       add_like_user:
         name: '&f&l Add Like'
         description: |-
@@ -221,7 +221,7 @@ likes:
           &7 Select a player
           &7 whoe will remove
           &7 stars.
-      # Buttons in Admin Settings GUI
+# Buttons in Admin Settings GUI
       like_cost:
         name: '&f&l Add Like Cost'
         description: |-
@@ -329,7 +329,7 @@ likes:
         description: |-
           &7 Cancel and return to
           &7 previous menu.
-    # Button tips inside GUIs.
+# Button tips inside GUIs.
     tips:
       click-to-open: '&e Click &7 to open.'
       click-to-change: '&e Click &7 to change.'

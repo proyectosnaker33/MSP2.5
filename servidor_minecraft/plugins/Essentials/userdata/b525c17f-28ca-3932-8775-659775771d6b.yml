@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 190.43.154.210
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 0
+  login: 1733011920236
+money: '0'
+last-account-name: kaled65
+lastlocation:
+  world: 813c498e-34b6-4664-b8e2-927358b910ae
+  world-name: Spawn
+  x: 0.0
+  y: 65.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0

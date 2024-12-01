@@ -7,10 +7,10 @@ VotingPlugin:
   AutoCacheUpdated: true
 PluginVersions:
   VotingPlugin: 6.13.1
-Month: NOVEMBER
-PrevWeek: 48
-PrevDay: 30
-LastUpdated: 1733008799860
+Month: DECEMBER
+PrevWeek: 49
+PrevDay: 1
+LastUpdated: 1733011913472
 IntColumns:
 - VotePartyVotes
 - MilestoneCount

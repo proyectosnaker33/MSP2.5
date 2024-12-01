@@ -135,7 +135,7 @@ likes:
           &7&l [likes] 名玩家 &r&7 给此岛屿点赞了
           &7&l [dislikes] 名玩家 &r&7 给此岛屿倒彩了
           &7 岛屿排行: &l [rank]
-      # 管理员主 GUI 中的按钮.
+# 管理员主 GUI 中的按钮.
       manage_likes:
         name: '&f&l 管理岛屿数据'
         description: |-
@@ -157,7 +157,7 @@ likes:
         description: |-
           &7 通过 GUI
           &7 来更改设置.
-      # 管理员查看岛屿 GUI 中的按钮
+# 管理员查看岛屿 GUI 中的按钮
       add_like_user:
         name: '&f&l 增加点赞'
         description: |-
@@ -188,7 +188,7 @@ likes:
         description: |-
           &7 选择一个
           &7 取消星标的玩家.
-      # 管理员设置 GUI 中的按钮
+# 管理员设置 GUI 中的按钮
       like_cost:
         name: '&f&l 设置点赞费用'
         description: |-
