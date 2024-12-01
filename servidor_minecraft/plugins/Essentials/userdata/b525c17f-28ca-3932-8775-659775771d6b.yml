@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1733012669486
-  login: 1733011920236
+  logout: 1733014679836
+  login: 1733014673718
 money: '0'
 last-account-name: kaled65
 lastlocation:
@@ -34,5 +34,5 @@ logoutlocation:
   x: 0.7884762585089015
   y: 81.0
   z: 800.5872508196812
-  yaw: 75.02205657958984
-  pitch: 74.5708999633789
+  yaw: 94.63116455078125
+  pitch: 8.048169136047363

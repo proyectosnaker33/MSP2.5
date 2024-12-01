@@ -584,3 +584,9 @@ Update at https://www.spigotmc.org/resources/13932/
 [00:39:26] [Server thread/INFO]: ME [@] » ls
 [00:39:27] [Server thread/INFO]: ---------------[ Player List ]---------------
 [00:39:27] [Server thread/INFO]: Online Players 0/100: 
+[00:57:53] [User Authenticator #3/INFO]: UUID of player kaled65 is b525c17f-28ca-3932-8775-659775771d6b
+[00:57:53] [Server thread/INFO]: [TAB] ViaVersion returned unknown protocol version 768 for player kaled65. This may result in plugin not working correctly for them.
+[00:57:53] [Server thread/INFO]: kaled65 joined the game
+[00:57:53] [Server thread/INFO]: kaled65[/190.43.154.210:36379] logged in with entity id 214 at ([oneblock_world]0.7884762585089015, 81.0, 800.5872508196812)
+[00:57:59] [Server thread/INFO]: kaled65 lost connection: Disconnected
+[00:57:59] [Server thread/INFO]: kaled65 left the game
